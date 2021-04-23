@@ -5,8 +5,6 @@ import OfferMeta from './components/OfferMeta';
 
 import offers from '../../helpers/offers.js'
 
-import './style.css';
-
 export default function Offer(props) {
   const { offerId } = useParams()
 

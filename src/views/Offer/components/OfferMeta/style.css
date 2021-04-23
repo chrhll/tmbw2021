@@ -1,12 +1,15 @@
 .tmbw-offer-meta {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
   width: 95%;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 36px;
+}
+
+.tmbw-offer-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 
 .tmbw-offer-cta-primary {
@@ -55,4 +58,39 @@
 .tmbw-offer-cta-secondary svg,
 .tmbw-offer-cta-tertiary svg {
   margin-right: 6px;
+}
+
+.tmbw-offer-sponsor {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 36px;
+}
+
+.tmbw-offer-sponsor-logo {
+  margin-right: 16px;
+}
+
+.tmbw-offer-sponsor-note {
+  text-align: left;
+}
+
+.tmbw-offer-sponsor-note-title {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #231F1D;
+}
+
+.tmbw-offer-sponsor-name {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #231F1D;
 }

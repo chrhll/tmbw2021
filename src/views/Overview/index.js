@@ -4,8 +4,6 @@ import OverviewHero from './components/OverviewHero';
 import OverviewFilters from './components/OverviewFilters';
 import OverviewResults from './components/OverviewResults';
 
-import './style.css';
-
 export default function Overview(props) {
   const [city, setCity] = useState()
   const [price, setPrice] = useState()
