@@ -1,4 +1,5 @@
 import OverviewHero from './components/OverviewHero';
+import OverviewFilters from './components/OverviewFilters';
 
 import './style.css';
 
@@ -6,9 +7,7 @@ export default function Overview(props) {
   return (
     <div className="tmbw-overview">
       <OverviewHero props={props} />
-
-      <div className="tmbw-overview-filters">
-      </div>
+      <OverviewFilters props={props} />
 
       <div className="tmbw-overview-results">
       </div>

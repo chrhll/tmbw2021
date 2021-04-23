@@ -90,8 +90,6 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
 }
 
 #root .App .slick-dots {
