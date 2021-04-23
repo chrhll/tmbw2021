@@ -16,6 +16,13 @@
 .tmbw-overview-result {
   width: calc(33% - 12px);
   margin-bottom: 48px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+
+.tmbw-overview-result:hover {
+  opacity: 0.9;
 }
 
 .tmbw-overview-result:nth-of-type(3n+1) {

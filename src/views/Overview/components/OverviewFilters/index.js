@@ -52,6 +52,14 @@ export default function OverviewFilters(props) {
       ...provided,
       padding: 0
     }),
+    placeholder: (provided, state) => ({
+      ...provided,
+      fontFamily: "'Open Sans', sans-serif",
+      fontStyle: 'normal',
+      fontWeight: 'bold',
+      fontSize: '15px',
+      lineHeight: '30px'
+    }),
     indicatorSeparator: (provided, state) => ({
       ...provided,
       display: 'none'

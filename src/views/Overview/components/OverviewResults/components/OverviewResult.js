@@ -1,6 +1,10 @@
 export default function OverviewResults(props) {
   return (
-    <div className="tmbw-overview-result">
+    <a
+      href={`/angebot/${props.offer.id}`}
+      className="tmbw-overview-result"
+      target="_blank" rel="noreferrer"
+      >
       <div className="tmbw-overview-result-image">
       </div>
       <div className="tmbw-overview-result-info">
@@ -16,6 +20,6 @@ export default function OverviewResults(props) {
           {props.offer.intro}
         </div>
       </div>
-    </div>
+    </a>
   )
 }

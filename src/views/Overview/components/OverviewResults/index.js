@@ -3,8 +3,8 @@ import OverviewResult from './components/OverviewResult';
 import './style.css';
 
 const offers = [{
+  id: 'HN_01',
   city: 'Heilbronn',
-  price: [],
   type: 'Familienaktivität',
   people: ['Einzeln', 'Zu zweit', 'Gruppe', 'Familie'],
   title: 'Experimenta mit Genuss',
@@ -15,8 +15,8 @@ const offers = [{
   price: ['Ab 239 Euro pro Person im Doppelzimmer', 'Ab 339 Euro pro Person im Einzelzimmer'],
   pictures: [],
 }, {
+  id: 'U_01',
   city: 'Ulm',
-  price: [],
   type: 'Übernachtung',
   people: ['Einzeln', 'Zu zweit'],
   title: 'Ulmer Impressionen',
@@ -27,8 +27,8 @@ const offers = [{
   price: ['149 EUR pro Person '],
   pictures: [],
 }, {
+  id: 'F_01',
   city: 'Freiburg',
-  price: [],
   type: 'Stadtführung',
   people: ['Gruppe', 'Familie', 'Schüler/Studenten'],
   title: 'Freiburg Pur für Gruppen',
@@ -57,7 +57,7 @@ export default function OverviewResults(props) {
     <div className="tmbw-overview-results">
       <div className="tmbw-overview-results-inner">
 
-        {selectedOffers.map((o, i) => <OverviewResult key={i} offer={o} />)}
+        {selectedOffers.map(o => <OverviewResult key={o.id} offer={o} />)}
       </div>
     </div>
   )

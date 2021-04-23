@@ -38,9 +38,9 @@ export default function OverviewHero(props) {
       <div className="tmbw-overview-hero-inner">
         <div className="tmbw-overview-hero-slider">
           <Slider {...slickSettings} ref={slider}>
-            <div className="tmbw-overview-hero-slide">1</div>
-            <div className="tmbw-overview-hero-slide">2</div>
-            <div className="tmbw-overview-hero-slide">3</div>
+            <div className="tmbw-overview-hero-slide"></div>
+            <div className="tmbw-overview-hero-slide"></div>
+            <div className="tmbw-overview-hero-slide"></div>
           </Slider>
         </div>
 
