@@ -1,0 +1,129 @@
+.tmbw-overview-hero {
+
+}
+
+.tmbw-overview-hero-inner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.tmbw-overview-hero-slider {
+  width: 80vw;
+}
+
+.tmbw-overview-hero-title {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+}
+
+.tmbw-overview-hero-title-inner {
+  width: 95%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tmbw-overview-hero-box {
+  background: white;
+  width: 400px;
+  padding: 48px 36px 48px 0;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.tmbw-overview-hero-subline {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #042D53;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.tmbw-overview-hero-headline {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 120%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.015em;
+  color: #231F1D;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.tmbw-overview-hero-body {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.03em;
+  color: #231F1D;
+}
+
+/* slick config */
+
+#root .App .slick-slider {
+  height: 100%;
+  height: 650px;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+#root .App .slick-list {
+  overflow: visible;
+}
+
+#root .App .slick-slide {
+  height: 650px;
+  background: url('http://placeimg.com/1600/900/nature');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#root .App .slick-dots {
+  bottom: 12px;
+  z-index: 2;
+}
+
+#root .App .slick-next {
+  right: 24px;
+  z-index: 2;
+}
+
+#root .App .slick-prev {
+  left: 12px;
+}
+
+.tmbw-overview-hero-slide {}
+
+.tmbw-hero-slider-arrow {
+  background: white;
+  border-radius: 100%;
+  height: 48px;
+  width: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tmbw-hero-slider-arrow:hover {
+  background: white;
+}
+
+.tmbw-hero-slider-arrow:before {
+  display: none;
+}
