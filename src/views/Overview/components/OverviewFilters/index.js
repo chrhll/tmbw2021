@@ -24,9 +24,9 @@ const pricingOptions = [
 const offerOptions = [
   { value: 'Stadtführung', label: 'Stadtführung' },
   { value: 'Events & Einrichtungen', label: 'Events & Einrichtungen' },
-  { value: 'Übernachtungen', label: 'Übernachtungen' },
+  { value: 'Übernachtung', label: 'Übernachtungen' },
   { value: 'Wein', label: 'Wein' },
-  { value: 'Familienaktivitäten', label: 'Familienaktivitäten' }
+  { value: 'Familienaktivität', label: 'Familienaktivitäten' }
 ]
 
 const peopleOptions = [
@@ -90,8 +90,11 @@ export default function OverviewFilters(props) {
           </div>
           <div className="tmbw-overview-filter-drodown">
             <Select
+              isSearchable
+              isClearable
               styles={customStyles}
               options={cityOptions}
+              onChange={e => props.selectCity((e || {}).value)}
               placeholder="z.B. Heilbronn"
               classNamePrefix="tmbw-select"
               />
@@ -104,8 +107,11 @@ export default function OverviewFilters(props) {
           </div>
           <div className="tmbw-overview-filter-drodown">
             <Select
+              isSearchable
+              isClearable
               styles={customStyles}
               options={pricingOptions}
+              onChange={e => props.selectPrice((e || {}).value)}
               placeholder="z.B. 0-10€"
               classNamePrefix="tmbw-select"
               />
@@ -118,8 +124,11 @@ export default function OverviewFilters(props) {
           </div>
           <div className="tmbw-overview-filter-drodown">
             <Select
+              isSearchable
+              isClearable
               styles={customStyles}
               options={offerOptions}
+              onChange={e => props.selectOffer((e || {}).value)}
               placeholder="z.B. Stadtführung"
               classNamePrefix="tmbw-select"
               />
@@ -132,8 +141,11 @@ export default function OverviewFilters(props) {
           </div>
           <div className="tmbw-overview-filter-drodown">
             <Select
+              isSearchable
+              isClearable
               styles={customStyles}
               options={peopleOptions}
+              onChange={e => props.selectPeople((e || {}).value)}
               placeholder="z.B. zu zweit"
               classNamePrefix="tmbw-select"
               />

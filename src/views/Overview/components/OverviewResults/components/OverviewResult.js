@@ -5,15 +5,15 @@ export default function OverviewResults(props) {
       </div>
       <div className="tmbw-overview-result-info">
         <div className="tmbw-overview-result-subline">
-          MUSEUM · Stuttgart
+          <span className="tmbw-result-type">{props.offer.type || 'Aktion'}</span> · {props.offer.city}
         </div>
 
         <div className="tmbw-overview-result-headline">
-          Lorem Ipsum Museum
+          {props.offer.title}
         </div>
 
         <div className="tmbw-overview-result-body">
-          <strong>Spezialangebot</strong> bis 25. August! Gratis Platzhaltertexte für jeden 371. Besucher!
+          {props.offer.intro}
         </div>
       </div>
     </div>
