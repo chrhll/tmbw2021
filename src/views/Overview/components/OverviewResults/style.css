@@ -1,0 +1,64 @@
+.tmbw-overview-results {
+  width: 95%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+}
+
+.tmbw-overview-results-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+
+.tmbw-overview-result {
+  width: 30%;
+  margin-bottom: 48px;
+}
+
+.tmbw-overview-result-image {
+  height: 175px;
+  background: url('http://placeimg.com/1600/900/nature');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.tmbw-overview-result-info {
+  text-align: left;
+}
+
+.tmbw-overview-result-subline {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 140%;
+  color: #042D53;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+
+.tmbw-overview-result-headline {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 120%;
+  color: #231F1D;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.tmbw-overview-result-body {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #231F1D;
+}
