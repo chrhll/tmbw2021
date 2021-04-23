@@ -15,10 +15,10 @@ const cityOptions = [
 ]
 
 const pricingOptions = [
-  { value: '0-10', label: '0-10' },
-  { value: '10-50', label: '10-50' },
-  { value: '50-100', label: '50-100' },
-  { value: '>100', label: '>100' }
+  { value: '0-10€', label: '0-10' },
+  { value: '10-50€', label: '10-50' },
+  { value: '50-100€', label: '50-100' },
+  { value: '>100€', label: '>100' }
 ]
 
 const offerOptions = [
@@ -38,6 +38,49 @@ const peopleOptions = [
 ]
 
 export default function OverviewFilters(props) {
+
+  const customStyles = {
+    control: (provided, state) => ({
+      ...provided,
+      padding: '8px 12px',
+      background: 'white',
+      border: '1px solid #EEEEEE',
+      borderRadius: '5px',
+      cursor: 'pointer'
+    }),
+    container: (provided, state) => ({
+      ...provided,
+      padding: 0
+    }),
+    indicatorSeparator: (provided, state) => ({
+      ...provided,
+      display: 'none'
+    }),
+    menu: (provided, state) => ({
+      ...provided,
+      background: 'white'
+    }),
+    option: (provided, state) => ({
+      ...provided,
+      fontFamily: "'Open Sans', sans-serif",
+      fontStyle: 'normal',
+      fontWeight: 'bold',
+      fontSize: '15px',
+      lineHeight: '30px',
+      color: '#231F1D',
+      background: state.isFocused ? '#FFEDB3' : 'white'
+    }),
+    singleValue: (provided, state) => ({
+      ...provided,
+      fontFamily: "'Open Sans', sans-serif",
+      fontStyle: 'normal',
+      fontWeight: 'bold',
+      fontSize: '15px',
+      lineHeight: '20px',
+      color: '#231F1D'
+    })
+  }
+
   return (
     <div className="tmbw-overview-filters">
       <div className="tmbw-overview-filters-inner">
@@ -46,7 +89,12 @@ export default function OverviewFilters(props) {
             Stadt
           </div>
           <div className="tmbw-overview-filter-drodown">
-            <Select options={cityOptions} />
+            <Select
+              styles={customStyles}
+              options={cityOptions}
+              placeholder="z.B. Heilbronn"
+              classNamePrefix="tmbw-select"
+              />
           </div>
         </div>
 
@@ -55,7 +103,12 @@ export default function OverviewFilters(props) {
             Preis
           </div>
           <div className="tmbw-overview-filter-drodown">
-            <Select options={pricingOptions} />
+            <Select
+              styles={customStyles}
+              options={pricingOptions}
+              placeholder="z.B. 0-10€"
+              classNamePrefix="tmbw-select"
+              />
           </div>
         </div>
 
@@ -64,7 +117,12 @@ export default function OverviewFilters(props) {
             Angebot
           </div>
           <div className="tmbw-overview-filter-drodown">
-            <Select options={offerOptions} />
+            <Select
+              styles={customStyles}
+              options={offerOptions}
+              placeholder="z.B. Stadtführung"
+              classNamePrefix="tmbw-select"
+              />
           </div>
         </div>
 
@@ -73,7 +131,12 @@ export default function OverviewFilters(props) {
             Anzahl Personen
           </div>
           <div className="tmbw-overview-filter-drodown">
-            <Select options={peopleOptions} />
+            <Select
+              styles={customStyles}
+              options={peopleOptions}
+              placeholder="z.B. zu zweit"
+              classNamePrefix="tmbw-select"
+              />
           </div>
         </div>
 
