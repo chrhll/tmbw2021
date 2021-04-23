@@ -16,11 +16,17 @@ const offers = [{
   link: 'https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/experimenta-mit-genuss.html?pk_campaign=themenkampagne_tmbw&pk_kwd=exp_mit_genuss',
   price: ['Ab 239 Euro pro Person im Doppelzimmer', 'Ab 339 Euro pro Person im Einzelzimmer'],
   priceRange: '>100€',
-  pictures: [],
+  pictures: [
+    '/assets/HN_01/HN_01_1.jpg',
+    '/assets/HN_01/HN_01_2.jpg',
+    '/assets/HN_01/HN_01_3.jpg',
+    '/assets/HN_01/HN_01_4.jpg',
+    '/assets/HN_01/HN_01_5.jpg'
+  ],
 }, {
   id: 'HN_02',
   city: 'Heilbronn',
-  type: 'Familienaktivität',
+  type: 'Stadtführung',
   people: ['Einzeln', 'Zu zweit', 'Gruppe', 'Familie'],
   title: 'Erlebe Heilbronn und seine Weine',
   intro: 'Lerne die älteste Weinstadt Württembergs kennen. Urban trifft Natur. Wein und Kultur.',
@@ -34,7 +40,36 @@ const offers = [{
   link: 'https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/heilbronn-und-seine-weine.html?pk_campaign=themenkampagne_tmbw&pk_kwd=heilbronn_weine',
   price: ['Ab 65 Euro pro Person im Doppelzimmer', 'Ab 85 Euro pro Person im Einzelzimmer'],
   priceRange: '50-100€',
-  pictures: [],
+  pictures: [
+    '/assets/HN_02/HN_02_1.jpg',
+    '/assets/HN_02/HN_02_2.jpg',
+    '/assets/HN_02/HN_02_3.jpg',
+    '/assets/HN_02/HN_02_4.jpg',
+    '/assets/HN_02/HN_02_5.jpg',
+    '/assets/HN_02/HN_02_6.jpg'
+  ],
+}, {
+  id: 'HN_03',
+  city: 'Heilbronn',
+  type: 'Wein',
+  people: ['Einzeln', 'Zu zweit', 'Gruppe', 'Familie'],
+  title: 'Schlenderweinprobe durch Heilbronn',
+  intro: 'Die etwas andere Weinprobe in der City. Geschichte. Geselligkeit. Genießen.',
+  description: 'Die etwas andere Weinprobe in der City. Sie schlendern durch die Heilbronner Innenstadt, halten an ausgewählten Hotspots, probieren Heilbronner Weine und lassen sich mit Ihrem Glas in der Hand durch die Stadtgeschichte führen. Klingt gut? Dann schlendern Sie mit uns durch die City',
+  amenities: [
+    '4 Proben Heilbronner Wein',
+    'Dauer ca. 2,5 Std.',
+    'Maximal 20 Personen'
+  ],
+  more: '',
+  link: 'https://www.heilbronn.de/tourismus/stadtfuehrungen/wein-und-kulinarik/schlenderweinprobe-durch-die-heilbronner-innenstadt.html?pk_campaign=themenkampagne_tmbw&pk_kwd=schlenderweinprobe',
+  price: ['25 Euro pro Person'],
+  priceRange: '10-50€',
+  pictures: [
+    '/assets/HN_03/HN_03_1.jpg',
+    '/assets/HN_03/HN_03_2.jpg',
+    '/assets/HN_03/HN_03_3.jpg'
+  ]
 }, {
   id: 'U_01',
   city: 'Ulm',
@@ -47,7 +82,7 @@ const offers = [{
   link: 'https://www.hotel-roter-loewe.de/preise---pauschalen.html',
   price: ['149 EUR pro Person '],
   priceRange: '>100€',
-  pictures: [],
+  pictures: []
 }, {
   id: 'F_01',
   city: 'Freiburg',
