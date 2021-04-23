@@ -37,34 +37,42 @@ export default function OfferInfo(props) {
     )
   }
 
-  return (
-    <div className="tmbw-offer-info">
-      <div className="tmbw-offer-info-inner">
+  let amenities;
+  if (props.offer.amenities) {
+    let amenityList = props.offer.amenities.map((a, i) => (
+      <div key={`amenity-${i}`} className="tmbw-offer-info-amenity">{a}</div>
+    ))
+
+    amenities = (
+      <>
         <p className="tmbw-offer-info-description">
-          Erlebe ein genüssliches Wochenende in Heilbronn in Verbindung mit einem spannenden Besuch in der experimenta, Deutschlands größtem Science-Center.<br />
           <br />
           <strong>Inklusive:</strong>
         </p>
-
         <div className="tmbw-offer-info-amenities">
-          <div className="tmbw-offer-info-amenity">
-            2 Übernachtungen mit Frühstück
-          </div>
-          <div className="tmbw-offer-info-amenity">
-            3-Gang-Menü im Hotel am Anreisetag
-          </div>
-          <div className="tmbw-offer-info-amenity">
-            3-Gang-Menü in der Wein Villa
-          </div>
-          <div className="tmbw-offer-info-amenity">
-            Tagesticket für die experimenta
-          </div>
+          {amenityList}
         </div>
+      </>
+    )
+  }
+
+  function setShowLightboxWithIndex(idx) {
+    setPhotoIndex(idx)
+    setShowLightbox(true)
+  }
+
+  return (
+    <div className="tmbw-offer-info">
+      <div className="tmbw-offer-info-inner">
+        <p className="tmbw-offer-info-description">{props.offer.description}</p>
+
+        {amenities}
 
         <div className="tmbw-offer-info-gallery">
           <div
             className="tmbw-offer-info-gallery-i1"
             style={{ backgroundImage: `url(${img1})` }}
+             onClick={() => setShowLightboxWithIndex(1)}
             >
           </div>
 
@@ -72,20 +80,24 @@ export default function OfferInfo(props) {
             <div
               className="tmbw-offer-info-gallery-i2"
               style={{ backgroundImage: `url(${img2})` }}
+              onClick={() => setShowLightboxWithIndex(2)}
               >
             </div>
             <div
               className="tmbw-offer-info-gallery-i3"
               style={{ backgroundImage: `url(${img3})` }}
+              onClick={() => setShowLightboxWithIndex(3)}
               >
             </div>
             <div
               className="tmbw-offer-info-gallery-i4"
               style={{ backgroundImage: `url(${img4})` }}
+              onClick={() => setShowLightboxWithIndex(4)}
               >
-              <div className="tmbw-offer-info-gallery-badge" onClick={() => setShowLightbox(true)}>
-                <Maximize size={14} /> {props.offer.pictures.length} Bilder
-              </div>
+            </div>
+
+            <div className="tmbw-offer-info-gallery-badge" onClick={() => setShowLightboxWithIndex(0)}>
+              <Maximize size={14} /> {props.offer.pictures.length} Bilder
             </div>
 
             {lightbox}

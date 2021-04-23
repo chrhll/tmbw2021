@@ -4,12 +4,12 @@ const offers = [{
   type: 'Familienaktivität',
   people: ['Einzeln', 'Zu zweit', 'Gruppe', 'Familie'],
   title: 'Experimenta mit Genuss',
-  intro: 'Erlebe ein Genuss-Wochenende in Heilbronn mit einem Besuch im Science-Center  experimenta.',
+  intro: 'Erlebe ein Genuss-Wochenende in Heilbronn mit einem Besuch im Science-Center experimenta.',
   description: 'Erlebe ein genüssliches Wochenende in Heilbronn in Verbindung mit einem spannenden Besuch in der experimenta, Deutschlands größtem Science-Center.',
   amenities: [
     'Zwei Übernachtungen mit Frühstück',
     '3-Gang-Menü im Hotel am Anreisetag',
-    '3-Gang-Degustationsmenü in der Wein Villa',
+    'Degustationsmenü in der Wein Villa',
     'Tagesticket für die experimenta'
   ],
   more: '',

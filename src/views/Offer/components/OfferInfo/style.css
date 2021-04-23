@@ -45,6 +45,7 @@
 }
 
 .tmbw-offer-info-gallery {
+  position: relative;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -58,6 +59,7 @@
   background-size: cover;
   height: 400px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .tmbw-offer-info-gallery-i234 {
@@ -77,10 +79,10 @@
   background-size: cover;
   height: 194px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .tmbw-offer-info-gallery-i4 {
-  position: relative;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -88,6 +90,8 @@
   height: 194px;
   border-radius: 10px;
   align-self: flex-end;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .tmbw-offer-info-gallery-badge {
@@ -98,4 +102,5 @@
   right: 6px;
   border-radius: 8px;
   cursor: pointer;
+  z-index: 2;
 }
