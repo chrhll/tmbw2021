@@ -9,6 +9,7 @@ const offers = [{
   more: '',
   link: 'https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/experimenta-mit-genuss.html?pk_campaign=themenkampagne_tmbw&pk_kwd=exp_mit_genuss',
   price: ['Ab 239 Euro pro Person im Doppelzimmer', 'Ab 339 Euro pro Person im Einzelzimmer'],
+  priceRange: '>100€',
   pictures: [],
 }, {
   id: 'U_01',
@@ -21,6 +22,7 @@ const offers = [{
   more: '',
   link: 'https://www.hotel-roter-loewe.de/preise---pauschalen.html',
   price: ['149 EUR pro Person '],
+  priceRange: '>100€',
   pictures: [],
 }, {
   id: 'F_01',
@@ -33,6 +35,7 @@ const offers = [{
   more: '',
   link: 'https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/experimenta-mit-genuss.html?pk_campaign=themenkampagne_tmbw&pk_kwd=exp_mit_genuss',
   price: ['15-30 Personen, 4,5- 7 Stunden, Kosten pro Person: 89,00 €'],
+  priceRange: '50-100€',
   pictures: [],
 }]
 

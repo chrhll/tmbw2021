@@ -15,10 +15,10 @@ const cityOptions = [
 ]
 
 const pricingOptions = [
-  { value: '0-10€', label: '0-10' },
-  { value: '10-50€', label: '10-50' },
-  { value: '50-100€', label: '50-100' },
-  { value: '>100€', label: '>100' }
+  { value: '0-10€', label: '0-10€' },
+  { value: '10-50€', label: '10-50€' },
+  { value: '50-100€', label: '50-100€' },
+  { value: '>100€', label: '>100€' }
 ]
 
 const offerOptions = [
