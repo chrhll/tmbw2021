@@ -1,8 +1,16 @@
+import { useState } from 'react';
+
+import Lightbox from 'react-image-lightbox';
+import 'react-image-lightbox/style.css';
+
 import { Maximize } from 'react-feather';
 
 import './style.css';
 
 export default function OfferInfo(props) {
+  const [showLightbox, setShowLightbox] = useState(false)
+  const [photoIndex, setPhotoIndex] = useState(0);
+
   let img1 = 'http://placeimg.com/1600/900/nature'
   let img2 = 'http://placeimg.com/1600/900/nature'
   let img3 = 'http://placeimg.com/1600/900/nature'
@@ -15,6 +23,19 @@ export default function OfferInfo(props) {
     img4 = props.offer.pictures[4] || img4
   }
 
+  let lightbox;
+  if (showLightbox) {
+    lightbox = (
+      <Lightbox
+        mainSrc={props.offer.pictures[photoIndex]}
+        nextSrc={props.offer.pictures[(photoIndex + 1) % props.offer.pictures.length]}
+        prevSrc={props.offer.pictures[(photoIndex + props.offer.pictures.length - 1) % props.offer.pictures.length]}
+        onCloseRequest={() => setShowLightbox(false)}
+        onMovePrevRequest={() => setPhotoIndex((photoIndex + props.offer.pictures.length - 1) % props.offer.pictures.length)}
+        onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % props.offer.pictures.length)}
+      />
+    )
+  }
 
   return (
     <div className="tmbw-offer-info">
@@ -62,10 +83,12 @@ export default function OfferInfo(props) {
               className="tmbw-offer-info-gallery-i4"
               style={{ backgroundImage: `url(${img4})` }}
               >
-              <div className="tmbw-offer-info-gallery-badge">
-                <Maximize size={14} /> 13 Bilder
+              <div className="tmbw-offer-info-gallery-badge" onClick={() => setShowLightbox(true)}>
+                <Maximize size={14} /> {props.offer.pictures.length} Bilder
               </div>
             </div>
+
+            {lightbox}
           </div>
         </div>
       </div>
