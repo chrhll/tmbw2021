@@ -1,3 +1,5 @@
+import './style.css';
+
 export default function OverviewResults(props) {
   return (
     <a

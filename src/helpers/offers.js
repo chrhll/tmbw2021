@@ -6,10 +6,34 @@ const offers = [{
   title: 'Experimenta mit Genuss',
   intro: 'Erlebe ein Genuss-Wochenende in Heilbronn mit einem Besuch im Science-Center  experimenta.',
   description: 'Erlebe ein genüssliches Wochenende in Heilbronn in Verbindung mit einem spannenden Besuch in der experimenta, Deutschlands größtem Science-Center.',
+  amenities: [
+    'Zwei Übernachtungen mit Frühstück',
+    '3-Gang-Menü im Hotel am Anreisetag',
+    '3-Gang-Degustationsmenü in der Wein Villa',
+    'Tagesticket für die experimenta'
+  ],
   more: '',
   link: 'https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/experimenta-mit-genuss.html?pk_campaign=themenkampagne_tmbw&pk_kwd=exp_mit_genuss',
   price: ['Ab 239 Euro pro Person im Doppelzimmer', 'Ab 339 Euro pro Person im Einzelzimmer'],
   priceRange: '>100€',
+  pictures: [],
+}, {
+  id: 'HN_02',
+  city: 'Heilbronn',
+  type: 'Familienaktivität',
+  people: ['Einzeln', 'Zu zweit', 'Gruppe', 'Familie'],
+  title: 'Erlebe Heilbronn und seine Weine',
+  intro: 'Lerne die älteste Weinstadt Württembergs kennen. Urban trifft Natur. Wein und Kultur.',
+  description: 'Wein und Heilbronn – eine Symbiose. Nirgendwo sind urbanes Treiben und Natur so nah bei einander. Weinberge bis an den Stadtrand, rund 30 Weingüter im Stadtgebiet und viele Probiermöglichkeiten mitten in der City lassen Sie die Leidenschaft erleben, mit der der Weinbau in Württembergs ältester Weinstadt betrieben wird. Besuchen Sie den Wein Pavillon an der Neckarbühne, lernen Sie den Wein Panorama Weg mit seinen Schaustelen kennen, buchen Sie eine der Weinwanderungen mit Verkostung zwischen den Reben oder gehen Sie im Weingut auf Tauchstation – mit dem Winzer in den Keller.',
+  amenities: [
+    'Eine Übernachtung mit Frühstück',
+    '4er-Weinprobe an der Bar im Restaurant Beichtstuhl',
+    '2-Tages-Ticket Gesamtnetz Nahverkehr (HNV)'
+  ],
+  more: '',
+  link: 'https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/heilbronn-und-seine-weine.html?pk_campaign=themenkampagne_tmbw&pk_kwd=heilbronn_weine',
+  price: ['Ab 65 Euro pro Person im Doppelzimmer', 'Ab 85 Euro pro Person im Einzelzimmer'],
+  priceRange: '50-100€',
   pictures: [],
 }, {
   id: 'U_01',
