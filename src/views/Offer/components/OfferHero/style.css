@@ -1,0 +1,44 @@
+.tmbw-offer-hero {
+  height: 650px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 21.35%, #FFFFFF 100%), url('http://placeimg.com/1600/900/nature');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.tmbw-offer-hero-inner {
+  width: 95%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.tmbw-offer-hero-subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #042D53;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.tmbw-offer-hero-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: 0.015em;
+  color: #231F1D;
+  margin: 0;
+  margin-bottom: 36px;
+  width: 280px;
+}

@@ -1,10 +1,21 @@
+import { useParams } from 'react-router-dom';
+
+import OfferHero from './components/OfferHero';
+
+import offers from '../../helpers/offers.js'
+
 import './style.css';
 
 export default function Offer(props) {
+  const { offerId } = useParams()
+
+  let offer = {};
+  const matchingOffers = offers.filter(o => o.id === offerId)
+  if (matchingOffers.length) offer = matchingOffers.pop()
+
   return (
     <div className="tmbw-offer">
-      <div className="tmbw-offer-hero">
-      </div>
+      <OfferHero offer={offer}/>
 
       <div className="tmbw-offer-meta">
       </div>
