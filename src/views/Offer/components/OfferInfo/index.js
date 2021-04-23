@@ -1,3 +1,5 @@
+import { Maximize } from 'react-feather';
+
 import './style.css';
 
 export default function OfferInfo(offer) {
@@ -26,6 +28,20 @@ export default function OfferInfo(offer) {
         </div>
 
         <div className="tmbw-offer-info-gallery">
+          <div className="tmbw-offer-info-gallery-i1">
+          </div>
+
+          <div className="tmbw-offer-info-gallery-i234">
+            <div className="tmbw-offer-info-gallery-i2">
+            </div>
+            <div className="tmbw-offer-info-gallery-i3">
+            </div>
+            <div className="tmbw-offer-info-gallery-i4">
+              <div className="tmbw-offer-info-gallery-badge">
+                <Maximize size={14} /> 13 Bilder
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
