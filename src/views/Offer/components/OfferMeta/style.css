@@ -1,0 +1,58 @@
+.tmbw-offer-meta {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 95%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 36px;
+}
+
+.tmbw-offer-cta-primary {
+  text-decoration: none;
+  margin-right: 24px;
+  background: #FDC300;
+  border: 1px solid #F1BA02;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 10px 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.tmbw-offer-cta-secondary,
+.tmbw-offer-cta-tertiary {
+  text-decoration: none;
+  margin-right: 24px;
+  background: #FFFFFF;
+  border: 1px solid #E8E1DE;
+  padding: 10px 24px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #231F1D;
+}
+
+.tmbw-offer-cta-tertiary {
+  border: none;
+  padding: 14px 0;
+}
+
+.tmbw-offer-cta-secondary svg,
+.tmbw-offer-cta-tertiary svg {
+  margin-right: 6px;
+}
