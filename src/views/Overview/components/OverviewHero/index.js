@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 
 import './style.css';
 
@@ -6,29 +6,56 @@ import { ChevronRight } from 'react-feather';
 
 import Slider from "react-slick";
 
-function CustomArrow(props) {
-  const { className, onClick } = props;
-  return (
-    <div
-      className={`tmbw-hero-slider-arrow ${className}`}
-      onClick={onClick}
-      >
-        <ChevronRight size={24} color='black' />
-      </div>
-  );
-}
-
 export default function OverviewHero(props) {
-  const slidsToScroll = 1;
+  const slidesToScroll = 0.974025974026;
 
   const slider = useRef()
+
+  function CustomArrow(props) {
+    const [invert, setInvert] = useState(false)
+
+    const { className, onClick } = props;
+
+    function customOnClick(args) {
+      // locate slides
+      const allSlides = document.querySelectorAll('.tmbw-overview-hero .slick-slide')
+
+      // find active slide
+      let activeIndex = 0;
+      for (let i = 0; i < allSlides.length; i++) {
+        if (Array.from(allSlides[i].classList).includes('slick-active')) {
+          activeIndex = i;
+          break;
+        }
+      }
+
+      if (activeIndex === allSlides.length-2) {
+        setInvert(true)
+        onClick(args)
+      } else if (activeIndex === allSlides.length-1) {
+        slider.current.slickGoTo(0)
+        setInvert(false)
+      } else {
+        onClick(args)
+      }
+    }
+
+    return (
+      <div
+        className={`tmbw-hero-slider-arrow ${invert ? 'tmbw-hero-slider-arrow-invert' : ''} ${className}`}
+        onClick={customOnClick}
+        >
+          <ChevronRight size={24} color='black' />
+        </div>
+    );
+  }
 
   const slickSettings = {
     dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 1,
-    slidesToScroll: slidsToScroll,
+    slidesToScroll: slidesToScroll,
     nextArrow: <CustomArrow />,
     prevArrow: <CustomArrow />
   };
