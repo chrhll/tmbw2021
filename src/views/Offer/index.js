@@ -2,6 +2,7 @@ import { useParams } from 'react-router-dom';
 
 import OfferHero from './components/OfferHero';
 import OfferMeta from './components/OfferMeta';
+import OfferInfo from './components/OfferInfo';
 
 import offers from '../../helpers/offers.js'
 
@@ -16,9 +17,7 @@ export default function Offer(props) {
     <div className="tmbw-offer">
       <OfferHero offer={offer}/>
       <OfferMeta offer={offer} />
-
-      <div className="tmbw-offer-info">
-      </div>
+      <OfferInfo offer={offer} />
 
       <div className="tmbw-offer-upsell">
       </div>
