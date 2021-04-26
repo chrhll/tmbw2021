@@ -10,10 +10,6 @@ export default function OfferMeta(props) {
           Jetzt kaufen
         </a>
 
-        <a href="/" className="tmbw-offer-cta-secondary">
-          <MapPin size={14} /> Auf Karte anzeigen
-        </a>
-
         <a href="/" className="tmbw-offer-cta-tertiary">
           <Share size={14} /> Teilen
         </a>
