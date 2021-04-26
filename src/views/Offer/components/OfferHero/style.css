@@ -45,7 +45,7 @@
 }
 
 .tmbw-offer-hero-title {
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -55,4 +55,25 @@
   margin: 0;
   margin-bottom: 36px;
   width: 280px;
+}
+
+/* Large devices (desktops, 1200px and up) */
+/* default */
+
+/* Medium devices (landscape phones & tablets, 768px and up) */
+@media screen and (max-width: 992px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .tmbw-offer-hero {
+    height: 60vh;
+  }
+
+  .tmbw-offer-hero-title {
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 24px;
+    width: 80vw;
+  }
 }
