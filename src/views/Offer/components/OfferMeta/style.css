@@ -94,3 +94,44 @@
   letter-spacing: 0.015em;
   color: #231F1D;
 }
+
+/* Large devices (desktops, 1200px and up) */
+/* default */
+
+/* Medium devices (landscape phones & tablets, 768px and up) */
+@media screen and (max-width: 992px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .tmbw-offer-meta {
+    margin-top: 0;
+  }
+
+  .tmbw-offer-cta-primary,
+  .tmbw-offer-cta-secondary,
+  .tmbw-offer-cta-tertiary {
+    margin-right: 12px;
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  .tmbw-offer-cta-secondary {
+    margin-right: 0;
+  }
+
+  .tmbw-offer-sponsor {
+    margin-top: 24px;
+  }
+
+  .tmbw-offer-sponsor-logo {
+    margin-right: 8px;
+    height: 40px;
+  }
+
+  .tmbw-offer-sponsor-note-title,
+  .tmbw-offer-sponsor-name {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
