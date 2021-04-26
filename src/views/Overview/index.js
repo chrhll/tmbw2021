@@ -43,7 +43,10 @@ export default function Overview(props) {
 
   return (
     <div className="tmbw-overview">
-      <OverviewHero />
+      <OverviewHero
+        offer={offer}
+        selectOffer={o => setOffer(o)}
+        />
 
       <OverviewFilters
         selectCity={c => setCity(c)}

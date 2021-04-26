@@ -149,6 +149,7 @@
 
   .tmbw-overview-hero-inner {
     flex-flow: column nowrap;
+    padding-bottom: 72px;
   }
 
   #root .App .slick-slider {
@@ -184,9 +185,6 @@
 
   .tmbw-overview-hero-title {
     position: relative;
-  }
-
-  .tmbw-overview-hero-title {
     top: 24px;
   }
 
@@ -207,6 +205,6 @@
   }
 
   .tmbw-overview-hero-body {
-    margin-bottom: 48px;
+    margin-bottom: 24px;
   }
 }

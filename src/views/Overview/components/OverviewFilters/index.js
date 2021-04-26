@@ -111,7 +111,7 @@ export default function OverviewFilters(props) {
             <Select
               isSearchable
               isClearable
-              value={props.offer ? { value: props.people, label: props.people } : ''}
+              value={props.people ? { value: props.people, label: props.people } : ''}
               styles={customStyles}
               options={peopleOptions}
               onChange={e => props.selectPeople((e || {}).value)}
