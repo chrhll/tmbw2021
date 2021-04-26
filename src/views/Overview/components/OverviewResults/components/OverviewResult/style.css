@@ -72,3 +72,23 @@
   line-height: 150%;
   color: #231F1D;
 }
+
+/* Large devices (desktops, 1200px and up) */
+/* default */
+
+/* Medium devices (landscape phones & tablets, 768px and up) */
+@media screen and (max-width: 992px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .tmbw-overview-result {
+    width: 100%;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .tmbw-overview-result-image {
+    height: 200px;
+  }
+}
