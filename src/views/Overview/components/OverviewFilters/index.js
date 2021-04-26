@@ -40,52 +40,9 @@ const peopleOptions = [
 export default function OverviewFilters(props) {
 
   const customStyles = {
-    control: (provided, state) => ({
-      ...provided,
-      padding: '8px 12px',
-      background: 'white',
-      border: '1px solid #EEEEEE',
-      borderRadius: '5px',
-      cursor: 'pointer'
-    }),
-    container: (provided, state) => ({
-      ...provided,
-      padding: 0
-    }),
-    placeholder: (provided, state) => ({
-      ...provided,
-      fontFamily: "'Open Sans', sans-serif",
-      fontStyle: 'normal',
-      fontWeight: 'bold',
-      fontSize: '15px',
-      lineHeight: '30px'
-    }),
-    indicatorSeparator: (provided, state) => ({
-      ...provided,
-      display: 'none'
-    }),
-    menu: (provided, state) => ({
-      ...provided,
-      background: 'white'
-    }),
     option: (provided, state) => ({
       ...provided,
-      fontFamily: "'Open Sans', sans-serif",
-      fontStyle: 'normal',
-      fontWeight: 'bold',
-      fontSize: '15px',
-      lineHeight: '30px',
-      color: '#231F1D',
       background: state.isFocused ? '#FFEDB3' : 'white'
-    }),
-    singleValue: (provided, state) => ({
-      ...provided,
-      fontFamily: "'Open Sans', sans-serif",
-      fontStyle: 'normal',
-      fontWeight: 'bold',
-      fontSize: '15px',
-      lineHeight: '20px',
-      color: '#231F1D'
     })
   }
 

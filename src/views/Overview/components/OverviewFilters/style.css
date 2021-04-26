@@ -62,12 +62,118 @@
   margin-bottom: 2px;
 }
 
-.tmbw-select__control {
-  outline: none !important;
-  box-shadow: none !important;
-  border: 1px solid #EEEEEE !important;
+#root .App .tmbw-select__container {
+  padding: 0;
+}
+
+#root .App .tmbw-select__menu {
+  background: white;
+}
+
+#root .App .tmbw-select__indicator-separator {
+  display: none;
+}
+
+#root .App .tmbw-select__single-value {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #231F1D;
+}
+
+#root .App .tmbw-select__option {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+  color: #231F1D;
+}
+
+#root .App .tmbw-select__placeholder {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+#root .App .tmbw-select__control {
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #EEEEEE;
+  padding: 8px 12px;
+  background: white;
+  border: 1px solid #EEEEEE;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 #root .App .tmbw-select__indicator svg {
   color: black !important;
+}
+
+/* Large devices (desktops, 1200px and up) */
+/* default */
+
+/* Medium devices (landscape phones & tablets, 768px and up) */
+@media screen and (max-width: 992px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .tmbw-overview-filters-inner {
+    padding: 12px 0;
+    max-width: 100%;
+    flex-flow: row wrap;
+  }
+
+  .tmbw-overview-filter {
+    width: 50%;
+    min-width: 40vw;
+    margin-bottom: 12px;
+  }
+
+  .tmbw-overview-filter:nth-of-type(2n),
+  .tmbw-overview-filter:nth-of-type(2n+3) {
+    padding-left: 0;
+  }
+
+  .tmbw-overview-filter:nth-of-type(2n+2),
+  .tmbw-overview-filter:nth-of-type(2n+4) {
+    padding-right: 0;
+  }
+
+  .tmbw-overview-filter:last-of-type {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #root .App .tmbw-select__single-value {
+    font-size: 13px;
+    line-height: 150%;
+    color: #231F1D;
+  }
+
+  #root .App .tmbw-select__option {
+    font-size: 13px;
+    line-height: 150%;
+    color: #231F1D;
+  }
+
+  #root .App .tmbw-select__placeholder {
+    font-size: 13px;
+    line-height: 150%;
+  }
+
+  #root .App .tmbw-select__indicator {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #root .App .tmbw-select__indicator svg {
+    height: 16px;
+  }
 }
