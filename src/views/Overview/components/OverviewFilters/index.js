@@ -24,9 +24,9 @@ const pricingOptions = [
 const offerOptions = [
   { value: 'Stadtführung', label: 'Stadtführung' },
   { value: 'Events & Einrichtungen', label: 'Events & Einrichtungen' },
-  { value: 'Übernachtung', label: 'Übernachtungen' },
+  { value: 'Übernachtung', label: 'Übernachtung' },
   { value: 'Wein', label: 'Wein' },
-  { value: 'Familienaktivität', label: 'Familienaktivitäten' }
+  { value: 'Familienaktivität', label: 'Familienaktivität' }
 ]
 
 const peopleOptions = [
@@ -57,6 +57,7 @@ export default function OverviewFilters(props) {
             <Select
               isSearchable
               isClearable
+              value={props.city ? { value: props.city, label: props.city } : ''}
               styles={customStyles}
               options={cityOptions}
               onChange={e => props.selectCity((e || {}).value)}
@@ -74,6 +75,7 @@ export default function OverviewFilters(props) {
             <Select
               isSearchable
               isClearable
+              value={props.price ? { value: props.price, label: props.price } : ''}
               styles={customStyles}
               options={pricingOptions}
               onChange={e => props.selectPrice((e || {}).value)}
@@ -91,6 +93,7 @@ export default function OverviewFilters(props) {
             <Select
               isSearchable
               isClearable
+              value={props.offer ? { value: props.offer, label: props.offer } : ''}
               styles={customStyles}
               options={offerOptions}
               onChange={e => props.selectOffer((e || {}).value)}
@@ -108,6 +111,7 @@ export default function OverviewFilters(props) {
             <Select
               isSearchable
               isClearable
+              value={props.offer ? { value: props.people, label: props.people } : ''}
               styles={customStyles}
               options={peopleOptions}
               onChange={e => props.selectPeople((e || {}).value)}
