@@ -112,6 +112,8 @@ export default function OverviewHero(props) {
                 placeholder="Art des Angebotes"
                 classNamePrefix="tmbw-select"
                 />
+
+              <a href="/" className="tmbw-surprise-me">Was passt zu mir?</a>
             </div>
           </div>
         </div>

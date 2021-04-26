@@ -27,7 +27,7 @@
 .tmbw-overview-hero-box {
   background: white;
   width: 400px;
-  padding: 48px 36px 48px 0;
+  padding: 48px 36px 24px 0;
   text-align: left;
   border-radius: 10px;
 }
@@ -67,6 +67,17 @@
   line-height: 22px;
   letter-spacing: -0.03em;
   color: #231F1D;
+}
+
+.tmbw-overview-hero .tmbw-surprise-me {
+  background: none;
+  color: #231F1D;
+  border: none;
+  font-weight: normal;
+  font-size: 12px;
+  opacity: 0.5;
+  margin-top: 36px;
+  margin-bottom: 0;
 }
 
 /* slick config */
@@ -149,7 +160,7 @@
 
   .tmbw-overview-hero-inner {
     flex-flow: column nowrap;
-    padding-bottom: 72px;
+    padding-bottom: 36px;
   }
 
   #root .App .slick-slider {
@@ -206,5 +217,13 @@
 
   .tmbw-overview-hero-body {
     margin-bottom: 24px;
+  }
+
+  .tmbw-overview-hero .tmbw-surprise-me {
+    text-align: left;
+    padding-left: 24px;
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }
