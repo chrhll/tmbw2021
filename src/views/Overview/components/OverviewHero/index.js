@@ -51,7 +51,7 @@ export default function OverviewHero(props) {
   }
 
   const slickSettings = {
-    dots: true,
+    dots: false,
     infinite: false,
     speed: 500,
     slidesToShow: 1,

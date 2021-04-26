@@ -1,6 +1,4 @@
-.tmbw-overview-hero {
-
-}
+.tmbw-overview-hero {}
 
 .tmbw-overview-hero-inner {
   display: flex;
@@ -133,4 +131,82 @@
 
 .tmbw-hero-slider-arrow:before {
   display: none;
+}
+
+/* Large devices (desktops, 1200px and up) */
+/* default */
+
+/* Medium devices (landscape phones & tablets, 768px and up) */
+@media screen and (max-width: 992px) {
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+  .tmbw-overview-hero-slider {
+    margin-top: 2.5vw;
+    width: 95vw;
+  }
+
+  .tmbw-overview-hero-inner {
+    flex-flow: column nowrap;
+  }
+
+  #root .App .slick-slider {
+    height: 30vh;
+  }
+
+  #root .App .slick-slide {
+    height: 30vh;
+    width: 91.4375vw !important;
+    margin-right: 1.1875vw;
+    border-radius: 5px;
+  }
+
+  #root .App .slick-next {
+    right: 0;
+    z-index: 2;
+  }
+
+  .tmbw-hero-slider-arrow {
+    background: white;
+    border-radius: 100%;
+    height: 6vw;
+    width: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tmbw-hero-slider-arrow svg {
+    height: 14px;
+    margin-right: -2px;
+  }
+
+  .tmbw-overview-hero-title {
+    position: relative;
+  }
+
+  .tmbw-overview-hero-title {
+    top: 24px;
+  }
+
+  .tmbw-overview-hero-box {
+    padding: 0;
+    width: 100%;
+  }
+
+  .tmbw-overview-hero-subline {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .tmbw-overview-hero-headline {
+    font-size: 24px;
+    line-height: 140%;
+    margin-bottom: 12px;
+  }
+
+  .tmbw-overview-hero-body {
+    margin-bottom: 48px;
+  }
 }
