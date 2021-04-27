@@ -1,4 +1,4 @@
-import { MapPin, Share } from 'react-feather';
+import { Share } from 'react-feather';
 
 import { Link } from 'react-router-dom';
 
