@@ -77,7 +77,7 @@ export default function Overview(props) {
         selectedPeople={people}
         />
 
-        <OverviewBanner selectedCity={city} />
+      <OverviewBanner selectedCity={city} />
 
       <div className="tmbw-overview-more-results">
       </div>

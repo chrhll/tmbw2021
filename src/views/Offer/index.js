@@ -5,6 +5,8 @@ import OfferMeta from './components/OfferMeta';
 import OfferInfo from './components/OfferInfo';
 import OfferUpsell from './components/OfferUpsell';
 
+import OverviewBanner from '../Overview/components/OverviewBanner';
+
 import offers from '../../helpers/offers.js'
 
 export default function Offer(props) {
@@ -21,8 +23,7 @@ export default function Offer(props) {
       <OfferInfo offer={offer} />
       <OfferUpsell offer={offer} offers={offers} />
 
-      <div className="tmbw-offer-banner">
-      </div>
+      <OverviewBanner selectedCity={offer.city} />
     </div>
   )
 }
