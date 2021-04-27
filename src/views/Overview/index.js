@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react';
 import OverviewHero from './components/OverviewHero';
 import OverviewFilters from './components/OverviewFilters';
 import OverviewResults from './components/OverviewResults';
+import OverviewBanner from './components/OverviewBanner';
 
 export default function Overview(props) {
   const [city, setCity] = useState()
@@ -76,8 +77,7 @@ export default function Overview(props) {
         selectedPeople={people}
         />
 
-      <div className="tmbw-overview-banner">
-      </div>
+        <OverviewBanner selectedCity={city} />
 
       <div className="tmbw-overview-more-results">
       </div>
