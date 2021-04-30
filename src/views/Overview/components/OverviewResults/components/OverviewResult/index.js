@@ -1,7 +1,7 @@
 import './style.css';
 
 export default function OverviewResults(props) {
-  let backgroundUrl = 'http://placeimg.com/1600/900/nature'
+  let backgroundUrl;
   if (props.offer.pictures.length) backgroundUrl = props.offer.pictures[0]
 
   return (
@@ -12,13 +12,13 @@ export default function OverviewResults(props) {
       >
       <div
         className="tmbw-overview-result-image"
-        style={{
-          backgroundImage: `url('${backgroundUrl}')`
-        }}
+        style={{ backgroundImage: `url('${backgroundUrl}')` }}
         />
       <div className="tmbw-overview-result-info">
         <div className="tmbw-overview-result-subline">
-          <span className="tmbw-result-type">{props.offer.type || 'Aktion'}</span> · {props.offer.city}
+          <span className="tmbw-result-type">
+            {Array.isArray(props.offer.type) ? props.offer.type[0] : props.offer.type}
+          </span> · {props.offer.city}
         </div>
 
         <div className="tmbw-overview-result-headline">

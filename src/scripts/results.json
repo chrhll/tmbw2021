@@ -1,4 +1,4 @@
-const offers = [{
+[{
   "id": "HN_01",
   "city": "Heilbronn",
   "type": ["Familienaktivität", "Übernachtung"],
@@ -11,13 +11,7 @@ const offers = [{
   "link": "https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/experimenta-mit-genuss.html?pk_campaign=themenkampagne_tmbw&pk_kwd=exp_mit_genuss",
   "price": ["Ab 239 Euro pro Person im Doppelzimmer", "Ab 339 Euro pro Person im Einzelzimmer"],
   "priceRange": ">100€",
-  "pictures": [
-    "/assets/HN_01/HN_01_01.jpg",
-    "/assets/HN_01/HN_01_02.jpg",
-    "/assets/HN_01/HN_01_03.jpg",
-    "/assets/HN_01/HN_01_04.jpg",
-    "/assets/HN_01/HN_01_05.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "HN_02",
   "city": "Heilbronn",
@@ -31,17 +25,10 @@ const offers = [{
   "link": "https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/experimenta-mit-genuss.html?pk_campaign=themenkampagne_tmbw&pk_kwd=exp_mit_genuss",
   "price": ["Ab 65 Euro pro Person im Doppelzimmer", "Ab 85 Euro pro Person im Einzelzimmer"],
   "priceRange": "50-100€",
-  "pictures": [
-    "/assets/HN_02/HN_02_01.jpg",
-    "/assets/HN_02/HN_02_02.jpg",
-    "/assets/HN_02/HN_02_03.jpg",
-    "/assets/HN_02/HN_02_04.jpg",
-    "/assets/HN_02/HN_02_05.jpg",
-    "/assets/HN_02/HN_02_06.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
-  "id": "HN_03",
-  "city": "Heilbronn",
+  "id": ["HN_03", "HN_04"],
+  "city": ["Heilbronn", "Heilbronn"],
   "type": "Wein",
   "people": ["Einzeln", "Gruppe", "Zu zweit"],
   "title": "Schlenderweinprobe durch Heilbronn",
@@ -52,11 +39,7 @@ const offers = [{
   "link": "https://www.heilbronn.de/tourismus/stadtfuehrungen/wein-und-kulinarik/schlenderweinprobe-durch-die-heilbronner-innenstadt.html?pk_campaign=themenkampagne_tmbw&pk_kwd=schlenderweinprobe",
   "price": "25 Euro pro Person\n",
   "priceRange": "10-50€",
-  "pictures": [
-    "/assets/HN_03/HN_03_01.jpg",
-    "/assets/HN_03/HN_03_02.jpg",
-    "/assets/HN_03/HN_03_03.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "MA_01",
   "city": "Mannheim",
@@ -70,17 +53,7 @@ const offers = [{
   "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/nahtour-buchen2",
   "price": "Preis pro Erwachsener mit Wellness-Korb: 37 Euro bei 2 Erwachsenen, 29 Euro bei 3 Erwachsenen ",
   "priceRange": "10-50€",
-  "pictures": [
-    "/assets/MA_01/MA_01_01.jpg",
-    "/assets/MA_01/MA_01_02.jpg",
-    "/assets/MA_01/MA_01_03.jpg",
-    "/assets/MA_01/MA_01_04.jpg",
-    "/assets/MA_01/MA_01_05.jpg",
-    "/assets/MA_01/MA_01_06.jpg",
-    "/assets/MA_01/MA_01_07.jpg",
-    "/assets/MA_01/MA_01_08.jpg",
-    "/assets/MA_01/MA_01_009.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "MA_02",
   "city": "Mannheim",
@@ -94,19 +67,7 @@ const offers = [{
   "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/kultour-buchen",
   "price": "Preis pro Erwachsener: 64 Euro\nPreis pro Kind (6-14 Jahre): 5 Euro",
   "priceRange": "50-100€",
-  "pictures": [
-    "/assets/MA_02/MA_02_01.jpg",
-    "/assets/MA_02/MA_02_02.jpg",
-    "/assets/MA_02/MA_02_03.jpg",
-    "/assets/MA_02/MA_02_04.jpg",
-    "/assets/MA_02/MA_02_05.jpg",
-    "/assets/MA_02/MA_02_06.jpg",
-    "/assets/MA_02/MA_02_07.jpg",
-    "/assets/MA_02/MA_02_08.jpg",
-    "/assets/MA_02/MA_02_09.jpg",
-    "/assets/MA_02/MA_02_10.jpg",
-    "/assets/MA_02/MA_02_11.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "MA_03",
   "city": "Mannheim",
@@ -120,17 +81,7 @@ const offers = [{
   "link": "https://hotel-mannheim.dorint.com/de/arrangements/happy-weekend/",
   "price": "ab 145 € p.P.",
   "priceRange": ">100€",
-  "pictures": [
-    "/assets/MA_03/MA_03_01.jpg",
-    "/assets/MA_03/MA_03_02.jpg",
-    "/assets/MA_03/MA_03_03.jpg",
-    "/assets/MA_03/MA_03_04.jpg",
-    "/assets/MA_03/MA_03_05.jpg",
-    "/assets/MA_03/MA_03_06.jpg",
-    "/assets/MA_03/MA_03_07.jpg",
-    "/assets/MA_03/MA_03_08.jpg",
-    "/assets/MA_03/MA_03_09.jpg"
-  ]
+  "pictures": ""
 }, {
   "id": "MA_04",
   "city": "Mannheim",
@@ -144,17 +95,7 @@ const offers = [{
   "link": "https://www.karlsruhe-erleben.de/karlsruhe/offer/detail/FIT00020070733670846",
   "price": "350 € pro Einheit",
   "priceRange": ">100€",
-  "pictures": [
-    "/assets/MA_04/MA_04_01.jpg",
-    "/assets/MA_04/MA_04_02.jpg",
-    "/assets/MA_04/MA_04_03.jpg",
-    "/assets/MA_04/MA_04_04.jpg",
-    "/assets/MA_04/MA_04_05.jpg",
-    "/assets/MA_04/MA_04_06.jpg",
-    "/assets/MA_04/MA_04_07.jpg",
-    "/assets/MA_04/MA_04_08.jpg",
-    "/assets/MA_04/MA_04_09.jpg"
-  ]
+  "pictures": ""
 }, {
   "id": "S_01",
   "city": "Stuttgart",
@@ -168,19 +109,10 @@ const offers = [{
   "link": "https://www.stuttgart-tourist.de/stuttgart-buchen/stuttgart-citytour",
   "price": "BLAUE und GRÜNE TOUR:\nErwachsene 18,00 €\nErwachsene mit StuttCard 14,00 €\nKinder (4-14 Jahre) 5,00 €\nPersonen mit Schwerbehindertenausweis ab 80% 14,00 € \n\nWEINTOUR:\nErwachsene 12,00 €\nErwachsener mit StuttCard 10,00 €\nKind (4 - 14 Jahre) 5,00 €\nPersonen mit Schwerbehindertenausweis ab 80 % 10,00 € \n\nKOMBITICKET (2 Touren):\nErwachsene 28,00 €\nErwachsener mit StuttCard 22,00 €\nKind (4 - 14 Jahre) 10,00 €\nPersonen mit Schwerbehindertenausweis ab 80 % 22,00 €",
   "priceRange": "10-50€",
-  "pictures": [
-    "/assets/S_01/S_01_01.jpg",
-    "/assets/S_01/S_01_02.jpg",
-    "/assets/S_01/S_01_03.jpg",
-    "/assets/S_01/S_01_04.jpg",
-    "/assets/S_01/S_01_05.jpg",
-    "/assets/S_01/S_01_06.jpg",
-    "/assets/S_01/S_01_07.jpg",
-    "/assets/S_01/S_01_08.jpg"
-  ]
+  "pictures": ""
 }, {
-  "id": "S_02",
-  "city": "Stuttgart",
+  "id": ["S_02", "S_03", "S_04"],
+  "city": ["Stuttgart", "Stuttgart", "Stuttgart"],
   "type": ["Stadtführung", "Tageserlebnis", "Kultur", "Wein"],
   "people": ["Zu zweit", "Einzeln", "Gruppe", "Familie"],
   "title": "Weinprobe im Weinbaumuseum",
@@ -191,16 +123,7 @@ const offers = [{
   "link": "https://www.stuttgart-tourist.de/e-freitagsweinprobe-werden-sie-zum-weinkenner#2021-05-07",
   "price": "19,50€",
   "priceRange": "10-50€",
-  "pictures": [
-    "/assets/S_02/S_02_01.jpg",
-    "/assets/S_02/S_02_02.jpg",
-    "/assets/S_02/S_02_03.jpg",
-    "/assets/S_02/S_02_04.jpg",
-    "/assets/S_02/S_02_05.jpg",
-    "/assets/S_02/S_02_06.jpg",
-    "/assets/S_02/S_02_07.jpg",
-    "/assets/S_02/S_02_08.jpg"
-  ]
+  "pictures": ""
 }, {
   "id": "U_01",
   "city": "Ulm",
@@ -214,9 +137,7 @@ const offers = [{
   "link": "https://www.hotel-roter-loewe.de/preise---pauschalen.html",
   "price": "149 EUR pro Person ",
   "priceRange": ">100€",
-  "pictures": [
-    "/assets/U_01/U_01_12.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "U_02",
   "city": "Ulm",
@@ -230,16 +151,7 @@ const offers = [{
   "link": "https://tourismus.ulm.de/de/entdecken/sehen-und-erleben/stadtfuerungen/oeffentliche-stadtfuehrungen/#/erlebnisse/ULM/a09cf94d-0bc4-4b06-92db-f29bda5fb243/altstadt--und-muensterfuehrung--oefftl--",
   "price": "kostenfrei für Kinder, EUR 9 für Erwachsene, EUR 5 für Studenten, Schüler, Schwerbehinderte",
   "priceRange": "0-10€",
-  "pictures": [
-    "/assets/U_02/U_02_01.jpg",
-    "/assets/U_02/U_02_02.jpg",
-    "/assets/U_02/U_02_03.jpg",
-    "/assets/U_02/U_02_04.jpg",
-    "/assets/U_02/U_02_05.jpg",
-    "/assets/U_02/U_02_06.jpg",
-    "/assets/U_02/U_02_07.jpg",
-    "/assets/U_02/U_02_08.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "U_03",
   "city": "Ulm",
@@ -253,12 +165,7 @@ const offers = [{
   "link": "https://ulmer-schifffahrt.de/kalender/",
   "price": "kostenfrei für Kinder, EUR 9,50 für Erwachsene, EUR 6,50 für Studenten, Schüler, Schwerbehinderte",
   "priceRange": "0-10€",
-  "pictures": [
-    "/assets/U_03/U_03_01.jpg",
-    "/assets/U_03/U_03_02.jpg",
-    "/assets/U_03/U_03_03.jpg",
-    "/assets/U_03/U_03_04.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "U_04",
   "city": "Ulm",
@@ -272,11 +179,7 @@ const offers = [{
   "link": "https://ulmstories.reservix.de/#2021-03-12",
   "price": "pro Flug EUR 5",
   "priceRange": "0-10€",
-  "pictures": [
-    "/assets/U_04/U_04_01.jpg",
-    "/assets/U_04/U_04_02.jpg",
-    "/assets/U_04/U_04_03.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "F_01",
   "city": "Freiburg",
@@ -290,9 +193,7 @@ const offers = [{
   "link": "https://schwarzwald-connection.de/angebot_gruppen_fwtm.pdf",
   "price": "15-30 Personen, 4,5- 7 Stunden, Kosten pro Person: 89,00 €",
   "priceRange": "50-100€",
-  "pictures": [
-    "/assets/F_01/F_01_01.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "F_02",
   "city": "Freiburg",
@@ -306,9 +207,7 @@ const offers = [{
   "link": "https://schwarzwald-connection.de/angebot_individuell_fwtm.pdf",
   "price": "1-2 Personen, 4,5- 7 Stunden, Kosten pro Person: 89,00€",
   "priceRange": "50-100€",
-  "pictures": [
-    "/assets/F_02/F_02_01.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "F_03",
   "city": "Freiburg",
@@ -350,9 +249,7 @@ const offers = [{
   "link": "https://tportal.toubiz.de/heidelberg-fuehrungen/offer/detail/FIT00020070298566625",
   "price": "27 € Erw./24 € ermäßigt inkl. Schlossticket",
   "priceRange": "10-50€",
-  "pictures": [
-    "/assets/HD_01/HD_01_01.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "HD_02",
   "city": "Heidelberg",
@@ -366,9 +263,7 @@ const offers = [{
   "link": "https://www.heidelberg-marketing.de/suchen-buchen/pauschalreisen/sommerspezial.html",
   "price": "Kategorie Komfort: 180 € p.P. im Doppelzimmer/   240 € p.P. im Einzelzimmer, Kategorie First Class WoEnde:                 205 € p.P. im Doeppelzimmer/ 310 € p.P. im Einzelzimmer",
   "priceRange": ">100€",
-  "pictures": [
-    "/assets/HD_02/HD_02_01.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "HD_03",
   "city": "Heidelberg",
@@ -382,9 +277,7 @@ const offers = [{
   "link": "https://www.heidelberg-marketing.de/suchen-buchen/pauschalreisen/sommerspezial.html",
   "price": "Rundfahrt Heidelberg - Neckarsteinach - Heidelberg: 18 € p.P.",
   "priceRange": "10-50€",
-  "pictures": [
-    "/assets/HD_03/HD_03_01.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "HD_04",
   "city": "Heidelberg",
@@ -398,9 +291,7 @@ const offers = [{
   "link": "https://tportal.toubiz.de/heidelberg-fuehrungen/guide/detail/FIT00020070300786229",
   "price": "130 € inkl. privatem Guide (zzgl. 18 € pro Person für Fahrrad und Helm), max. 10 Personen, buchbar: April - Oktober",
   "priceRange": ">100€",
-  "pictures": [
-    "/assets/HD_04/HD_04_01.jpg"
-  ]
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "K_01",
   "city": "Karlsruhe",
@@ -472,8 +363,8 @@ const offers = [{
   "priceRange": "0-10€",
   "pictures": ""
 }, {
-  "id": "P_02",
-  "city": "Pforzheim",
+  "id": ["P_02", "P_03", "P_04"],
+  "city": ["Pforzheim", "Pforzheim", "Pforzheim"],
   "type": ["Stadtführung", "Kultur"],
   "people": ["Einzeln", "Zu zweit", "Gruppe", "Familie"],
   "title": "Pforzheim per Augmented Reality",
@@ -542,5 +433,3 @@ const offers = [{
   "priceRange": "10-50€",
   "pictures": ""
 }]
-
-export default offers;
