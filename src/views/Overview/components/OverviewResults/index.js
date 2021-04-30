@@ -9,7 +9,7 @@ export default function OverviewResults(props) {
   offers.forEach((o, i) => {
     const noCityMatch = props.selectedCity && props.selectedCity !== o.city
     const noPriceMatch = props.selectedPrice && props.selectedPrice !== o.priceRange
-    const noTypeMatch = props.selectedOffer && props.selectedOffer !== o.type
+    const noTypeMatch = props.selectedOffer && !o.type.includes(props.selectedOffer)
     const noPeopleMatch = props.selectedPeople && !o.people.includes(props.selectedPeople)
 
     const disqualified = noCityMatch || noPriceMatch || noTypeMatch || noPeopleMatch

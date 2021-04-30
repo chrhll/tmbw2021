@@ -10,10 +10,11 @@ import Slider from "react-slick";
 
 const offerOptions = [
   { value: 'Stadtführung', label: 'Stadtführung' },
-  { value: 'Events & Einrichtungen', label: 'Events & Einrichtungen' },
+  { value: 'Kultur', label: 'Kultur' },
   { value: 'Übernachtung', label: 'Übernachtung' },
   { value: 'Wein', label: 'Wein' },
-  { value: 'Familienaktivität', label: 'Familienaktivität' }
+  { value: 'Tageserlebnis', label: 'Tageserlebnis' },
+  { value: 'Kulinarik', label: 'Kulinarik' }
 ]
 
 export default function OverviewHero(props) {

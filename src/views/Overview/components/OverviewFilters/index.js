@@ -23,18 +23,18 @@ const pricingOptions = [
 
 const offerOptions = [
   { value: 'Stadtführung', label: 'Stadtführung' },
-  { value: 'Events & Einrichtungen', label: 'Events & Einrichtungen' },
+  { value: 'Kultur', label: 'Kultur' },
   { value: 'Übernachtung', label: 'Übernachtung' },
   { value: 'Wein', label: 'Wein' },
-  { value: 'Familienaktivität', label: 'Familienaktivität' }
+  { value: 'Tageserlebnis', label: 'Tageserlebnis' },
+  { value: 'Kulinarik', label: 'Kulinarik' }
 ]
 
 const peopleOptions = [
   { value: 'Einzeln', label: 'Einzeln' },
   { value: 'Zu zweit', label: 'Zu zweit' },
   { value: 'Gruppe', label: 'Gruppe' },
-  { value: 'Familie', label: 'Familie' },
-  { value: 'Schüler/Studenten', label: 'Schüler/Studenten' }
+  { value: 'Familie', label: 'Familie' }
 ]
 
 export default function OverviewFilters(props) {

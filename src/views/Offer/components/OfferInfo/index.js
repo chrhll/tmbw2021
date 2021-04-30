@@ -11,18 +11,6 @@ export default function OfferInfo(props) {
   const [showLightbox, setShowLightbox] = useState(false)
   const [photoIndex, setPhotoIndex] = useState(0);
 
-  let img1 = 'http://placeimg.com/1600/900/nature'
-  let img2 = 'http://placeimg.com/1600/900/nature'
-  let img3 = 'http://placeimg.com/1600/900/nature'
-  let img4 = 'http://placeimg.com/1600/900/nature'
-
-  if (props.offer.pictures.length) {
-    img1 = props.offer.pictures[1] || img1
-    img2 = props.offer.pictures[2] || img2
-    img3 = props.offer.pictures[3] || img3
-    img4 = props.offer.pictures[4] || img4
-  }
-
   let lightbox;
   if (showLightbox) {
     lightbox = (
@@ -61,6 +49,110 @@ export default function OfferInfo(props) {
     setShowLightbox(true)
   }
 
+  let imageGallery;
+  if (props.offer.pictures.length > 4) {
+    imageGallery = (
+      <div className="tmbw-offer-info-gallery">
+        <div
+          className="tmbw-offer-info-gallery-i1"
+          style={{ backgroundImage: `url(${props.offer.pictures[1]})` }}
+           onClick={() => setShowLightboxWithIndex(1)}
+          >
+        </div>
+
+        <div className="tmbw-offer-info-gallery-i234">
+          <div
+            className="tmbw-offer-info-gallery-i2"
+            style={{ backgroundImage: `url(${props.offer.pictures[2]})` }}
+            onClick={() => setShowLightboxWithIndex(2)}
+            >
+          </div>
+          <div
+            className="tmbw-offer-info-gallery-i3"
+            style={{ backgroundImage: `url(${props.offer.pictures[3]})` }}
+            onClick={() => setShowLightboxWithIndex(3)}
+            >
+          </div>
+          <div
+            className="tmbw-offer-info-gallery-i4"
+            style={{ backgroundImage: `url(${props.offer.pictures[4]})` }}
+            onClick={() => setShowLightboxWithIndex(4)}
+            >
+          </div>
+
+          <div className="tmbw-offer-info-gallery-badge" onClick={() => setShowLightboxWithIndex(0)}>
+            <Maximize size={14} /> {props.offer.pictures.length} Bilder
+          </div>
+
+          {lightbox}
+        </div>
+      </div>
+    )
+  } else if (props.offer.pictures.length > 3) {
+    imageGallery = (
+      <div className="tmbw-offer-info-gallery">
+        <div
+          className="tmbw-offer-info-gallery-i1"
+          style={{ backgroundImage: `url(${props.offer.pictures[1]})` }}
+           onClick={() => setShowLightboxWithIndex(1)}
+          >
+        </div>
+
+        <div className="tmbw-offer-info-gallery-i234 tmbw-offer-info-gallery-i234c">
+          <div
+            className="tmbw-offer-info-gallery-i4 tmbw-offer-info-gallery-i4"
+            style={{ backgroundImage: `url(${props.offer.pictures[2]})` }}
+            onClick={() => setShowLightboxWithIndex(2)}
+            >
+          </div>
+          <div
+            className="tmbw-offer-info-gallery-i4 tmbw-offer-info-gallery-i4"
+            style={{ backgroundImage: `url(${props.offer.pictures[3]})` }}
+            onClick={() => setShowLightboxWithIndex(3)}
+            >
+          </div>
+
+          {lightbox}
+        </div>
+      </div>
+    )
+  } else if (props.offer.pictures.length > 2) {
+    imageGallery = (
+      <div className="tmbw-offer-info-gallery">
+        <div
+          className="tmbw-offer-info-gallery-i1"
+          style={{ backgroundImage: `url(${props.offer.pictures[1]})` }}
+           onClick={() => setShowLightboxWithIndex(1)}
+          >
+        </div>
+
+        <div className="tmbw-offer-info-gallery-i234 tmbw-offer-info-gallery-i234c">
+          <div
+            className="tmbw-offer-info-gallery-i4 tmbw-offer-info-gallery-i5"
+            style={{ backgroundImage: `url(${props.offer.pictures[2]})` }}
+            onClick={() => setShowLightboxWithIndex(2)}
+            >
+          </div>
+
+          {lightbox}
+        </div>
+      </div>
+    )
+  } else if (props.offer.pictures.length > 1) {
+    imageGallery = (
+      <div className="tmbw-offer-info-gallery">
+        <div
+          className="tmbw-offer-info-gallery-i1 tmbw-offer-info-gallery-i1-full"
+          style={{ backgroundImage: `url(${props.offer.pictures[1]})` }}
+          onClick={() => setShowLightboxWithIndex(1)}
+          >
+
+          {lightbox}
+        </div>
+      </div>
+    )
+  }
+
   return (
     <div className="tmbw-offer-info">
       <div className="tmbw-offer-info-inner">
@@ -68,41 +160,7 @@ export default function OfferInfo(props) {
 
         {amenities}
 
-        <div className="tmbw-offer-info-gallery">
-          <div
-            className="tmbw-offer-info-gallery-i1"
-            style={{ backgroundImage: `url(${img1})` }}
-             onClick={() => setShowLightboxWithIndex(1)}
-            >
-          </div>
-
-          <div className="tmbw-offer-info-gallery-i234">
-            <div
-              className="tmbw-offer-info-gallery-i2"
-              style={{ backgroundImage: `url(${img2})` }}
-              onClick={() => setShowLightboxWithIndex(2)}
-              >
-            </div>
-            <div
-              className="tmbw-offer-info-gallery-i3"
-              style={{ backgroundImage: `url(${img3})` }}
-              onClick={() => setShowLightboxWithIndex(3)}
-              >
-            </div>
-            <div
-              className="tmbw-offer-info-gallery-i4"
-              style={{ backgroundImage: `url(${img4})` }}
-              onClick={() => setShowLightboxWithIndex(4)}
-              >
-            </div>
-
-            <div className="tmbw-offer-info-gallery-badge" onClick={() => setShowLightboxWithIndex(0)}>
-              <Maximize size={14} /> {props.offer.pictures.length} Bilder
-            </div>
-
-            {lightbox}
-          </div>
-        </div>
+        {imageGallery}
       </div>
     </div>
   )
