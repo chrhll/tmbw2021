@@ -9,6 +9,8 @@ import {
 import Overview from './views/Overview';
 import Offer from './views/Offer';
 
+import ScrollToTop from './ScrollToTop';
+
 import './App.css';
 
 export default function App() {
@@ -31,6 +33,7 @@ export default function App() {
   return (
     <div className="App">
       <Router>
+        <ScrollToTop />
         <Switch>
           <Route path="/angebot/:offerId">
             <Offer />
