@@ -5,8 +5,6 @@ import OfferMeta from './components/OfferMeta';
 import OfferInfo from './components/OfferInfo';
 import OfferUpsell from './components/OfferUpsell';
 
-import OverviewBanner from '../Overview/components/OverviewBanner';
-
 import offers from '../../helpers/offers.js'
 
 export default function Offer(props) {

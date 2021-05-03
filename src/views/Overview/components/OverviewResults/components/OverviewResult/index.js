@@ -6,7 +6,7 @@ export default function OverviewResults(props) {
   let backgroundUrl;
   if (props.offer.pictures.length) backgroundUrl = props.offer.pictures[0]
 
-  const urlParams = new URLSearchParams(window.location.search);
+  // const urlParams = new URLSearchParams(window.location.search);
 
   let returnTo = `${document.location.pathname}${document.location.search}`
   // if (document.location.search && urlParams.get('returnTo')) {
