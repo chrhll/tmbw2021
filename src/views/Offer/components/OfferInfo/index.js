@@ -56,7 +56,7 @@ export default function OfferInfo(props) {
         <div
           className="tmbw-offer-info-gallery-i1"
           style={{ backgroundImage: `url(${props.offer.pictures[1]})` }}
-           onClick={() => setShowLightboxWithIndex(1)}
+          onClick={() => setShowLightboxWithIndex(1)}
           >
         </div>
 

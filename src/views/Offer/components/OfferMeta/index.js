@@ -9,7 +9,7 @@ export default function OfferMeta(props) {
     <div className="tmbw-offer-meta">
       <div className="tmbw-offer-actions">
         <a href={props.offer.link} target="_blank" rel="noreferrer" className="tmbw-offer-cta-primary">
-          Jetzt kaufen
+          Zur Buchung
         </a>
 
         <a href="/" className="tmbw-offer-cta-tertiary">
