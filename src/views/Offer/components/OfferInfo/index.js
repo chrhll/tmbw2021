@@ -44,6 +44,33 @@ export default function OfferInfo(props) {
     )
   }
 
+  let prices;
+  if (props.offer.price) {
+    let priceList = props.offer.price.map((p, i) => (
+      <a
+        key={`price-${i}`}
+        className="tmbw-offer-info-amenity tmbw-offer-info-price"
+        href={props.offer.link}
+        target="_blank"
+        rel="noreferrer"
+        >
+        {p}
+      </a>
+    ))
+
+    prices = (
+      <>
+        <p className="tmbw-offer-info-description">
+          <br />
+          <strong>Preise:</strong>
+        </p>
+        <div className="tmbw-offer-info-amenities">
+          {priceList}
+        </div>
+      </>
+    )
+  }
+
   function setShowLightboxWithIndex(idx) {
     setPhotoIndex(idx)
     setShowLightbox(true)
@@ -159,6 +186,7 @@ export default function OfferInfo(props) {
         <p className="tmbw-offer-info-description">{props.offer.description}</p>
 
         {amenities}
+        {prices}
 
         {imageGallery}
       </div>

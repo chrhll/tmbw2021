@@ -6,8 +6,15 @@ export default function OverviewResults(props) {
   let backgroundUrl;
   if (props.offer.pictures.length) backgroundUrl = props.offer.pictures[0]
 
+  const urlParams = new URLSearchParams(window.location.search);
+
+  let returnTo = `${document.location.pathname}${document.location.search}`
+  // if (document.location.search && urlParams.get('returnTo')) {
+  //   returnTo = urlParams.get('returnTo')
+  // }
+
   return (
-    <Link to={`/angebot/${props.offer.id}?returnTo=${document.location.pathname}${document.location.search}`}
+    <Link to={`/angebot/${props.offer.id}?returnTo=${returnTo}`}
       className="tmbw-overview-result"
       >
       <div

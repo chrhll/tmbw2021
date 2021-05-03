@@ -44,6 +44,7 @@
   letter-spacing: 0.015em;
   color: #231F1D;
   margin: 0 6px 12px;
+  text-decoration: none;
 }
 
 .tmbw-offer-info-gallery {
@@ -51,7 +52,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-top: 24px;
+  margin-top: 48px;
 }
 
 .tmbw-offer-info-gallery-i1 {
