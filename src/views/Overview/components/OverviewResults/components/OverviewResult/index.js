@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import './style.css';
 
 export default function OverviewResults(props) {
@@ -5,10 +7,8 @@ export default function OverviewResults(props) {
   if (props.offer.pictures.length) backgroundUrl = props.offer.pictures[0]
 
   return (
-    <a
-      href={`/angebot/${props.offer.id}`}
+    <Link to={`/angebot/${props.offer.id}?returnTo=${document.location.pathname}${document.location.search}`}
       className="tmbw-overview-result"
-      target="_blank" rel="noreferrer"
       >
       <div
         className="tmbw-overview-result-image"
@@ -29,6 +29,6 @@ export default function OverviewResults(props) {
           {props.offer.intro}
         </div>
       </div>
-    </a>
+    </Link>
   )
 }

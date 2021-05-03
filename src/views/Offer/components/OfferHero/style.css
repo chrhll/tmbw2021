@@ -23,6 +23,7 @@
 }
 
 .tmbw-offer-hero-inner {
+  position: relative;
   z-index: 2;
   width: 95%;
   max-width: 800px;
@@ -57,12 +58,21 @@
   width: 280px;
 }
 
+.tmbw-offer-back {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  background: white;
+  padding: 8px 12px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 /* Large devices (desktops, 1200px and up) */
 /* default */
 
 /* Medium devices (landscape phones & tablets, 768px and up) */
-@media screen and (max-width: 992px) {
-}
+@media screen and (max-width: 992px) {}
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
