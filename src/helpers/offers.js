@@ -9,7 +9,7 @@ const offers = [{
   "amenities": ["Zwei Übernachtungen mit Frühstück", "3-Gang-Menü im Hotel am Anreisetag", "Degustationsmenü in der Wein Villa", "Tagesticket für die experimenta"],
   "more": "",
   "link": "https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/experimenta-mit-genuss.html?pk_campaign=themenkampagne_tmbw&pk_kwd=exp_mit_genuss",
-  "price": ["Ab 239 Euro pro Person im Doppelzimmer", "Ab 339 Euro pro Person im Einzelzimmer"],
+  "price": ["Ab 239 Euro p.P. (Doppelzimmer)", "Ab 339 Euro p.P. (Einzelzimmer)"],
   "priceRange": ">100€",
   "pictures": [
     "/assets/HN_01/HN_01_01.jpg",
@@ -29,7 +29,7 @@ const offers = [{
   "amenities": ["Eine Übernachtung mit Frühstück", "4er-Weinprobe an der Bar im Restaurant Beichtstuhl", "2-Tages-Ticket Gesamtnetz Nahverkehr (HNV)"],
   "more": "",
   "link": "https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/experimenta-mit-genuss.html?pk_campaign=themenkampagne_tmbw&pk_kwd=exp_mit_genuss",
-  "price": ["Ab 65 Euro pro Person im Doppelzimmer", "Ab 85 Euro pro Person im Einzelzimmer"],
+  "price": ["Ab 65 Euro p.P. (Doppelzimmer)", "Ab 85 Euro p.P. (Einzelzimmer)"],
   "priceRange": "50-100€",
   "pictures": [
     "/assets/HN_02/HN_02_01.jpg",
@@ -50,7 +50,7 @@ const offers = [{
   "amenities": ["4 Proben Heilbronner Wein", "Dauer ca. 2,5 Std.", "Maximal 20 Personen"],
   "more": "",
   "link": "https://www.heilbronn.de/tourismus/stadtfuehrungen/wein-und-kulinarik/schlenderweinprobe-durch-die-heilbronner-innenstadt.html?pk_campaign=themenkampagne_tmbw&pk_kwd=schlenderweinprobe",
-  "price": ["25 Euro pro Person\n"],
+  "price": ["25 Euro p.P."],
   "priceRange": "10-50€",
   "pictures": [
     "/assets/HN_03/HN_03_01.jpg",
@@ -68,7 +68,7 @@ const offers = [{
   "amenities": ["1 x Eintritt in den Herzogenriedpark", "1 x 1 Picknickkorb (Abholung in „Die Metzgerei“)", "1 x Gutscheinbuch pro Buchung mit vielen Vergünstigungen für Freizeitaktivitäten, Gastronomie, etc. im Wert von € 8,- (Abholung in der Tourist Information)", "10 % Rabatt auf alle Souvenirs der Tourist Information Mannheim"],
   "more": "",
   "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/nahtour-buchen2",
-  "price": ["Preis pro Erwachsener mit Wellness-Korb: 37 Euro bei 2 Erwachsenen, 29 Euro bei 3 Erwachsenen "],
+  "price": ["37 Euro p.P.", "29 Euro p.P. ab 3 Erwachsenen "],
   "priceRange": "10-50€",
   "pictures": [
     "/assets/MA_01/MA_01_01.jpg",
@@ -92,7 +92,7 @@ const offers = [{
   "amenities": ["1 x Individuelle Stadtführung „STADT.WAND.KUNST – Quadrate“, Dauer: ca. 1,5 Stunden", "1 x Eintritt in die Reiss-Engelhorn-Museen (rem) mit Audio-Guide (Hausticket Museum Weltkulturen D5)", "1 x Eintritt in das Schloss Mannheim", "1 x Gutscheinbuch pro Buchung mit vielen Vergünstigungen für Freizeitaktivitäten, Gastronomie, etc. im Wert von € 8,- (Abholung in der Tourist Information)", "10 % Rabatt auf alle Souvenirs der Tourist Information Mannheim", "10 % Rabatt auf alle Artikel des Museumsshop der Reiss-Engelhorn-Museen"],
   "more": "",
   "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/kultour-buchen",
-  "price": ["Preis pro Erwachsener: 64 Euro\nPreis pro Kind (6-14 Jahre): 5 Euro"],
+  "price": ["64 Euro p.P.", "Kinder (6-14 Jahre): 5 Euro"],
   "priceRange": "50-100€",
   "pictures": [
     "/assets/MA_02/MA_02_01.jpg",
@@ -118,7 +118,7 @@ const offers = [{
   "amenities": ["2 Übernachtungen inklusive reichhaltigem Frühstücksbuffet", "1 x Welcome-Cocktail", "1 x Kulinarisches 3-Gang-Menü am Abend"],
   "more": "",
   "link": "https://hotel-mannheim.dorint.com/de/arrangements/happy-weekend/",
-  "price": ["ab 145 € p.P."],
+  "price": ["Ab 145 Euro p.P."],
   "priceRange": ">100€",
   "pictures": [
     "/assets/MA_03/MA_03_01.jpg",
@@ -142,7 +142,7 @@ const offers = [{
   "amenities": ["3 Übernachtungen im Einzel- oder Doppelzimmer inkl. Frühstück\n", "2x Stadtführung, eine in Heidelberg und eine in Mannheim ", "1 x Heidelberg Karte Besichtigung des ZKM / Zentrum für Kunst und Medien in Karlsruhe"],
   "more": "",
   "link": "https://www.karlsruhe-erleben.de/karlsruhe/offer/detail/FIT00020070733670846",
-  "price": ["350 € pro Einheit"],
+  "price": ["350 Euro pro Einheit"],
   "priceRange": ">100€",
   "pictures": [
     "/assets/MA_04/MA_04_01.jpg",
@@ -161,7 +161,7 @@ const offers = [{
   "amenities": ["Hop-on/Hop-off Ticket 24 Stunden gültig"],
   "more": "",
   "link": "https://www.stuttgart-tourist.de/stuttgart-buchen/stuttgart-citytour",
-  "price": ["BLAUE und GRÜNE TOUR:\nErwachsene 18,00 €\nErwachsene mit StuttCard 14,00 €\nKinder (4-14 Jahre) 5,00 €\nPersonen mit Schwerbehindertenausweis ab 80% 14,00 € \n\nWEINTOUR:\nErwachsene 12,00 €\nErwachsener mit StuttCard 10,00 €\nKind (4 - 14 Jahre) 5,00 €\nPersonen mit Schwerbehindertenausweis ab 80 % 10,00 € \n\nKOMBITICKET (2 Touren):\nErwachsene 28,00 €\nErwachsener mit StuttCard 22,00 €\nKind (4 - 14 Jahre) 10,00 €\nPersonen mit Schwerbehindertenausweis ab 80 % 22,00 €"],
+  "price": ["Ab 12,00 Euro p.P.", "Ab 14,00 Euro p.P. mit StuttCard", "Kinder (4-14 Jahre) 5,00 Euro", "Personen mit Schwerbehindertenausweis ab 10,00 Euro"],
   "priceRange": "10-50€",
   "pictures": [
     "/assets/S_01/S_01_01.jpg",
@@ -184,7 +184,7 @@ const offers = [{
   "amenities": ["3er Weinprobe von ausgewählten Weinen und kleinem Snackteller"],
   "more": "",
   "link": "https://www.stuttgart-tourist.de/e-freitagsweinprobe-werden-sie-zum-weinkenner#2021-05-07",
-  "price": ["19,50€"],
+  "price": ["19,50 Euro"],
   "priceRange": "10-50€",
   "pictures": [
     "/assets/S_02/S_02_01.jpg",
@@ -207,7 +207,7 @@ const offers = [{
   "amenities": ["ein regionales 4-Gang Menü", "2x Übernachtung im Akzent Hotel Roter Löwe", "1x Ulm Card für zwei Tage"],
   "more": "",
   "link": "https://www.hotel-roter-loewe.de/preise---pauschalen.html",
-  "price": ["149 EUR pro Person "],
+  "price": ["149 Euro p.P. "],
   "priceRange": ">100€",
   "pictures": [
     "/assets/U_01/U_01_12.jpg"
@@ -223,7 +223,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://tourismus.ulm.de/de/entdecken/sehen-und-erleben/stadtfuerungen/oeffentliche-stadtfuehrungen/#/erlebnisse/ULM/a09cf94d-0bc4-4b06-92db-f29bda5fb243/altstadt--und-muensterfuehrung--oefftl--",
-  "price": ["kostenfrei für Kinder, EUR 9 für Erwachsene, EUR 5 für Studenten, Schüler, Schwerbehinderte"],
+  "price": ["kostenfrei für Kinder", "9 Euro p.P.", "5 Euro p.P. ermäßigt"],
   "priceRange": "0-10€",
   "pictures": [
     "/assets/U_02/U_02_01.jpg",
@@ -246,7 +246,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://ulmer-schifffahrt.de/kalender/",
-  "price": ["kostenfrei für Kinder, EUR 9,50 für Erwachsene, EUR 6,50 für Studenten, Schüler, Schwerbehinderte"],
+  "price": ["kostenfrei für Kinder", "9,50 Euro p.P.", "6,50 Euro p.P. ermäßigt"],
   "priceRange": "0-10€",
   "pictures": [
     "/assets/U_03/U_03_01.jpg",
@@ -265,7 +265,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://ulmstories.reservix.de/#2021-03-12",
-  "price": ["pro Flug EUR 5"],
+  "price": ["5 Euro pro Flug"],
   "priceRange": "0-10€",
   "pictures": [
     "/assets/U_04/U_04_01.jpg",
@@ -283,7 +283,7 @@ const offers = [{
   "amenities": ["Fahrt mit der Schloßbergbahn auf den Schlossberg", "Besuch in einem der Freiburger Stadtmuseum", "Kulinarische Stadtführung mit regionalen Kostproben", "Regionales Abendessen am Münsterplatz"],
   "more": "",
   "link": "https://schwarzwald-connection.de/angebot_gruppen_fwtm.pdf",
-  "price": ["15-30 Personen, 4,5- 7 Stunden, Kosten pro Person: 89,00 €"],
+  "price": ["15-30 Personen, 4,5-7h, 89 Euro p.P."],
   "priceRange": "50-100€",
   "pictures": [
     "/assets/F_01/F_01_01.jpg"
@@ -299,7 +299,7 @@ const offers = [{
   "amenities": ["Fahrt mit dem ÖPNV zur Schauinslandbahn und zurück", "Berg- und Talfahrt mit der Schauinslandbahn", "Bergwelt-Fruhstücks-Büfett", "Ortskundiger Wanderguide", "Besuch und Führung im Bauernhofmuseum Schniederlihof", "Gemütliche Einkehr im Hotel Halde (Sitzplatz-Reservierung)"],
   "more": "",
   "link": "https://schwarzwald-connection.de/angebot_individuell_fwtm.pdf",
-  "price": ["1-2 Personen, 4,5- 7 Stunden, Kosten pro Person: 89,00€"],
+  "price": ["1-2 Personen, 4,5-7h, 89 Euro p.P."],
   "priceRange": "50-100€",
   "pictures": [
     "/assets/F_02/F_02_01.jpg"
@@ -315,7 +315,7 @@ const offers = [{
   "amenities": ["2 Übernachtungen im DZ inkl. Frühstück", "Lunchpaket", "Welcome-Ticket inkl. Schauinslandbahn", "Wandervorschlag auf dem Hausberg Schauinsland mit Tipps für Sehenswürdigkeiten und Wanderkarte Schauinsland", "Audio-Lausch-Tour Schauinsland", "1 Eintritt in die Thermen des Keidel Bads"],
   "more": "",
   "link": "",
-  "price": ["252,00 € / p.P."],
+  "price": ["252 Euro p.P."],
   "priceRange": ">100€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
@@ -329,7 +329,7 @@ const offers = [{
   "amenities": ["2 Übernachtungen im DZ inkl. Frühstück", "Lunchpaket", "Radtouren-Vorschlag Dreisamradweg / Tuniberg Höhenweg", "Radkarte für Ihre Tour", "1 Eintritt in die Thermen des Keidel Bads", "1 Tag E-Bike- oder Mountain-Bike-Verleih"],
   "more": "",
   "link": "",
-  "price": ["251,00 € / p.P."],
+  "price": ["251 Euro p.P."],
   "priceRange": ">100€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
@@ -343,7 +343,7 @@ const offers = [{
   "amenities": ["Ticket für Bergbahn"],
   "more": "",
   "link": "https://tportal.toubiz.de/heidelberg-fuehrungen/offer/detail/FIT00020070298566625",
-  "price": ["27 € Erw./24 € ermäßigt inkl. Schlossticket"],
+  "price": ["27 Euro p.P.", "24 Euro ermäßigt"],
   "priceRange": "10-50€",
   "pictures": [
     "/assets/HD_01/HD_01_01.jpg"
@@ -359,7 +359,7 @@ const offers = [{
   "amenities": ["1, 2 oder 3 Übernachtungen mit Frühstück im Einzel- oder Doppelzimmer in einem Hotel der Kategorie Komfort oder First Class", "HeidelbergCARD für die Dauer des Aufenthaltes", "Teilnahme am öffentlichen Altstadtrundgang (1,5 Std.)", "Ticket für die Fahrt mit dem Solarschiff „Neckarsonne“"],
   "more": "",
   "link": "https://www.heidelberg-marketing.de/suchen-buchen/pauschalreisen/sommerspezial.html",
-  "price": ["Kategorie Komfort: 180 € p.P. im Doppelzimmer/   240 € p.P. im Einzelzimmer, Kategorie First Class WoEnde:                 205 € p.P. im Doeppelzimmer/ 310 € p.P. im Einzelzimmer"],
+  "price": ["Ab 180 Euro p.P. (Doppelzimmer)", "Ab 240 Euro p.P. (Einzelzimmer)"],
   "priceRange": ">100€",
   "pictures": [
     "/assets/HD_02/HD_02_01.jpg"
@@ -375,7 +375,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://www.heidelberg-marketing.de/suchen-buchen/pauschalreisen/sommerspezial.html",
-  "price": ["Rundfahrt Heidelberg - Neckarsteinach - Heidelberg: 18 € p.P."],
+  "price": ["18 Euro p.P."],
   "priceRange": "10-50€",
   "pictures": [
     "/assets/HD_03/HD_03_01.jpg"
@@ -391,7 +391,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://tportal.toubiz.de/heidelberg-fuehrungen/guide/detail/FIT00020070300786229",
-  "price": ["130 € inkl. privatem Guide (zzgl. 18 € pro Person für Fahrrad und Helm), max. 10 Personen, buchbar: April - Oktober"],
+  "price": ["ab 130 Euro p.P. inkl. privatem Guide"],
   "priceRange": ">100€",
   "pictures": [
     "/assets/HD_04/HD_04_01.jpg"
@@ -407,7 +407,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://www.karlsruhe-erleben.de/citytour ",
-  "price": ["18€ Erwachsene; Kinder 5€"],
+  "price": ["18 Euro p.P.", "Kinder 5 Euro"],
   "priceRange": "10-50€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
@@ -421,7 +421,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "www.karlsruhe-tourismus.de/tatort-recht.",
-  "price": ["18€ Erwachsene; Kinder 5€"],
+  "price": ["18 Euro p.P.", "Kinder 5 Euro"],
   "priceRange": "10-50€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
@@ -435,7 +435,7 @@ const offers = [{
   "amenities": ["3 Übernachtungen im Einzel- oder Doppelzimmer inkl. Frühstück\n", "2x Stadtführung, eine in Heidelberg und eine in Mannheim ", "1 x Heidelberg Karte Besichtigung des ZKM / Zentrum für Kunst und Medien in Karlsruhe"],
   "more": "",
   "link": "https://www.karlsruhe-erleben.de/karlsruhe/offer/detail/FIT00020070733670846",
-  "price": ["350 € pro Einheit"],
+  "price": ["350 Euro pro Einheit"],
   "priceRange": "10-50€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
@@ -463,7 +463,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://gasometer-pforzheim.regiondo.de/kategorien",
-  "price": ["ab 10,00€"],
+  "price": ["Ab 10 Euro"],
   "priceRange": "0-10€",
   "pictures": ""
 }, {
@@ -477,7 +477,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://www.pforzheim.de/tourismus/stadtfuehrungen/digitale-stadtfuehrungen-und-erlebnisse.html",
-  "price": ["ab 1,09€"],
+  "price": ["Ab 1,09 Euro"],
   "priceRange": "0-10€",
   "pictures": ""
 }, {
@@ -491,7 +491,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://www.city-seg.de/ba-touren-details?tid=2",
-  "price": ["Preise ab €69.- je Teilnehmer."],
+  "price": ["Ab 69 Euro p.P."],
   "priceRange": "50-100€",
   "pictures": ""
 }, {
@@ -505,7 +505,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://www.baden-baden.com/fuehrungen/oeffentliche-fuehrungen",
-  "price": ["8,- €"],
+  "price": ["8 Euro"],
   "priceRange": "",
   "pictures": ""
 }, {
@@ -519,7 +519,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://www.shop-carasana.de/vouchers/category/",
-  "price": ["15 - 27,- €"],
+  "price": ["Ab 15 Euro"],
   "priceRange": "",
   "pictures": ""
 }, {
@@ -533,7 +533,7 @@ const offers = [{
   "amenities": [],
   "more": "",
   "link": "https://museum-frieder-burda.ticketfritz.de/Home/Index",
-  "price": ["14 ,- €"],
+  "price": ["14 Euro"],
   "priceRange": "10-50€",
   "pictures": ""
 }]
