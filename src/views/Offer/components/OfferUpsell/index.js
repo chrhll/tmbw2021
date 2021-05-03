@@ -26,8 +26,8 @@ export default function OfferUpsell(props) {
 
   return (
     <div className="tmbw-offer-upsell">
-      <h5 className="tmbw-offer-upsell-subline">Mehr entdecken</h5>
-      <h3 className="tmbw-offer-upsell-headline">Aktivitäten in der Nähe von {props.offer.city}</h3>
+      <h5 className="tmbw-offer-upsell-subline">{props.subtitle}</h5>
+      <h3 className="tmbw-offer-upsell-headline">{props.title}</h3>
       <div className="tmbw-offer-upsell-inner">
         {upsellOffers.map(o => <OverviewResult key={o.id} offer={o} />)}
       </div>
