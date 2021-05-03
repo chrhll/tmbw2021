@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-import { ArrowLeft } from 'react-feather';
+import { ArrowLeft, Grid } from 'react-feather';
 
 import './style.css';
 
@@ -22,6 +22,10 @@ export default function OfferHero(props) {
       <div className="tmbw-offer-hero-inner">
         <Link to={backLink} className="tmbw-offer-back">
           <ArrowLeft color='#231F1D' size={24} />
+        </Link>
+
+        <Link to='/' className="tmbw-offer-home">
+          <Grid color='#231F1D' size={20} />
         </Link>
 
 
