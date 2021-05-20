@@ -27,7 +27,14 @@ export default function OfferInfo(props) {
 
   let amenities;
   if (props.offer.amenities) {
-    let amenityList = props.offer.amenities.map((a, i) => (
+    let amenitiesOptions = []
+    if (Array.isArray(props.offer.amenities)) {
+      amenitiesOptions = props.offer.amenities
+    } else if (typeof props.offer.amenities === 'string') {
+      amenitiesOptions = [props.offer.amenities]
+    }
+
+    let amenityList = amenitiesOptions.map((a, i) => (
       <div key={`amenity-${i}`} className="tmbw-offer-info-amenity">{a}</div>
     ))
 
@@ -46,7 +53,14 @@ export default function OfferInfo(props) {
 
   let prices;
   if (props.offer.price) {
-    let priceList = props.offer.price.map((p, i) => (
+    let priceOptions = []
+    if (Array.isArray(props.offer.price)) {
+      priceOptions = props.offer.price
+    } else if (typeof props.offer.price === 'string') {
+      priceOptions = [props.offer.price]
+    }
+
+    let priceList = priceOptions.map((p, i) => (
       <a
         key={`price-${i}`}
         className="tmbw-offer-info-amenity tmbw-offer-info-price"
@@ -180,10 +194,17 @@ export default function OfferInfo(props) {
     )
   }
 
+  let formattedDescription;
+  if (props.offer.description && typeof props.offer.description === 'string') {
+    formattedDescription = props.offer.description.split('\n').map(e => <p>{e}</p>)
+  } else if (props.offer.description && Array.isArray(props.offer.description)) {
+    formattedDescription = props.offer.description.map(e => <p>{e}</p>)
+  }
+
   return (
     <div className="tmbw-offer-info">
       <div className="tmbw-offer-info-inner">
-        <p className="tmbw-offer-info-description">{props.offer.description}</p>
+        <p className="tmbw-offer-info-description">{formattedDescription}</p>
 
         {amenities}
         {prices}

@@ -27,8 +27,8 @@
   "priceRange": "50-100€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
-  "id": ["HN_03", "HN_04"],
-  "city": ["Heilbronn", "Heilbronn"],
+  "id": "HN_03",
+  "city": "Heilbronn",
   "type": "Wein",
   "people": ["Einzeln", "Gruppe", "Zu zweit"],
   "title": "Schlenderweinprobe durch Heilbronn",
@@ -38,6 +38,20 @@
   "more": "",
   "link": "https://www.heilbronn.de/tourismus/stadtfuehrungen/wein-und-kulinarik/schlenderweinprobe-durch-die-heilbronner-innenstadt.html?pk_campaign=themenkampagne_tmbw&pk_kwd=schlenderweinprobe",
   "price": "25 Euro pro Person\n",
+  "priceRange": "10-50€",
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
+}, {
+  "id": "HN_04",
+  "city": "Heilbronn",
+  "type": "Stadtführung",
+  "people": ["Einzeln", "Familie", "Zu zweit", "Gruppe"],
+  "title": "Kanu-Stadtrundfahrten auf dem Neckar",
+  "intro": "Erlebe und entdecke Heilbronn auf ganz besondere Weise. Auf dem Wasser vom Kanu aus.",
+  "description": "Erlebe und entdecke Heilbronn vom Wasser aus. Fahre im Kanu auf dem Neckar durch Heilbronn und lass dir von deinem Gästeführer Interessantes zur Stadt und ihrer Geschichte erzählen. \nNoch nie Kanu gefahren?\nKein Problem, alle drei Touren sind absolut für Anfänger geeignet.\n\n- Drei Touren stehen zur Auswahl:\n- Der Klassiker\n- Die Familientour\n- Die Tour am Abend",
+  "amenities": "Ab 28 Euro pro Person (Kinder ab 22 Euro pro Person)",
+  "more": "",
+  "link": "https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/kanu-stadtrundfahrten.html?pk_campaign=themenkampagne_tmbw&pk_kwd=kanu-stadtrundfahrt",
+  "price": "Ab 28 Euro pro Person (Kinder ab 22 Euro pro Person)",
   "priceRange": "10-50€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
@@ -59,7 +73,7 @@
   "city": "Mannheim",
   "type": ["Kultur", "Tageserlebnis", "Stadtführung"],
   "people": ["Zu zweit", "Familie", "Gruppe"],
-  "title": "KulTour - Kreativität2",
+  "title": "KulTour - Kreativität²",
   "intro": "Mannheim beeindruckt mit einem bunten Angebot an kulturellen Aktivitäten und Einrichtungen",
   "description": "Die Reiss-Engelhorn-Museen (rem) bilden im Herzen der Mannheimer Innenstadt ein eigenes Museumsviertel, in dem Sie spannende Kulturgeschichte erleben können. In der Ausstellung „Ägypten – Land der Unsterblichkeit“ entdecken Sie das faszinierende Reich der Pharaonen mitten in Mannheim. Mit dem im Paket enthaltenen Audioguide erfahren Sie Spannendes über das Alltagsleben im alten Ägypten, die Stellung des Pharaos und seines Beamtenstaates, den aufwändigen Totenkult und die weitverzweigte Götterwelt. Kinder können mit den Rätsel- und Entdeckerheften eigenständig interessante Themen und Objekte aus den Ausstellungen entdecken (kostenfrei zum Download oder an der Museumskasse).\nFür Geschichtsinteressierte führt kein Weg am Schloss Mannheim vorbei, dem größten Barockschloss Europas nach Versailles. In den aufwendig restaurierten Prunkräumen begeben Sie sich auf eine Zeitreise ins kurfürstliche Mannheim. \nDen kreativen Herzschlag der Stadt erleben Sie bei einer individuellen Stadtführung durch die einzigartige Open Urban Art Gallery Mannheims - STADT.WAND.KUNST. Vielleicht haben Sie ja auch Glück und können bei der Entstehung eines neuen Murals live dabei sein! Denn jeden Sommer lädt STADT.WAND.KUNST unterschiedliche Streetart-KünstlerInnen nach Mannheim ein: Egal ob nationale Newcomer, internationale Stars oder regionale NachwuchskünstlerInnen – auch in diesem Jahr werden sie wieder Mannheims Wände in großartige Kunstwerke verwandeln.\nBei Buchung unseres Paketes haben Sie für sich, Ihre Familie oder Freunde eine*n eigene*n Gästeführer*in und können Tag und Uhrzeit frei wählen.",
   "amenities": ["1 x Individuelle Stadtführung „STADT.WAND.KUNST – Quadrate“, Dauer: ca. 1,5 Stunden", "1 x Eintritt in die Reiss-Engelhorn-Museen (rem) mit Audio-Guide (Hausticket Museum Weltkulturen D5)", "1 x Eintritt in das Schloss Mannheim", "1 x Gutscheinbuch pro Buchung mit vielen Vergünstigungen für Freizeitaktivitäten, Gastronomie, etc. im Wert von € 8,- (Abholung in der Tourist Information)", "10 % Rabatt auf alle Souvenirs der Tourist Information Mannheim", "10 % Rabatt auf alle Artikel des Museumsshop der Reiss-Engelhorn-Museen"],
@@ -81,7 +95,7 @@
   "link": "https://hotel-mannheim.dorint.com/de/arrangements/happy-weekend/",
   "price": "ab 145 € p.P.",
   "priceRange": ">100€",
-  "pictures": ""
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "MA_04",
   "city": "Mannheim",
@@ -95,7 +109,7 @@
   "link": "https://www.karlsruhe-erleben.de/karlsruhe/offer/detail/FIT00020070733670846",
   "price": "350 € pro Einheit",
   "priceRange": ">100€",
-  "pictures": ""
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "S_01",
   "city": "Stuttgart",
@@ -109,7 +123,7 @@
   "link": "https://www.stuttgart-tourist.de/stuttgart-buchen/stuttgart-citytour",
   "price": "BLAUE und GRÜNE TOUR:\nErwachsene 18,00 €\nErwachsene mit StuttCard 14,00 €\nKinder (4-14 Jahre) 5,00 €\nPersonen mit Schwerbehindertenausweis ab 80% 14,00 € \n\nWEINTOUR:\nErwachsene 12,00 €\nErwachsener mit StuttCard 10,00 €\nKind (4 - 14 Jahre) 5,00 €\nPersonen mit Schwerbehindertenausweis ab 80 % 10,00 € \n\nKOMBITICKET (2 Touren):\nErwachsene 28,00 €\nErwachsener mit StuttCard 22,00 €\nKind (4 - 14 Jahre) 10,00 €\nPersonen mit Schwerbehindertenausweis ab 80 % 22,00 €",
   "priceRange": "10-50€",
-  "pictures": ""
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": ["S_02", "S_03", "S_04"],
   "city": ["Stuttgart", "Stuttgart", "Stuttgart"],
@@ -123,7 +137,7 @@
   "link": "https://www.stuttgart-tourist.de/e-freitagsweinprobe-werden-sie-zum-weinkenner#2021-05-07",
   "price": "19,50€",
   "priceRange": "10-50€",
-  "pictures": ""
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "U_01",
   "city": "Ulm",
@@ -185,8 +199,8 @@
   "city": "Freiburg",
   "type": ["Tageserlebnis", "Kulinarik", "Stadtführung"],
   "people": "Gruppe",
-  "title": "Freiburg Pur für Gruppen",
-  "intro": "Entspannung und Entschleunigung, Angebot für Gruppen",
+  "title": "Freiburg erleben und geniessen",
+  "intro": "Bunter Münstermarkt, fantastische Ausblicke und regionale Kostproben",
   "description": "Nach einem gemütlichen Frühstück steht heute Freiburg auf Ihrem Tagesprogramm. Wir starten mit einem gemeinsamen Spaziergang über den bunten Münstermarkt rund um Freiburgs Wahrzeichen. Danach geht es mit der Schlossbergbahn hinauf zum Schlossberg. Oben angekommen werden Sie mit fantastischen Aussichten auf die Stadt und das Rheintal belohnt. Der Schlossberg lädt nicht nur zum Wandern, Entdecken und Verweilen ein, er bietet auch eine ausgezeichnete Gastronomie. Zurück in der Freiburger Altstadt geht es nun durch die malerische Fischerau und Gerberau zur Stadtmitte. Dort stehen Ihnen nun Freiburgs Museen* zur Wahl, die viel über die Stadt, die Kunst, die Region und die Natur erzählen. Eine kulinarische Stadtführung mit allerlei regionale Kostproben unterwegs sowie ein Abendessen mit regionalen Spezialitäten am Freiburger Münsterplatz krönen Ihren Tag.",
   "amenities": ["Fahrt mit der Schloßbergbahn auf den Schlossberg", "Besuch in einem der Freiburger Stadtmuseum", "Kulinarische Stadtführung mit regionalen Kostproben", "Regionales Abendessen am Münsterplatz"],
   "more": "",
@@ -197,11 +211,11 @@
 }, {
   "id": "F_02",
   "city": "Freiburg",
-  "type": ["Tageserlebnis", "Kulinarik", "Stadtführung"],
+  "type": ["Übernachtung", "Kulinarik", "Stadtführung"],
   "people": ["Einzeln", "Zu zweit"],
-  "title": "Traumhaufte Ausblicke",
-  "intro": "Entspannung und Entschleunigung, Angebot für Individual-Gäste",
-  "description": "Nach einer gemütlichen Anreise zur Bergstation der Schauinslandbahn geht\nes schon bald zur Stärkung ins Bergrestaurant auf 1200 Höhe.\nDas Bergbüffet meint es gut mit Ihnen: Großes Bauernbrot, kleine Brötchen –\nalles frisch aus dem Ofen. Konfitüren, Käse, Fleisch- und Wurst-Spezialitäten\naus der Region. Ausgesuchtes rund um Obst, Joghurt, Milch und Säfte. Und Kaffee\nund Tee soviel Sie mögen.\nNach der Stärkung werden Sie bereits vom ortskundigen Wanderguide\nerwartet. Erfahren Sie viel Wissenswertes und Interessantes auf Ihrer Wanderung\nzum Bauernhausmuseum Schniederlihof.\nHier erwartet Sie ein herzlicher Empfang im über 400 Jahre alten Hof.\nSachkundig und liebevoll wird Ihnen vermittelt, wie mit Kuchi, dem\nSchniedesel, der Bühni und der guten Stub mit Herrgottswinkel das früher oft\nsehr harte Leben der Schwarzwälder Bergbauern ausgesehen hat.\nDen perfekten Ausklang des Tages genießen Sie im Hotel Halde –\nmit unbeschreiblichen Service, regionalen Spezialitäten und einer\nentspannten Atmosphäre – hier bleiben keine Wünsche offen. ",
+  "title": "Freiburgs Hausberg Schauinsland entdecken",
+  "intro": "Bergbüffet, Wanderführer, Bauernhofmuseum und gehobene Küche",
+  "description": "Nach einer gemütlichen Anreise zur Bergstation der Schauinslandbahn geht es schon bald zur Stärkung ins Bergrestaurant auf 1200 Höhe. Das Bergbüffet meint es gut mit Ihnen: Großes Bauernbrot, kleine Brötchen – alles frisch aus dem Ofen. Konfitüren, Käse, Fleisch- und Wurst-Spezialitäten aus der Region. Ausgesuchtes rund um Obst, Joghurt, Milch und Säfte. Und Kaffee und Tee soviel Sie mögen. Nach der Stärkung werden Sie bereits vom ortskundigen Wanderguide erwartet. Erfahren Sie viel Wissenswertes und Interessantes auf Ihrer Wanderung zum Bauernhausmuseum Schniederlihof. Hier erwartet Sie ein herzlicher Empfang im über 400 Jahre alten Hof. Sachkundig und liebevoll wird Ihnen vermittelt, wie mit Kuchi, dem Schniedesel, der Bühni und der guten Stub mit Herrgottswinkel das früher oft sehr harte Leben der Schwarzwälder Bergbauern ausgesehen hat. Den perfekten Ausklang des Tages genießen Sie im Hotel Halde – mit unbeschreiblichen Service, regionalen Spezialitäten und einer entspannten Atmosphäre – hier bleiben keine Wünsche offen. ",
   "amenities": ["Fahrt mit dem ÖPNV zur Schauinslandbahn und zurück", "Berg- und Talfahrt mit der Schauinslandbahn", "Bergwelt-Fruhstücks-Büfett", "Ortskundiger Wanderguide", "Besuch und Führung im Bauernhofmuseum Schniederlihof", "Gemütliche Einkehr im Hotel Halde (Sitzplatz-Reservierung)"],
   "more": "",
   "link": "https://schwarzwald-connection.de/angebot_individuell_fwtm.pdf",
@@ -211,28 +225,28 @@
 }, {
   "id": "F_03",
   "city": "Freiburg",
-  "type": ["Tageserlebnis", "Kulinarik", "Stadtführung", "Übernachtung"],
+  "type": ["Übernachtung", "Kulinarik", "Stadtführung", "Übernachtung"],
   "people": ["Einzeln", "Zu zweit"],
-  "title": "Aktiv entschleunigen",
-  "intro": "Aussichtsreichen Rundwanderung auf Freiburgs Hausberg",
-  "description": "Aktiv entschleunigen in der Schwarzwald-Hauptstadt heißt es bei einer aussichtsreichen Rundwanderung auf Freiburgs Hausberg, dem Schauinsland. Das Erlebnis beginnt bereits bei der Bergfahrt mit Deutschlands ältester Umlaufseilbahn. Und Entspannung verspricht im Anschluss ein Bad in Freiburgs ",
+  "title": "Freiburger Gipfelglück – Wellness inklusive",
+  "intro": "2-Tages-Angebot: Aktiv entschleunigen",
+  "description": "Aktiv entschleunigen in der Schwarzwald-Hauptstadt heißt es bei einer aussichtsreichen Rundwanderung auf Freiburgs Hausberg, dem Schauinsland. Das Erlebnis beginnt bereits bei der Bergfahrt mit Deutschlands ältester Umlaufseilbahn. Und Entspannung verspricht im Anschluss ein Bad in Freiburgs in Freiburgs Keidel-Therme.",
   "amenities": ["2 Übernachtungen im DZ inkl. Frühstück", "Lunchpaket", "Welcome-Ticket inkl. Schauinslandbahn", "Wandervorschlag auf dem Hausberg Schauinsland mit Tipps für Sehenswürdigkeiten und Wanderkarte Schauinsland", "Audio-Lausch-Tour Schauinsland", "1 Eintritt in die Thermen des Keidel Bads"],
-  "more": "",
-  "link": "",
+  "more": "https://hotel-freiburg.dorint.com/de/arrangements/freiburger-gipfel-glueck/?etcc_cmp=Freiburg&etcc_med=Gipfel-Glueck-Arrangement-TMBW&etcc_par=HON-Service&etcc_ctv=Webseite&et_cmp_seg4=DE",
+  "link": "https://be.synxis.com/?&chain=22066&config=Dorint&level=chain&locale=de-DE&theme=Dorint&brand=Dorint&src=FRI-Package&promo=Package-TMBW&rate=PF&hotel=77509&adult=2&nights=2",
   "price": "252,00 € / p.P.",
   "priceRange": ">100€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": "F_04",
   "city": "Freiburg",
-  "type": ["Tageserlebnis", "Kulinarik", "Stadtführung"],
+  "type": ["Übernachtung", "Kulinarik", "Stadtführung"],
   "people": ["Einzeln", "Zu zweit"],
-  "title": "Freiburg per E-Bike",
-  "intro": "Relaxtes Radeln durch die Schwarzwald-Hauptstadt",
+  "title": "Bike-Zeit in Freiburg – Wellness inklusive",
+  "intro": "2-Tages-Angebot: Lieblingsplätze mit dem E-Bike entdecken",
   "description": "Erkunden Sie die Schwarzwald-Hauptstadt Freiburg per E-Bike oder Mountain-Bike. Ob relaxtes Radeln entlang dem Dreisamufer, Entdeckung der Altstadt und moderner Green-City-Architektur oder Genuss-Tour durch Freiburgs Weinberge: In kaum einer anderen Stadt treffen Sie auf so viel Wohlfühl-Lifestyle und Lässigkeit, verbunden mit sportlicher Freizeitaktivität. Und die Beine erholen sich ganz rasch wieder in den heißen Quellen von Freiburgs Keidel-Therme.",
   "amenities": ["2 Übernachtungen im DZ inkl. Frühstück", "Lunchpaket", "Radtouren-Vorschlag Dreisamradweg / Tuniberg Höhenweg", "Radkarte für Ihre Tour", "1 Eintritt in die Thermen des Keidel Bads", "1 Tag E-Bike- oder Mountain-Bike-Verleih"],
-  "more": "",
-  "link": "",
+  "more": "https://hotel-freiburg.dorint.com/de/arrangements/e-bike-zeit-in-freiburg/?etcc_cmp=Freiburg&etcc_med=E-Bike-Arrangement-TMBW&etcc_par=HON-Service&etcc_ctv=Webseite&et_cmp_seg4=DE",
+  "link": "https://be.synxis.com/?&chain=22066&config=Dorint&level=chain&locale=de-DE&theme=Dorint&brand=Dorint&src=FRI-Package&promo=Package-TMBW&rate=PE&hotel=77509&adult=2&nights=2",
   "price": "251,00 € / p.P.",
   "priceRange": ">100€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
@@ -283,13 +297,13 @@
   "city": "Heidelberg",
   "type": ["Tageserlebnis", "Stadtführung"],
   "people": ["Einzeln", "Zu zweit", "Gruppe", "Familie"],
-  "title": "Gemütlich radeln",
-  "intro": "Entspannt per Bike durch Heidelberg",
+  "title": "Heidelberg per Bike",
+  "intro": "Geführte Radtour durch Heidelberg",
   "description": "Bei einer geführten Radtour streifen wir die Heidelberger\nAltstadt und besuchen den Stadtteil Neuenheim, das\nNeuenheimer Feld mit Botanischem Garten und den international\nrenommierten Instituten und Kliniken sowie\nden Forschungs-Campus der Ruprecht-Karls-Universität.\nWir fahren durch das Handschuhsheimer Feld weiter nach\nHandschuhsheim, dem ältesten Stadtteil Heidelbergs mit\nder berühmten Tiefburg und zurück zur Altstadt, wo der\neinzigartige Blick von der Alten Brücke auf das Heidelberger\nSchloss und die Altstadt den krönenden Abschluss bildet. Streckenlänge: ca. 25km, Profil: eine steilere Steigung, Möglichkeit zum Picknick oder Einkehr, Dauer: ca. 3 Stunden ",
   "amenities": "",
   "more": "",
   "link": "https://tportal.toubiz.de/heidelberg-fuehrungen/guide/detail/FIT00020070300786229",
-  "price": "130 € inkl. privatem Guide (zzgl. 18 € pro Person für Fahrrad und Helm), max. 10 Personen, buchbar: April - Oktober",
+  "price": "130 € inkl. privatem Guide für 1-10 Personen (zzgl. 18 € pro Person für Fahrrad und Helm), max. 10 Personen, buchbar: April - Oktober",
   "priceRange": ">100€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
@@ -302,7 +316,7 @@
   "description": "Der Klassiker unter den Sightseeingtouren. Steigen Sie ein und entdecken Sie die bedeutendsten Sehenswürdigkeiten in Karlsruhe!",
   "amenities": "",
   "more": "",
-  "link": "https://www.karlsruhe-erleben.de/citytour ",
+  "link": "https://www.karlsruhe-erleben.de/citytour?utm_source=TMBW%20Social%20Media&utm_medium=Ad&utm_campaign=TMBW%20Social%20Media#/",
   "price": "18€ Erwachsene; Kinder 5€",
   "priceRange": "10-50€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
@@ -316,7 +330,7 @@
   "description": "",
   "amenities": "",
   "more": "",
-  "link": "www.karlsruhe-tourismus.de/tatort-recht.",
+  "link": "https://www.karlsruhe-erleben.de/Tatort-Recht?utm_source=TMBW%20Social%20Media&utm_medium=Ad&utm_campaign=TMBW%20Social%20Media",
   "price": "18€ Erwachsene; Kinder 5€",
   "priceRange": "10-50€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
@@ -330,7 +344,7 @@
   "description": "Karlsruhe ist eine Stadt, in der Medienkunst in ihren verschiedenen Formen zum Leben gehört, sowohl als boomender IT- und Wissenschaftsstandort als auch als Stadt der Kultur und Kreativität. Karlsruhe blickt außerdem auf eine lange Tradition als Stadt des Rechts, der Grundrechte und der Demokratie zurück. Besonders zur Realisierung medienkünstlerischer Werke, die oft durch digitale Teilhabe, Interaktion und Partizipation geprägt sind oder sich mit kritischen Fragestellungen beschäftigen, ist dies eine wichtige Voraussetzung.",
   "amenities": ["3 Übernachtungen im Einzel- oder Doppelzimmer inkl. Frühstück\n", "2x Stadtführung, eine in Heidelberg und eine in Mannheim ", "1 x Heidelberg Karte Besichtigung des ZKM / Zentrum für Kunst und Medien in Karlsruhe"],
   "more": "",
-  "link": "https://www.karlsruhe-erleben.de/karlsruhe/offer/detail/FIT00020070733670846",
+  "link": "https://www.karlsruhe-erleben.de/karlsruhe/offer/detail/FIT00020070733670846?utm_source=TMBW%20Social%20Media&utm_medium=Ad&utm_campaign=TMBW%20Social%20Media",
   "price": "350 € pro Einheit",
   "priceRange": "10-50€",
   "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
@@ -361,21 +375,21 @@
   "link": "https://gasometer-pforzheim.regiondo.de/kategorien",
   "price": "ab 10,00€",
   "priceRange": "0-10€",
-  "pictures": ""
+  "pictures": "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"
 }, {
   "id": ["P_02", "P_03", "P_04"],
   "city": ["Pforzheim", "Pforzheim", "Pforzheim"],
   "type": ["Stadtführung", "Kultur"],
   "people": ["Einzeln", "Zu zweit", "Gruppe", "Familie"],
   "title": "Pforzheim per Augmented Reality",
-  "intro": "Stadtführung der besonderen Art.",
-  "description": "Mit den spannenden Touren der Future History App kann Pforzheim, die Goldstadt, entspannt entdeckt werden. Dank Augmented Reality wird die Schönheit der einstigen Jugendstil-Perle durch historische Aufnahmen sichtbar. Interessante Infos zu den Sehenswürdigkeiten, der Architektur, Glaubensstätten oder den Wasserperlen der Stadt, gibt es ebenfalls zum Anhören oder Lesen. Die Touren sind perfekt für die Vorbereitung auf einen Besuch zuhause oder beim Bummeln durch die Stadt.",
+  "intro": ["Stadtführung der besonderen Art.", "Mit Alpakas gemütlich Pforzheimer Geschichten und den Enzkreis entdecken.", "Übernachtungspakete mit vollem Kulturgenuss"],
+  "description": ["Mit den spannenden Touren der Future History App kann Pforzheim, die Goldstadt, entspannt entdeckt werden. Dank Augmented Reality wird die Schönheit der einstigen Jugendstil-Perle durch historische Aufnahmen sichtbar. Interessante Infos zu den Sehenswürdigkeiten, der Architektur, Glaubensstätten oder den Wasserperlen der Stadt, gibt es ebenfalls zum Anhören oder Lesen. Die Touren sind perfekt für die Vorbereitung auf einen Besuch zuhause oder beim Bummeln durch die Stadt.", "Sie sind flauschig, gemütlich und man verliebt sich in ihr rundes Gesicht: Alpakas kann man bei Pforzheim nicht nur anschmachten, sondern mit ihnen zusammen auf Wanderung gehen. Es ist ein Erlebnis für die ganze Familie. Auch Gin-, Cocktail- oder Weinwanderungen locken mit regionalen Köstlichkeiten sowie ein flauschiges Alpakaglück.", "Naturnah nächtigen und trotzdem den vollen Kulturgenuss genießen? Das gibt es beim Hohenwart Forum in Pforzheim. Das Hotel im Grünen bietet verschiedene Pakete mit denen man die Museen & Klöster der Umgebung erkunden oder in die Geschichte der Schmuck- und Uhrenindustrie eintauchen kann. Für Westwegabenteurer bietet das Haus ebenfall ein reizvolles Angebot."],
   "amenities": "",
   "more": "",
-  "link": "https://www.pforzheim.de/tourismus/stadtfuehrungen/digitale-stadtfuehrungen-und-erlebnisse.html",
-  "price": "ab 1,09€",
-  "priceRange": "0-10€",
-  "pictures": ""
+  "link": ["https://www.pforzheim.de/tourismus/stadtfuehrungen/digitale-stadtfuehrungen-und-erlebnisse.html", "https://www.huehnerglueck.de/alpakagl%C3%BCck/", "https://www.hohenwart.de/hotel/urlaub/"],
+  "price": ["ab 1,09€", "ab 20 €", "ab 90 €"],
+  "priceRange": ["0-10€", "10-50€", "50-100€"],
+  "pictures": ["https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing", "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing", "https://drive.google.com/drive/folders/1eYhf9_EJgh-zbjDmzD8_AR_W4Y2DUmWF?usp=sharing"]
 }, {
   "id": "BB_01",
   "city": "Baden-Baden",

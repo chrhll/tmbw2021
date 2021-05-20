@@ -13,6 +13,13 @@ export default function OverviewResults(props) {
   //   returnTo = urlParams.get('returnTo')
   // }
 
+  let formattedIntro;
+  if (props.offer.intro && typeof props.offer.intro === 'string') {
+    formattedIntro = props.offer.intro.split('\n').map(e => <p>{e}</p>)
+  } else if (props.offer.intro && Array.isArray(props.offer.intro)) {
+    formattedIntro = props.offer.intro.map(e => <p>{e}</p>)
+  }
+
   return (
     <Link to={`/angebot/${props.offer.id}?returnTo=${returnTo}`}
       className="tmbw-overview-result"
@@ -33,7 +40,7 @@ export default function OverviewResults(props) {
         </div>
 
         <div className="tmbw-overview-result-body">
-          {props.offer.intro}
+          {formattedIntro}
         </div>
       </div>
     </Link>

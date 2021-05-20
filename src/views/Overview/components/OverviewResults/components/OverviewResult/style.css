@@ -74,6 +74,10 @@
   color: #231F1D;
 }
 
+.tmbw-overview-result-body p {
+  margin: 0;
+}
+
 /* Large devices (desktops, 1200px and up) */
 /* default */
 
