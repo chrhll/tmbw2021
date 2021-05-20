@@ -5,8 +5,14 @@ import { ArrowLeft, Grid } from 'react-feather';
 import './style.css';
 
 export default function OfferHero(props) {
-  let backgroundUrl = 'http://placeimg.com/1600/900/nature'
-  if (props.offer.pictures.length) backgroundUrl = props.offer.pictures[0]
+  let backgroundUrl;
+  if (props.offer.pictures) {
+    if (Array.isArray(props.offer.pictures) && props.offer.pictures.length) {
+      backgroundUrl = props.offer.pictures[0]
+    } else if (typeof props.offer.pictures === 'string' && props.offer.pictures.length) {
+      backgroundUrl = props.offer.pictures
+    }
+  }
 
   const urlParams = new URLSearchParams(window.location.search);
 

@@ -4,7 +4,13 @@ import './style.css';
 
 export default function OverviewResults(props) {
   let backgroundUrl;
-  if (props.offer.pictures.length) backgroundUrl = props.offer.pictures[0]
+  if (props.offer.pictures) {
+    if (Array.isArray(props.offer.pictures) && props.offer.pictures.length) {
+      backgroundUrl = props.offer.pictures[0]
+    } else if (typeof props.offer.pictures === 'string' && props.offer.pictures.length) {
+      backgroundUrl = props.offer.pictures
+    }
+  }
 
   // const urlParams = new URLSearchParams(window.location.search);
 

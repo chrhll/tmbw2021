@@ -91,12 +91,19 @@ export default function OfferInfo(props) {
   }
 
   let imageGallery;
-  if (props.offer.pictures.length > 4) {
+  let pictures;
+  if (Array.isArray(props.offer.pictures)) {
+    pictures = props.offer.pictures
+  } else if (typeof props.offer.pictures) {
+    pictures = [props.offer.pictures]
+  }
+
+  if (pictures.length > 4) {
     imageGallery = (
       <div className="tmbw-offer-info-gallery">
         <div
           className="tmbw-offer-info-gallery-i1"
-          style={{ backgroundImage: `url(${props.offer.pictures[1]})` }}
+          style={{ backgroundImage: `url(${pictures[1]})` }}
           onClick={() => setShowLightboxWithIndex(1)}
           >
         </div>
@@ -104,37 +111,37 @@ export default function OfferInfo(props) {
         <div className="tmbw-offer-info-gallery-i234">
           <div
             className="tmbw-offer-info-gallery-i2"
-            style={{ backgroundImage: `url(${props.offer.pictures[2]})` }}
+            style={{ backgroundImage: `url(${pictures[2]})` }}
             onClick={() => setShowLightboxWithIndex(2)}
             >
           </div>
           <div
             className="tmbw-offer-info-gallery-i3"
-            style={{ backgroundImage: `url(${props.offer.pictures[3]})` }}
+            style={{ backgroundImage: `url(${pictures[3]})` }}
             onClick={() => setShowLightboxWithIndex(3)}
             >
           </div>
           <div
             className="tmbw-offer-info-gallery-i4"
-            style={{ backgroundImage: `url(${props.offer.pictures[4]})` }}
+            style={{ backgroundImage: `url(${pictures[4]})` }}
             onClick={() => setShowLightboxWithIndex(4)}
             >
           </div>
 
           <div className="tmbw-offer-info-gallery-badge" onClick={() => setShowLightboxWithIndex(0)}>
-            <Maximize size={14} /> {props.offer.pictures.length} Bilder
+            <Maximize size={14} /> {pictures.length} Bilder
           </div>
 
           {lightbox}
         </div>
       </div>
     )
-  } else if (props.offer.pictures.length > 3) {
+  } else if (pictures.length > 3) {
     imageGallery = (
       <div className="tmbw-offer-info-gallery">
         <div
           className="tmbw-offer-info-gallery-i1"
-          style={{ backgroundImage: `url(${props.offer.pictures[1]})` }}
+          style={{ backgroundImage: `url(${pictures[1]})` }}
            onClick={() => setShowLightboxWithIndex(1)}
           >
         </div>
@@ -142,13 +149,13 @@ export default function OfferInfo(props) {
         <div className="tmbw-offer-info-gallery-i234 tmbw-offer-info-gallery-i234c">
           <div
             className="tmbw-offer-info-gallery-i4 tmbw-offer-info-gallery-i4"
-            style={{ backgroundImage: `url(${props.offer.pictures[2]})` }}
+            style={{ backgroundImage: `url(${pictures[2]})` }}
             onClick={() => setShowLightboxWithIndex(2)}
             >
           </div>
           <div
             className="tmbw-offer-info-gallery-i4 tmbw-offer-info-gallery-i4"
-            style={{ backgroundImage: `url(${props.offer.pictures[3]})` }}
+            style={{ backgroundImage: `url(${pictures[3]})` }}
             onClick={() => setShowLightboxWithIndex(3)}
             >
           </div>
@@ -157,12 +164,12 @@ export default function OfferInfo(props) {
         </div>
       </div>
     )
-  } else if (props.offer.pictures.length > 2) {
+  } else if (pictures.length > 2) {
     imageGallery = (
       <div className="tmbw-offer-info-gallery">
         <div
           className="tmbw-offer-info-gallery-i1"
-          style={{ backgroundImage: `url(${props.offer.pictures[1]})` }}
+          style={{ backgroundImage: `url(${pictures[1]})` }}
            onClick={() => setShowLightboxWithIndex(1)}
           >
         </div>
@@ -170,7 +177,7 @@ export default function OfferInfo(props) {
         <div className="tmbw-offer-info-gallery-i234 tmbw-offer-info-gallery-i234c">
           <div
             className="tmbw-offer-info-gallery-i4 tmbw-offer-info-gallery-i5"
-            style={{ backgroundImage: `url(${props.offer.pictures[2]})` }}
+            style={{ backgroundImage: `url(${pictures[2]})` }}
             onClick={() => setShowLightboxWithIndex(2)}
             >
           </div>
@@ -179,12 +186,12 @@ export default function OfferInfo(props) {
         </div>
       </div>
     )
-  } else if (props.offer.pictures.length > 1) {
+  } else if (pictures.length > 1) {
     imageGallery = (
       <div className="tmbw-offer-info-gallery">
         <div
           className="tmbw-offer-info-gallery-i1 tmbw-offer-info-gallery-i1-full"
-          style={{ backgroundImage: `url(${props.offer.pictures[1]})` }}
+          style={{ backgroundImage: `url(${pictures[1]})` }}
           onClick={() => setShowLightboxWithIndex(1)}
           >
 
