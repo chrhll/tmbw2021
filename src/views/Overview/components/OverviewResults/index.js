@@ -6,7 +6,7 @@ import offers from '../../../../helpers/offers';
 
 export default function OverviewResults(props) {
   let selectedOffers = [];
-  offers.forEach((o, i) => {
+  offers.sort(() => Math.random() - 0.5).forEach((o, i) => {
     const noCityMatch = props.selectedCity && props.selectedCity !== o.city
     const noPriceMatch = props.selectedPrice && props.selectedPrice !== o.priceRange
     const noTypeMatch = props.selectedOffer && !o.type.includes(props.selectedOffer)
