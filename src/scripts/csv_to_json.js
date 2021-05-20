@@ -15,7 +15,7 @@ Papa.parse(file, {
 
       if (line.id !== '' && line.title !== '') {
         offers.push(line)
-      } else {
+      } else if (line.id === '') {
         let updatedOffer = offers.pop()
 
         for (let attr of Object.keys(line)) {
