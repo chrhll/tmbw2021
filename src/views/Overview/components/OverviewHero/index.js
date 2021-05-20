@@ -6,7 +6,9 @@ import './style.css';
 
 import { ChevronRight } from 'react-feather';
 
-import Slider from "react-slick";
+import Slider from 'react-slick';
+
+import offers from '../../../../helpers/offers';
 
 const offerOptions = [
   { value: 'Stadtführung', label: 'Stadtführung' },
@@ -18,6 +20,13 @@ const offerOptions = [
 ]
 
 export default function OverviewHero(props) {
+
+  let cherryPickedCovers = []
+  offers.sort(() => Math.random() - 0.5).forEach(offer => {
+    if (Array.isArray(offer.pictures) && cherryPickedCovers.length <= 2) {
+      cherryPickedCovers.push(offer.pictures[0])
+    }
+  })
 
   const customStyles = {
     option: (provided, state) => ({
@@ -84,9 +93,9 @@ export default function OverviewHero(props) {
       <div className="tmbw-overview-hero-inner">
         <div className="tmbw-overview-hero-slider">
           <Slider {...slickSettings} ref={slider}>
-            <div className="tmbw-overview-hero-slide"></div>
-            <div className="tmbw-overview-hero-slide"></div>
-            <div className="tmbw-overview-hero-slide"></div>
+            <img className="tmbw-overview-hero-slide" src={cherryPickedCovers[0]} alt="hero #1" />
+            <img className="tmbw-overview-hero-slide" src={cherryPickedCovers[1]} alt="hero #2" />
+            <img className="tmbw-overview-hero-slide" src={cherryPickedCovers[2]} alt="hero #3" />
           </Slider>
         </div>
 

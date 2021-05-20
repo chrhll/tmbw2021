@@ -96,10 +96,16 @@
   height: 650px;
   width: 77vw !important;
   margin-right: 1vw;
-  background: url('http://placeimg.com/1600/900/nature');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#root .App .slick-slide > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #root .App .slick-dots {
@@ -116,7 +122,11 @@
   left: 12px;
 }
 
-.tmbw-overview-hero-slide {}
+#root .App .tmbw-overview-hero-slide {
+  background-color: #f7f7f7;
+  width: 100%;
+  height: auto;
+}
 
 .tmbw-hero-slider-arrow {
   background: white;
