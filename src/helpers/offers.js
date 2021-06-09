@@ -62,12 +62,12 @@ const offers = [{
   "title": "NahTour - Mannheims Natur entdecken",
   "intro": "Entdecken Sie die grünen Oasen der Stadt und entspannen Sie bei einem Picknick",
   "description": "Rhein und Neckar, die großen Mannheimer Stadtparks und kleinere Grünflächen sowie Naturschutzgebiete und Wälder sind optimale Orte zum Ausspannen, für Spaziergänge oder für ein lauschiges Picknick. Der Herzogenriedpark ist eine grüne Oase im Stadtteil Neckarstadt-Ost, in der Sie es sich am Wasser und auf Wiesen gutgehen lassen können. Wohltuende Entspannung für Körper und Geist bietet die Kneipp-Anlage im Bambusgarten, das Rosarium mit über 100.000 Rosen lässt die Sinne erwachen.Mit einem liebevoll gepackten Picknickkorb von „Die Metzgerei“ können Sie bei einem Picknick am Rhein entspannt die vorbeifahrenden Schiffe beobachten.",
-  "amenities": ["1 x Eintritt in den Herzogenriedpark", "1 x 1 Picknickkorb (Abholung in „Die Metzgerei“)", "1 x Gutscheinbuch pro Buchung mit vielen Vergünstigungen für Freizeitaktivitäten, Gastronomie, etc. im Wert von € 8,- (Abholung in der Tourist Information)", "10 % Rabatt auf alle Souvenirs der Tourist Information Mannheim"],
+  "amenities": ["1 x Eintritt in den Herzogenriedpark", "1 x 1 Picknickkorb (Abholung in „Die Metzgerei“)", "1 x Gutscheinbuch pro Buchung", "10 % Rabatt auf alle Souvenirs der Tourist Information Mannheim"],
   "more": "",
-  "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/nahtour-buchen2",
+  "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/nahtour-buchen2?utm_source=tmbw&utm_medium=ad&utm_campaign=sommer2021",
   "price": "Preis pro Erwachsener mit Wellness-Korb: 37 Euro bei 2 Erwachsenen, 29 Euro bei 3 Erwachsenen ",
   "priceRange": "10-50€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514623/tmbw/MA/MA_01/MA_01_009_klyb8u.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514622/tmbw/MA/MA_01/MA_01_01_zeawjo.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514622/tmbw/MA/MA_01/MA_01_02_ovgdc0.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514622/tmbw/MA/MA_01/MA_01_03_ytkxk8.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514622/tmbw/MA/MA_01/MA_01_04_bf7p6c.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514622/tmbw/MA/MA_01/MA_01_05_rvs7re.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514622/tmbw/MA/MA_01/MA_01_06_z2ghch.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514622/tmbw/MA/MA_01/MA_01_07_pogazr.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514622/tmbw/MA/MA_01/MA_01_08_o2qwaf.jpg"]
+  "pictures": ["", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_01_emxnmd.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_02_kymrz3.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_03_le2ya1.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_04_vuveig.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242072/tmbw/MA/MA_01/MA_01_05_bkfgze.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_06_xfhmmi.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242072/tmbw/MA/MA_01/MA_01_07_sxnupv.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_08_ylzvnk.jpg"]
 }, {
   "id": "MA_02",
   "city": "Mannheim",
@@ -76,12 +76,12 @@ const offers = [{
   "title": "KulTour - Kreativität²",
   "intro": "Mannheim beeindruckt mit einem bunten Angebot an kulturellen Aktivitäten und Einrichtungen",
   "description": "Die Reiss-Engelhorn-Museen (rem) bilden im Herzen der Mannheimer Innenstadt ein eigenes Museumsviertel, in dem Sie spannende Kulturgeschichte erleben können. In der Ausstellung „Ägypten – Land der Unsterblichkeit“ entdecken Sie das faszinierende Reich der Pharaonen mitten in Mannheim. Mit dem im Paket enthaltenen Audioguide erfahren Sie Spannendes über das Alltagsleben im alten Ägypten, die Stellung des Pharaos und seines Beamtenstaates, den aufwändigen Totenkult und die weitverzweigte Götterwelt. Kinder können mit den Rätsel- und Entdeckerheften eigenständig interessante Themen und Objekte aus den Ausstellungen entdecken (kostenfrei zum Download oder an der Museumskasse).\nFür Geschichtsinteressierte führt kein Weg am Schloss Mannheim vorbei, dem größten Barockschloss Europas nach Versailles. In den aufwendig restaurierten Prunkräumen begeben Sie sich auf eine Zeitreise ins kurfürstliche Mannheim. \nDen kreativen Herzschlag der Stadt erleben Sie bei einer individuellen Stadtführung durch die einzigartige Open Urban Art Gallery Mannheims - STADT.WAND.KUNST. Vielleicht haben Sie ja auch Glück und können bei der Entstehung eines neuen Murals live dabei sein! Denn jeden Sommer lädt STADT.WAND.KUNST unterschiedliche Streetart-KünstlerInnen nach Mannheim ein: Egal ob nationale Newcomer, internationale Stars oder regionale NachwuchskünstlerInnen – auch in diesem Jahr werden sie wieder Mannheims Wände in großartige Kunstwerke verwandeln.\nBei Buchung unseres Paketes haben Sie für sich, Ihre Familie oder Freunde eine*n eigene*n Gästeführer*in und können Tag und Uhrzeit frei wählen.",
-  "amenities": ["1 x Individuelle Stadtführung „STADT.WAND.KUNST – Quadrate“, Dauer: ca. 1,5 Stunden", "1 x Eintritt in die Reiss-Engelhorn-Museen (rem) mit Audio-Guide (Hausticket Museum Weltkulturen D5)", "1 x Eintritt in das Schloss Mannheim", "1 x Gutscheinbuch pro Buchung mit vielen Vergünstigungen für Freizeitaktivitäten, Gastronomie, etc. im Wert von € 8,- (Abholung in der Tourist Information)", "10 % Rabatt auf alle Souvenirs der Tourist Information Mannheim"],
+  "amenities": ["1 x Individuelle Stadtführung „STADT.WAND.KUNST – Quadrate“, Dauer: ca. 1,5 Stunden", "1 x Eintritt Museum Weltkulturen D5 (rem) mit Audio-Guide", "1 x Eintritt in das Schloss Mannheim", "1 x Gutscheinbuch pro Buchung", "10 % Rabatt auf alle Artikel des Museumsshop der"],
   "more": "",
-  "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/kultour-buchen",
+  "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/kultour-buchen?utm_source=tmbw&utm_medium=ad&utm_campaign=sommer2021",
   "price": "Preis pro Erwachsener: 64 Euro\nPreis pro Kind (6-14 Jahre): 5 Euro",
   "priceRange": "50-100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514631/tmbw/MA/MA_02/MA_02_01_ogcqug.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514632/tmbw/MA/MA_02/MA_02_02_wfi8tx.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514631/tmbw/MA/MA_02/MA_02_03_qa0y18.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514632/tmbw/MA/MA_02/MA_02_04_vfycgu.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514631/tmbw/MA/MA_02/MA_02_05_zdbuin.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514631/tmbw/MA/MA_02/MA_02_06_b8mlsl.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514632/tmbw/MA/MA_02/MA_02_07_fayefd.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514633/tmbw/MA/MA_02/MA_02_08_pq8sq9.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514632/tmbw/MA/MA_02/MA_02_09_rokf6y.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514633/tmbw/MA/MA_02/MA_02_10_y2cql2.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514633/tmbw/MA/MA_02/MA_02_11_f5qyol.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514631/tmbw/MA/MA_02/MA_02_01_ogcqug.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_02_khtynj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_03_xhnd5b.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514632/tmbw/MA/MA_02/MA_02_04_vfycgu.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242101/tmbw/MA/MA_02/MA_02_04_qkzaqu.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_06_xsdusf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242103/tmbw/MA/MA_02/MA_02_07_bqysju.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242104/tmbw/MA/MA_02/MA_02_08_mliirz.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242105/tmbw/MA/MA_02/MA_02_09_o2zzrw.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242104/tmbw/MA/MA_02/MA_02_10_ezayjg.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242106/tmbw/MA/MA_02/MA_02_11_gblzzs.jpg"]
 }, {
   "id": "MA_03",
   "city": "Mannheim",
@@ -95,7 +95,7 @@ const offers = [{
   "link": "https://hotel-mannheim.dorint.com/de/arrangements/happy-weekend/",
   "price": "ab 145 € p.P.",
   "priceRange": ">100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514642/tmbw/MA/MA_03/MA_03_01_vccn1t.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514642/tmbw/MA/MA_03/MA_03_02_uxnog2.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514642/tmbw/MA/MA_03/MA_03_03_jyjnsj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514642/tmbw/MA/MA_03/MA_03_04_lc4o3x.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514642/tmbw/MA/MA_03/MA_03_05_geyisg.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514642/tmbw/MA/MA_03/MA_03_06_qpcbvj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514643/tmbw/MA/MA_03/MA_03_07_v8v1md.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514643/tmbw/MA/MA_03/MA_03_08_pbo0et.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514643/tmbw/MA/MA_03/MA_03_09_n8jj11.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623242305/tmbw/MA/MA_03/MA_03_01_k3iblg.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242305/tmbw/MA/MA_03/MA_03_02_zi643i.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242305/tmbw/MA/MA_03/MA_03_03_vquoxa.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242305/tmbw/MA/MA_03/MA_03_04_wufpab.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242305/tmbw/MA/MA_03/MA_03_05_xtb61x.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242303/tmbw/MA/MA_03/MA_03_06_oeijxm.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242304/tmbw/MA/MA_03/MA_03_07_zdla67.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242305/tmbw/MA/MA_03/MA_03_08_di2cbk.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514643/tmbw/MA/MA_03/MA_03_09_n8jj11.jpg"]
 }, {
   "id": "MA_04",
   "city": "Mannheim",
@@ -103,13 +103,13 @@ const offers = [{
   "people": ["Zu zweit", "Einzeln", "Gruppe"],
   "title": "Mannheim und UNESCO Creative Cities ",
   "intro": "Entdecken Sie das UNESCO-Kulturtrio mit Mannheim, Karlsruhe und Heidelberg",
-  "description": "Ob Merton oder Mozart: Mannheim bietet eine musikalische Vielfalt, wie sie sonst nur in den großen Metropolen der Welt zu finden ist. Zahlreiche musikalische Einflüsse begegnen sich hier und prägen eine einzigartige Musikszene. Ob Techno, Jazz, Pop oder Indie – Musik ist in Mannheim vielseitig, international geprägt und bietet Highlights für jeden Geschmack. Festivals wie Enjoy Jazz, Time Warp oder Maifeld Derby und international bekannte Stars, die hier regelmäßig zu Gast sind, locken Menschen aus ganz Europa nach Mannheim. Mit der einzigartigen Popakademie und einer innovativen Musikwirtschaft avancierte die Stadt zur „UNESCO City of Music“ – weltweit gibt es nur wenige Städte,die diesen Titel tragen.",
-  "amenities": ["3 Übernachtungen im Einzel- oder Doppelzimmer inkl. Frühstück\n", "2x Stadtführung, eine in Heidelberg und eine in Mannheim ", "1 x Heidelberg Karte Besichtigung des ZKM / Zentrum für Kunst und Medien in Karlsruhe"],
+  "description": "Ob Merton oder Mozart: Mannheim bietet eine musikalische Vielfalt, wie sie sonst nur in den großen Metropolen der Welt zu finden ist. Zahlreiche musikalische Einflüsse begegnen sich hier und prägen eine einzigartige Musikszene. Ob Techno, Jazz, Pop oder Indie – Musik ist in Mannheim vielseitig, international geprägt und bietet Highlights für jeden Geschmack. Festivals wie Enjoy Jazz, Time Warp oder Maifeld Derby und international bekannte Stars, die hier regelmäßig zu Gast sind, locken Menschen aus ganz Europa nach Mannheim. Mit der einzigartigen Popakademie und einer innovativen Musikwirtschaft avancierte die Stadt zur „UNESCO City of Music“ – weltweit gibt es nur wenige Städte,die diesen Titel tragen. Erleben Sie Musik auf eine andere Art im Hotel Staytion. Jede der 6 Etagen ist einer anderen Band oder Musikrichtung gewidmet und die Zimmer sind mit zahlreichen Bildern und Musik ausgestattet. Bei der Stadtführung tauchen Sie tiefer ein in die bunte Musikszene Mannheims.\n",
+  "amenities": ["3 Übernachtungen im Einzel- oder Doppelzimmer inkl. Frühstück\n", "2x Stadtführung, eine in Heidelberg und eine in Mannheim ", "1 x Heidelberg Karte ", "Besichtigung des ZKM / Zentrum für Kunst und Medien in Karlsruhe"],
   "more": "",
   "link": "https://www.karlsruhe-erleben.de/karlsruhe/offer/detail/FIT00020070733670846",
-  "price": "350 € pro Einheit",
+  "price": "360 € für drei Übernachtungen und Nebenleistungen",
   "priceRange": ">100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514651/tmbw/MA/MA_04/MA_04_01_kf2s6a.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514651/tmbw/MA/MA_04/MA_04_02_t0d8vs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514652/tmbw/MA/MA_04/MA_04_03_ypyhiz.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514652/tmbw/MA/MA_04/MA_04_04_gq4lkb.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623242436/tmbw/MA/MA_04/MA_04_01_kq8j6a.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242437/tmbw/MA/MA_04/MA_04_02_pt87ut.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242438/tmbw/MA/MA_04/MA_04_03_elb2ne.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242437/tmbw/MA/MA_04/MA_04_04_wvoftt.jpg"]
 }, {
   "id": "S_01",
   "city": "Stuttgart",
@@ -131,13 +131,13 @@ const offers = [{
   "people": ["Zu zweit", "Einzeln", "Gruppe", "Familie"],
   "title": "Weinprobe im Weinbaumuseum",
   "intro": "Genussvoll ins Wochenende starten",
-  "description": "Starte doch mal relaxter ins Wochenende: Mit einer genussvollen Freitagsweinprobe in der Vinothek des Weinbaumuseums Stuttgart. Ein Experte macht dich mit drei exzellenten Stuttgarter Weinen bekannt und vermittelt dir nebenbei hochinteressante Details über den Weinbau im mittleren Neckarraum. Ein Vergnügen, bei dem du anschließend mit deinem Weinkenntnissen punkten kannst.",
+  "description": "Starte doch mal relaxter ins Wochenende: Mit einer genussvollen Freitagsweinprobe in der Vinothek des Weinbaumuseums Stuttgart. Ein Experte macht dich mit drei exzellenten Stuttgarter Weinen bekannt und vermittelt dir nebenbei hochinteressante Details über den Weinbau im mittleren Neckarraum. Ein Vergnügen, bei dem du anschließend mit deinen Weinkenntnissen punkten kannst.",
   "amenities": "3er Weinprobe von ausgewählten Weinen und kleinem Snackteller",
   "more": "",
   "link": "https://www.stuttgart-tourist.de/e-freitagsweinprobe-werden-sie-zum-weinkenner#2021-05-07",
   "price": "19,50€",
   "priceRange": "10-50€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_01_hxvyqs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514757/tmbw/S/S_02/S_02_02_pr7bxi.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_03_ssivub.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_04_u8xrcs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_05_tadrbf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_06_vp0im9.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_07_awsat1.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514757/tmbw/S/S_02/S_02_08_giyezu.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_01_hxvyqs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514757/tmbw/S/S_02/S_02_02_pr7bxi.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_03_ssivub.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_04_u8xrcs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623244441/tmbw/S/S_02/S_02_05_yo0mfl.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_06_vp0im9.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_07_awsat1.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514757/tmbw/S/S_02/S_02_08_giyezu.jpg"]
 }, {
   "id": "U_01",
   "city": "Ulm",
@@ -211,7 +211,7 @@ const offers = [{
 }, {
   "id": "F_02",
   "city": "Freiburg",
-  "type": ["Übernachtung", "Kulinarik", "Stadtführung"],
+  "type": ["Tageserlebnis", "Kulinarik", "Stadtführung"],
   "people": ["Einzeln", "Zu zweit"],
   "title": "Freiburgs Hausberg Schauinsland entdecken",
   "intro": "Bergbüffet, Wanderführer, Bauernhofmuseum und gehobene Küche",
@@ -230,12 +230,12 @@ const offers = [{
   "title": "Freiburger Gipfelglück – Wellness inklusive",
   "intro": "2-Tages-Angebot: Aktiv entschleunigen",
   "description": "Aktiv entschleunigen in der Schwarzwald-Hauptstadt heißt es bei einer aussichtsreichen Rundwanderung auf Freiburgs Hausberg, dem Schauinsland. Das Erlebnis beginnt bereits bei der Bergfahrt mit Deutschlands ältester Umlaufseilbahn. Und Entspannung verspricht im Anschluss ein Bad in Freiburgs in Freiburgs Keidel-Therme.",
-  "amenities": ["2 Übernachtungen im DZ inkl. Frühstück", "Lunchpaket", "Welcome-Ticket inkl. Schauinslandbahn", "Wandervorschlag auf dem Hausberg Schauinsland mit Tipps für Sehenswürdigkeiten und Wanderkarte Schauinsland", "Audio-Lausch-Tour Schauinsland", "1 Eintritt in die Thermen des Keidel Bads"],
+  "amenities": ["2 Übernachtungen im DZ inkl. Frühstück im 4*-Dorint Thermenhotel Freiburg", "Lunchpaket", "Welcome-Ticket (3-Tage-Regio-Ticket ÖPNV inkl. Schauinslandbahn)", "Wandervorschlag auf dem Hausberg Schauinsland mit Tipps für Sehenswürdigkeiten und Wanderkarte Schauinsland", "Audio-Lausch-Tour Schauinsland", "1 Eintritt in die Thermen des Keidel Bads"],
   "more": "https://hotel-freiburg.dorint.com/de/arrangements/freiburger-gipfel-glueck/?etcc_cmp=Freiburg&etcc_med=Gipfel-Glueck-Arrangement-TMBW&etcc_par=HON-Service&etcc_ctv=Webseite&et_cmp_seg4=DE",
   "link": "https://be.synxis.com/?&chain=22066&config=Dorint&level=chain&locale=de-DE&theme=Dorint&brand=Dorint&src=FRI-Package&promo=Package-TMBW&rate=PF&hotel=77509&adult=2&nights=2",
   "price": "252,00 € / p.P.",
   "priceRange": ">100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_01_zkpxps.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_02_mp740o.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_01_zkpxps.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_02_mp740o.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623243467/tmbw/F/F_03/F_03_03_uwegk2.jpg"]
 }, {
   "id": "F_04",
   "city": "Freiburg",
@@ -244,12 +244,12 @@ const offers = [{
   "title": "Bike-Zeit in Freiburg – Wellness inklusive",
   "intro": "2-Tages-Angebot: Lieblingsplätze mit dem E-Bike entdecken",
   "description": "Erkunden Sie die Schwarzwald-Hauptstadt Freiburg per E-Bike oder Mountain-Bike. Ob relaxtes Radeln entlang dem Dreisamufer, Entdeckung der Altstadt und moderner Green-City-Architektur oder Genuss-Tour durch Freiburgs Weinberge: In kaum einer anderen Stadt treffen Sie auf so viel Wohlfühl-Lifestyle und Lässigkeit, verbunden mit sportlicher Freizeitaktivität. Und die Beine erholen sich ganz rasch wieder in den heißen Quellen von Freiburgs Keidel-Therme.",
-  "amenities": ["2 Übernachtungen im DZ inkl. Frühstück", "Lunchpaket", "Radtouren-Vorschlag Dreisamradweg / Tuniberg Höhenweg", "Radkarte für Ihre Tour", "1 Eintritt in die Thermen des Keidel Bads", "1 Tag E-Bike- oder Mountain-Bike-Verleih"],
+  "amenities": ["2 Übernachtungen im DZ inkl. Frühstück im 4*-Dorint Thermenhotel Freiburg", "Lunchpaket", "Radtouren-Vorschlag Dreisamradweg / Tuniberg Höhenweg", "Radkarte für Ihre Tour", "1 Eintritt in die Thermen des Keidel Bads", "1 Tag E-Bike- oder Mountain-Bike-Verleih"],
   "more": "https://hotel-freiburg.dorint.com/de/arrangements/e-bike-zeit-in-freiburg/?etcc_cmp=Freiburg&etcc_med=E-Bike-Arrangement-TMBW&etcc_par=HON-Service&etcc_ctv=Webseite&et_cmp_seg4=DE",
   "link": "https://be.synxis.com/?&chain=22066&config=Dorint&level=chain&locale=de-DE&theme=Dorint&brand=Dorint&src=FRI-Package&promo=Package-TMBW&rate=PE&hotel=77509&adult=2&nights=2",
   "price": "251,00 € / p.P.",
   "priceRange": ">100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514373/tmbw/F/F_04/F_04_01_dympel.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514373/tmbw/F/F_04/F_04_02_fv4fkx.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514373/tmbw/F/F_04/F_04_01_dympel.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514373/tmbw/F/F_04/F_04_02_fv4fkx.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623244351/tmbw/F/F_04/F_04_03_bg1v4l.jpg"]
 }, {
   "id": "HD_01",
   "city": "Heidelberg",
@@ -274,7 +274,7 @@ const offers = [{
   "description": "Ein Sonnenbad auf der Neckarwiese genießen oder bei lauen Abendtemperaturen die romantische Altstadt erkunden. In der warmen Jahreszeit blüht das Leben in Heidelbergs verwinkelten Gassen: Die vielen gemütlichen Cafés und Kneipen bieten Plätze an der Sommerluft und mitten im emsigen Treiben unserer Stadt. Eine Vielzahl kultureller Highlights machen den Sommer in Heidelberg zum unvergesslichen Erlebnis. Und weil die Sonne bei uns so viel schöner scheint, geht bei diesem Arrangement die dritte Übernachtung auf unsere Kosten.",
   "amenities": ["1, 2 oder 3 Übernachtungen mit Frühstück im Einzel- oder Doppelzimmer in einem Hotel der Kategorie Komfort oder First Class", "HeidelbergCARD für die Dauer des Aufenthaltes", "Teilnahme am öffentlichen Altstadtrundgang (1,5 Std.)", "Ticket für die Fahrt mit dem Solarschiff „Neckarsonne“"],
   "more": "",
-  "link": "https://www.heidelberg-marketing.de/suchen-buchen/pauschalreisen/sommerspezial.html",
+  "link": ["https://www.heidelberg-marketing.de/suchen-buchen/pauschalreisen/sommerspezial.html", " "],
   "price": "Kategorie Komfort: 180 € p.P. im Doppelzimmer/   240 € p.P. im Einzelzimmer, Kategorie First Class WoEnde:                 205 € p.P. im Doeppelzimmer/ 310 € p.P. im Einzelzimmer",
   "priceRange": ">100€",
   "pictures": "https://res.cloudinary.com/viewyork-media/image/upload/v1621514434/tmbw/HD/HD_02/HD_02_01_sgplud.jpg"
@@ -283,14 +283,14 @@ const offers = [{
   "city": "Heidelberg",
   "type": ["Tageserlebnis", "Stadtführung"],
   "people": ["Einzeln", "Zu zweit", "Gruppe", "Familie"],
-  "title": "Die Seele baumeln lassen",
-  "intro": "Mit dem Schiff durch Heidelberg",
-  "description": "Die Weisse Flotte Heidelberg beitet von April bis Oktober Schifffahrten durch das reizvolle Neckartal. Lasst euch über den Neckar \"schippern\" und genießt dabei den wundervollen Blick auf Heidelberg und das romantische Neckartal.",
-  "amenities": "",
+  "title": "Heidelberg und UNESCO Creative Cities\n\n",
+  "intro": "Heidelberg – literarische Vielfalt und Produktivität",
+  "description": "Heidelberg, Mannheim und Karlsruhe – ein „UNESCO-Dreieck“, das mit einem außergewöhnlichen Kulturerlebnis punkten kann! Denn alle drei Städte im Südwesten sind als Teil des UNESCO-Netzwerks gewählt worden. Erleben Sie also Heidelberg als Stadt der Literatur, Mannheim als Stadt der Musik und Karlsruhe als Stadt der Medienkunst – die UNESCO Creative Cities freuen sich schon auf Ihren Besuch!\n\nLiteratur ist in Heidelberg allgegenwärtig. Beim Spaziergang durch die Stadt findet man an jeder Ecke Buchhandlungen, Antiquariate, Verlage und Bibliotheken. Es vergeht kaum ein Tag ohne literarische Veranstaltung, kein Sommer ohne das Literaturfestival Heidelberger Literaturtage, kein Jahr ohne literarische Preisträger.",
+  "amenities": ["3 Übernachtungen im Einzel- oder Doppelzimmer, inklusive Frühstück", "HDCard für 2 Tage", "2 Stadtführungen (jeweils eine in Mannheim und eine in Heidelberg)"],
   "more": "",
-  "link": "https://www.heidelberg-marketing.de/suchen-buchen/pauschalreisen/sommerspezial.html",
-  "price": "Rundfahrt Heidelberg - Neckarsteinach - Heidelberg: 18 € p.P.",
-  "priceRange": "10-50€",
+  "link": "https://www.karlsruhe-erleben.de/karlsruhe/offer/detail/FIT00020070733670846",
+  "price": "350,00 € pro Person im Doppelzimmer",
+  "priceRange": ">100€",
   "pictures": "https://res.cloudinary.com/viewyork-media/image/upload/v1621514446/tmbw/HD/HD_03/HD_03_01_c7qxzo.jpg"
 }, {
   "id": "HD_04",
