@@ -62,7 +62,7 @@ export default function Overview(props) {
     if (additionalURL) {
       tempArray = additionalURL.split("&")
       for (let i = 0; i < tempArray.length; i++) {
-        if (tempArray[i].split('=')[0] != param) {
+        if (tempArray[i].split('=')[0] !== param) {
           newAdditionalURL += temp + tempArray[i]
           temp = "&"
         }
