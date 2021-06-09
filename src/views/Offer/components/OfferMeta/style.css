@@ -138,6 +138,11 @@
 .tmbw-sharing-widget-icons svg {
   height: 24px;
   width: auto;
+  transition: all 300ms ease;
+}
+
+.tmbw-sharing-widget-icons svg:hover {
+  color: #FDC300;
 }
 
 .tmbw-sharing-widget-actions {
@@ -164,6 +169,7 @@
   border-bottom-right-radius: 3px;
   font-size: 14px;
   cursor: pointer;
+  transition: all 300ms ease;
 }
 
 .tmbw-sharing-widget-link-button--success {
