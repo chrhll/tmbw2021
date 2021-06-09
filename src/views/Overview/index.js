@@ -52,6 +52,64 @@ export default function Overview(props) {
     }
   }, [props.preSelectedCity, props.preSelectedPrice, props.preSelectedOffer, props.preSelectedPeople, cityInit, priceInit, offerInit, peopleInit])
 
+  // http://stackoverflow.com/a/10997390/11236
+  function updateURLParameter(url, param, paramVal){
+    let newAdditionalURL = ""
+    let tempArray = url.split("?")
+    let baseURL = tempArray[0]
+    let additionalURL = tempArray[1]
+    let temp = ""
+    if (additionalURL) {
+      tempArray = additionalURL.split("&")
+      for (let i = 0; i < tempArray.length; i++) {
+        if (tempArray[i].split('=')[0] != param) {
+          newAdditionalURL += temp + tempArray[i]
+          temp = "&"
+        }
+      }
+    }
+
+    let rows_txt;
+    if (paramVal) {
+      rows_txt = temp + "" + param + "=" + paramVal
+    } else {
+      rows_txt = temp
+    }
+    return baseURL + "?" + newAdditionalURL + rows_txt
+  }
+
+  function updateCity(c) {
+    window.history.replaceState(
+      '', '', updateURLParameter(window.location.href, 'tmbw-city', c)
+    )
+
+    setCity(c)
+  }
+
+  function updatePrice(p) {
+    window.history.replaceState(
+      '', '', updateURLParameter(window.location.href, 'tmbw-price', p)
+    )
+
+    setPrice(p)
+  }
+
+  function updateOffer(o) {
+    window.history.replaceState(
+      '', '', updateURLParameter(window.location.href, 'tmbw-offer', o)
+    )
+
+    setOffer(o)
+  }
+
+  function updatePeople(p) {
+    window.history.replaceState(
+      '', '', updateURLParameter(window.location.href, 'tmbw-people', p)
+    )
+
+    setPeople(p)
+  }
+
   return (
     <div className="tmbw-overview">
       <OverviewHero
@@ -60,10 +118,10 @@ export default function Overview(props) {
         />
 
       <OverviewFilters
-        selectCity={c => setCity(c)}
-        selectPrice={p => setPrice(p)}
-        selectOffer={o => setOffer(o)}
-        selectPeople={p => setPeople(p)}
+        selectCity={c => updateCity(c)}
+        selectPrice={p => updatePrice(p)}
+        selectOffer={o => updateOffer(o)}
+        selectPeople={p => updatePeople(p)}
         city={city}
         price={price}
         offer={offer}
