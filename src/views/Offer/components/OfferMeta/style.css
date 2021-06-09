@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  position: relative;
 }
 
 .tmbw-offer-cta-primary {
@@ -31,6 +32,10 @@
   color: #FFFFFF;
 }
 
+.tmbw-offer-cta-container {
+  position: relative;
+}
+
 .tmbw-offer-cta-secondary,
 .tmbw-offer-cta-tertiary {
   text-decoration: none;
@@ -48,11 +53,18 @@
   display: flex;
   align-items: center;
   color: #231F1D;
+  cursor: pointer;
+  position: relative;
 }
 
 .tmbw-offer-cta-tertiary {
-  border: none;
-  padding: 14px 0;
+  border: 1px solid rgba(232, 225, 222, 0);
+  transition: all 300ms ease;
+  /* padding: 14px 0; */
+}
+
+.tmbw-offer-cta-tertiary:hover {
+  border: 1px solid rgba(232, 225, 222, 1);
 }
 
 .tmbw-offer-cta-secondary svg,
@@ -96,6 +108,90 @@
   color: #231F1D;
 }
 
+.tmbw-sharing-widget {
+  position: absolute;
+  top: 130%;
+  left: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+  background: white;
+  z-index: 12;
+  padding: 18px;
+  border-radius: 5px;
+}
+
+.tmbw-sharing-widget-inner {
+
+}
+
+.tmbw-sharing-widget-icons {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: row nowrap;
+}
+
+.tmbw-sharing-widget-icons a {
+  margin-right: 12px;
+  color: #222;
+}
+
+.tmbw-sharing-widget-icons svg {
+  height: 24px;
+  width: auto;
+}
+
+.tmbw-sharing-widget-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  margin-top: 12px;
+}
+
+.tmbw-sharing-widget-link-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row nowrap;
+  width: 120px;
+  height: 100%;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 12px 12px 12px 0;
+  border: 1px solid #eee;
+  border-left: none;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tmbw-sharing-widget-link-button--success {
+  color: green;
+}
+
+.tmbw-sharing-widget-link-button svg {
+  margin-right: 6px;
+}
+
+.tmbw-sharing-widget-link .tmbw-sharing-widget-link-box {
+  background: #f7f7f7;
+  padding: 12px;
+  width: 150px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  border: 1px solid #eee;
+  border-right: none;
+  color: #C3B8A8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
 /* Large devices (desktops, 1200px and up) */
 /* default */
 
@@ -134,5 +230,13 @@
   .tmbw-offer-sponsor-name {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .tmbw-sharing-widget {
+    left: -24px;
+  }
+
+  .tmbw-sharing-widget-link .tmbw-sharing-widget-link-box {
+    width: 100px;
   }
 }
