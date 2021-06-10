@@ -131,6 +131,7 @@ export default function Overview(props) {
         price={price}
         offer={offer}
         people={people}
+        answers={props.answers}
         />
 
       <OverviewResults
@@ -138,6 +139,7 @@ export default function Overview(props) {
         selectedPrice={price}
         selectedOffer={offer}
         selectedPeople={people}
+        answers={props.answers}
         />
 
       {overviewBanner}

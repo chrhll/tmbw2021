@@ -50,6 +50,12 @@ export default function OverviewFilters(props) {
     setShowTypeform(!showTypeform)
   }
 
+  function resetFilters(evt) {
+    evt.preventDefault()
+
+    document.location.href = document.location.pathname
+  }
+
   const customStyles = {
     option: (provided, state) => ({
       ...provided,
@@ -60,6 +66,17 @@ export default function OverviewFilters(props) {
   let typeformView;
   if (showTypeform) {
     typeformView = <TypeformModal />
+  }
+
+  let surpriseMe;
+  if (props.answers.length) {
+    surpriseMe = (
+      <span onClick={e => resetFilters(e)} className="tmbw-surprise-me">Alle Angebote</span>
+    )
+  } else {
+    surpriseMe = (
+      <span onClick={e => toggleTypeform(e)} className="tmbw-surprise-me">Was passt zu mir?</span>
+    )
   }
 
   return (
@@ -138,7 +155,7 @@ export default function OverviewFilters(props) {
         </div>
 
         <div className="tmbw-overview-filter">
-          <span onClick={e => toggleTypeform(e)} className="tmbw-surprise-me">Was passt zu mir?</span>
+          {surpriseMe}
         </div>
       </div>
 
