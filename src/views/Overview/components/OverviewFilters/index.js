@@ -1,10 +1,6 @@
-import { useState } from 'react';
-
 import './style.css';
 
 import Select from 'react-select'
-
-import TypeformModal from '../TypeformModal'
 
 const cityOptions = [
   { value: 'Heilbronn', label: 'Heilbronn' },
@@ -42,14 +38,6 @@ const peopleOptions = [
 ]
 
 export default function OverviewFilters(props) {
-  const [showTypeform, setShowTypeform] = useState(false)
-
-  function toggleTypeform(evt) {
-    evt.preventDefault()
-
-    setShowTypeform(!showTypeform)
-  }
-
   function resetFilters(evt) {
     evt.preventDefault()
 
@@ -63,11 +51,6 @@ export default function OverviewFilters(props) {
     })
   }
 
-  let typeformView;
-  if (showTypeform) {
-    typeformView = <TypeformModal />
-  }
-
   let surpriseMe;
   if (props.answers.length) {
     surpriseMe = (
@@ -75,7 +58,7 @@ export default function OverviewFilters(props) {
     )
   } else {
     surpriseMe = (
-      <span onClick={e => toggleTypeform(e)} className="tmbw-surprise-me">Was passt zu mir?</span>
+      <a href="https://frib3v495xa.typeform.com/to/IrDSLxA4" className="tmbw-surprise-me">Was passt zu mir?</a>
     )
   }
 
@@ -158,8 +141,6 @@ export default function OverviewFilters(props) {
           {surpriseMe}
         </div>
       </div>
-
-      {typeformView}
     </div>
   )
 }
