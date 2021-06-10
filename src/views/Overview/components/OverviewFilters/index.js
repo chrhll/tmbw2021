@@ -1,6 +1,10 @@
+import { useState } from 'react';
+
 import './style.css';
 
 import Select from 'react-select'
+
+import TypeformModal from '../TypeformModal'
 
 const cityOptions = [
   { value: 'Heilbronn', label: 'Heilbronn' },
@@ -38,12 +42,24 @@ const peopleOptions = [
 ]
 
 export default function OverviewFilters(props) {
+  const [showTypeform, setShowTypeform] = useState(false)
+
+  function toggleTypeform(e) {
+    e.preventDefault()
+
+    setShowTypeform(!showTypeform)
+  }
 
   const customStyles = {
     option: (provided, state) => ({
       ...provided,
       background: state.isFocused ? '#FFEDB3' : 'white'
     })
+  }
+
+  let typeformView;
+  if (showTypeform) {
+    typeformView = <TypeformModal />
   }
 
   return (
@@ -122,9 +138,11 @@ export default function OverviewFilters(props) {
         </div>
 
         <div className="tmbw-overview-filter">
-          <a href="/" className="tmbw-surprise-me">Was passt zu mir?</a>
+          <a href="/" onClick={toggleTypeform} className="tmbw-surprise-me">Was passt zu mir?</a>
         </div>
       </div>
+
+      {typeformView}
     </div>
   )
 }
