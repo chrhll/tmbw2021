@@ -1,0 +1,5 @@
+https://cdn.jsdelivr.net/gh/chrhll/tmbw2021/build/static/css/main.css
+https://cdn.jsdelivr.net/gh/chrhll/tmbw2021/build/static/js/tmbw2021.js
+
+https://purge.jsdelivr.net/gh/chrhll/tmbw2021/build/static/css/main.css
+https://purge.jsdelivr.net/gh/chrhll/tmbw2021/build/static/js/tmbw2021.js
