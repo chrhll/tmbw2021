@@ -25,9 +25,10 @@
 #root .tmbw-overview-hero-box {
   background: white;
   width: 400px;
-  padding: 48px 36px 24px 0;
+  padding: 48px 36px 24px 36px;
   text-align: left;
   border-radius: 10px;
+  margin-left: -36px;
 }
 
 #root .tmbw-overview-hero-subline {
