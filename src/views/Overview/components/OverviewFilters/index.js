@@ -44,8 +44,8 @@ const peopleOptions = [
 export default function OverviewFilters(props) {
   const [showTypeform, setShowTypeform] = useState(false)
 
-  function toggleTypeform(e) {
-    e.preventDefault()
+  function toggleTypeform(evt) {
+    evt.preventDefault()
 
     setShowTypeform(!showTypeform)
   }
@@ -138,7 +138,7 @@ export default function OverviewFilters(props) {
         </div>
 
         <div className="tmbw-overview-filter">
-          <a href="/" onClick={toggleTypeform} className="tmbw-surprise-me">Was passt zu mir?</a>
+          <span onClick={e => toggleTypeform(e)} className="tmbw-surprise-me">Was passt zu mir?</span>
         </div>
       </div>
 
