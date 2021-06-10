@@ -1,8 +1,8 @@
 const offers = [{
   "id": "HN_01",
   "city": "Heilbronn",
-  "type": ["Familienaktivität", "Übernachtung"],
-  "people": ["Familie", "Zu zweit", "Einzeln"],
+  "type": ["Tageserlebnis", "Übernachtung"],
+  "people": ["Einzeln", "Zu zweit"],
   "title": "Experimenta mit Genuss",
   "intro": "Erlebe ein Genuss-Wochenende in Heilbronn mit einem Besuch im Science-Center experimenta.",
   "description": "Erlebe ein genüssliches Wochenende in Heilbronn in Verbindung mit einem spannenden Besuch in der experimenta, Deutschlands größtem Science-Center.",
@@ -22,7 +22,7 @@ const offers = [{
   "description": "Wein und Heilbronn – eine Symbiose.\nNirgendwo sind urbanes Treiben und Natur so nah bei einander. Weinberge bis an den Stadtrand, rund 30 Weingüter im Stadtgebiet und viele Probiermöglichkeiten mitten in der City lassen Sie die Leidenschaft erleben, mit der der Weinbau in Württembergs ältester Weinstadt betrieben wird.\nBesuchen Sie den Wein Pavillon an der Neckarbühne, lernen Sie den Wein Panorama Weg mit seinen Schaustelen kennen, buchen Sie eine der Weinwanderungen mit Verkostung zwischen den Reben oder gehen Sie im Weingut auf Tauchstation – mit dem Winzer in den Keller.",
   "amenities": ["Eine Übernachtung mit Frühstück", "4er-Weinprobe an der Bar im Restaurant Beichtstuhl", "2-Tages-Ticket Gesamtnetz Nahverkehr (HNV)"],
   "more": "",
-  "link": "https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/experimenta-mit-genuss.html?pk_campaign=themenkampagne_tmbw&pk_kwd=exp_mit_genuss",
+  "link": "https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/heilbronn-und-seine-weine.html?pk_campaign=themenkampagne_tmbw&pk_kwd=heilbronn_weine",
   "price": ["Ab 65 Euro pro Person im Doppelzimmer", "Ab 85 Euro pro Person im Einzelzimmer"],
   "priceRange": "50-100€",
   "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514501/tmbw/HN/HN_02/HN_02_01_yqx0ns.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514502/tmbw/HN/HN_02/HN_02_02_p207so.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514502/tmbw/HN/HN_02/HN_02_03_lsiatf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514502/tmbw/HN/HN_02/HN_02_04_nhhmxk.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514501/tmbw/HN/HN_02/HN_02_05_gsor9g.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514501/tmbw/HN/HN_02/HN_02_06_d3view.jpg"]
@@ -165,7 +165,7 @@ const offers = [{
   "link": "https://tourismus.ulm.de/de/entdecken/sehen-und-erleben/stadtfuerungen/oeffentliche-stadtfuehrungen/#/erlebnisse/ULM/a09cf94d-0bc4-4b06-92db-f29bda5fb243/altstadt--und-muensterfuehrung--oefftl--",
   "price": "kostenfrei für Kinder, EUR 9 für Erwachsene, EUR 5 für Studenten, Schüler, Schwerbehinderte",
   "priceRange": "0-10€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514803/tmbw/U/U_02/U_02_01_vjwobn.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514803/tmbw/U/U_02/U_02_02_eetd35.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_03_njbpyp.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_04_afjzt9.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_05_lnlpr4.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_06_xob9eq.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_07_r5oijs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_08_somywl.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623337317/tmbw/U/U_02/U_02_01_o5dhzy.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514803/tmbw/U/U_02/U_02_02_eetd35.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_03_njbpyp.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_04_afjzt9.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_05_lnlpr4.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_06_xob9eq.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_07_r5oijs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514804/tmbw/U/U_02/U_02_08_somywl.jpg"]
 }, {
   "id": "U_03",
   "city": "Ulm",
@@ -225,11 +225,11 @@ const offers = [{
 }, {
   "id": "F_03",
   "city": "Freiburg",
-  "type": ["Übernachtung", "Kulinarik", "Stadtführung", "Übernachtung"],
+  "type": ["Übernachtung", "Kulinarik", "Stadtführung"],
   "people": ["Einzeln", "Zu zweit"],
   "title": "Freiburger Gipfelglück – Wellness inklusive",
   "intro": "2-Tages-Angebot: Aktiv entschleunigen",
-  "description": "Aktiv entschleunigen in der Schwarzwald-Hauptstadt heißt es bei einer aussichtsreichen Rundwanderung auf Freiburgs Hausberg, dem Schauinsland. Das Erlebnis beginnt bereits bei der Bergfahrt mit Deutschlands ältester Umlaufseilbahn. Und Entspannung verspricht im Anschluss ein Bad in Freiburgs in Freiburgs Keidel-Therme.",
+  "description": "Aktiv entschleunigen in der Schwarzwald-Hauptstadt heißt es bei einer aussichtsreichen Rundwanderung auf Freiburgs Hausberg, dem Schauinsland. Das Erlebnis beginnt bereits bei der Bergfahrt mit Deutschlands ältester Umlaufseilbahn. Und Entspannung verspricht im Anschluss ein Bad in Freiburgs Keidel-Therme.",
   "amenities": ["2 Übernachtungen im DZ inkl. Frühstück im 4*-Dorint Thermenhotel Freiburg", "Lunchpaket", "Welcome-Ticket (3-Tage-Regio-Ticket ÖPNV inkl. Schauinslandbahn)", "Wandervorschlag auf dem Hausberg Schauinsland mit Tipps für Sehenswürdigkeiten und Wanderkarte Schauinsland", "Audio-Lausch-Tour Schauinsland", "1 Eintritt in die Thermen des Keidel Bads"],
   "more": "https://hotel-freiburg.dorint.com/de/arrangements/freiburger-gipfel-glueck/?etcc_cmp=Freiburg&etcc_med=Gipfel-Glueck-Arrangement-TMBW&etcc_par=HON-Service&etcc_ctv=Webseite&et_cmp_seg4=DE",
   "link": "https://be.synxis.com/?&chain=22066&config=Dorint&level=chain&locale=de-DE&theme=Dorint&brand=Dorint&src=FRI-Package&promo=Package-TMBW&rate=PF&hotel=77509&adult=2&nights=2",
