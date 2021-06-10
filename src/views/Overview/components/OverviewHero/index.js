@@ -2,6 +2,8 @@ import { useRef, useState } from 'react';
 
 import Select from 'react-select'
 
+import TypeformModal from '../TypeformModal'
+
 import './style.css';
 
 import { ChevronRight } from 'react-feather';
@@ -20,6 +22,7 @@ const offerOptions = [
 ]
 
 export default function OverviewHero(props) {
+  const [showTypeform, setShowTypeform] = useState(false)
 
   let cherryPickedCovers = []
   offers.sort(() => Math.random() - 0.5).forEach(offer => {
@@ -78,6 +81,14 @@ export default function OverviewHero(props) {
     );
   }
 
+  function toggleTypeform(evt) {
+    evt.preventDefault()
+
+    console.log('toggleTypeform')
+
+    setShowTypeform(!showTypeform)
+  }
+
   const slickSettings = {
     dots: false,
     infinite: false,
@@ -87,6 +98,11 @@ export default function OverviewHero(props) {
     nextArrow: <CustomArrow />,
     prevArrow: <CustomArrow />
   };
+
+  let typeformView;
+  if (showTypeform) {
+    typeformView = <TypeformModal />
+  }
 
   return (
     <div className="tmbw-overview-hero">
@@ -123,11 +139,13 @@ export default function OverviewHero(props) {
                 classNamePrefix="tmbw-select"
                 />
 
-              <a href="/" className="tmbw-surprise-me">Was passt zu mir?</a>
+              <span onClick={e => toggleTypeform(e)} className="tmbw-surprise-me">Was passt zu mir?</span>
             </div>
           </div>
         </div>
       </div>
+
+      {typeformView}
     </div>
   )
 }
