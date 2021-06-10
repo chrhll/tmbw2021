@@ -1,10 +1,4 @@
-html {
-  margin: 0;
-  height: 100%;
-  overflow: hidden;
-}
-
-iframe {
+#root .TypeformModal iframe#typeform-full {
   position: absolute;
   left: 0;
   right: 0;
