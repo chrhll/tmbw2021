@@ -1,4 +1,4 @@
-.tmbw-offer-upsell {
+#root .tmbw-offer-upsell {
   width: 95%;
   max-width: 1200px;
   margin-left: auto;
@@ -6,7 +6,7 @@
   margin-top: 60px;
 }
 
-.tmbw-offer-upsell-inner {
+#root .tmbw-offer-upsell-inner {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -14,7 +14,7 @@
   text-align: left;
 }
 
-.tmbw-offer-upsell-subline {
+#root .tmbw-offer-upsell-subline {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -27,7 +27,7 @@
   margin-bottom: 8px;
 }
 
-.tmbw-offer-upsell-headline {
+#root .tmbw-offer-upsell-headline {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -48,17 +48,17 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
-  .tmbw-offer-upsell {
+  #root .tmbw-offer-upsell {
     margin-top: 72px;
   }
 
-  .tmbw-offer-upsell-subline {
+  #root .tmbw-offer-upsell-subline {
     font-size: 14px;
     line-height: 100%;
     margin-bottom: 6px;
   }
 
-  .tmbw-offer-upsell-headline {
+  #root .tmbw-offer-upsell-headline {
     font-size: 24px;
     line-height: 130%;
     margin: 0;

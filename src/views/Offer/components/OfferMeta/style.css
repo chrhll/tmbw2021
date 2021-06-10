@@ -1,4 +1,4 @@
-.tmbw-offer-meta {
+#root .tmbw-offer-meta {
   width: 95%;
   max-width: 800px;
   margin-left: auto;
@@ -6,14 +6,14 @@
   margin-top: 36px;
 }
 
-.tmbw-offer-actions {
+#root .tmbw-offer-actions {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   position: relative;
 }
 
-.tmbw-offer-cta-primary {
+#root .tmbw-offer-cta-primary {
   text-decoration: none;
   margin-right: 24px;
   background: #FDC300;
@@ -32,12 +32,12 @@
   color: #FFFFFF;
 }
 
-.tmbw-offer-cta-container {
+#root .tmbw-offer-cta-container {
   position: relative;
 }
 
-.tmbw-offer-cta-secondary,
-.tmbw-offer-cta-tertiary {
+#root .tmbw-offer-cta-secondary,
+#root .tmbw-offer-cta-tertiary {
   text-decoration: none;
   margin-right: 24px;
   background: #FFFFFF;
@@ -57,38 +57,38 @@
   position: relative;
 }
 
-.tmbw-offer-cta-tertiary {
+#root .tmbw-offer-cta-tertiary {
   border: 1px solid rgba(232, 225, 222, 0);
   transition: all 300ms ease;
   /* padding: 14px 0; */
 }
 
-.tmbw-offer-cta-tertiary:hover {
+#root .tmbw-offer-cta-tertiary:hover {
   border: 1px solid rgba(232, 225, 222, 1);
 }
 
 .tmbw-offer-cta-secondary svg,
-.tmbw-offer-cta-tertiary svg {
+#root .tmbw-offer-cta-tertiary svg {
   margin-right: 6px;
 }
 
-.tmbw-offer-sponsor {
+#root .tmbw-offer-sponsor {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-top: 36px;
 }
 
-.tmbw-offer-sponsor-logo {
+#root .tmbw-offer-sponsor-logo {
   margin-right: 16px;
 }
 
-.tmbw-offer-sponsor-note {
+#root .tmbw-offer-sponsor-note {
   text-align: left;
   text-decoration: none;
 }
 
-.tmbw-offer-sponsor-note-title {
+#root .tmbw-offer-sponsor-note-title {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -98,7 +98,7 @@
   color: #231F1D;
 }
 
-.tmbw-offer-sponsor-name {
+#root .tmbw-offer-sponsor-name {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -108,7 +108,7 @@
   color: #231F1D;
 }
 
-.tmbw-sharing-widget {
+#root .tmbw-sharing-widget {
   position: absolute;
   top: 130%;
   left: 0;
@@ -119,33 +119,33 @@
   border-radius: 5px;
 }
 
-.tmbw-sharing-widget-inner {
+#root .tmbw-sharing-widget-inner {
 
 }
 
-.tmbw-sharing-widget-icons {
+#root .tmbw-sharing-widget-icons {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-flow: row nowrap;
 }
 
-.tmbw-sharing-widget-icons a {
+#root .tmbw-sharing-widget-icons a {
   margin-right: 12px;
   color: #222;
 }
 
-.tmbw-sharing-widget-icons svg {
+#root .tmbw-sharing-widget-icons svg {
   height: 24px;
   width: auto;
   transition: all 300ms ease;
 }
 
-.tmbw-sharing-widget-icons svg:hover {
+#root .tmbw-sharing-widget-icons svg:hover {
   color: #FDC300;
 }
 
-.tmbw-sharing-widget-actions {
+#root .tmbw-sharing-widget-actions {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -153,7 +153,7 @@
   margin-top: 12px;
 }
 
-.tmbw-sharing-widget-link-button {
+#root .tmbw-sharing-widget-link-button {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -172,15 +172,15 @@
   transition: all 300ms ease;
 }
 
-.tmbw-sharing-widget-link-button--success {
+#root .tmbw-sharing-widget-link-button--success {
   color: green;
 }
 
-.tmbw-sharing-widget-link-button svg {
+#root .tmbw-sharing-widget-link-button svg {
   margin-right: 6px;
 }
 
-.tmbw-sharing-widget-link .tmbw-sharing-widget-link-box {
+#root .tmbw-sharing-widget-link .tmbw-sharing-widget-link-box {
   background: #f7f7f7;
   padding: 12px;
   width: 150px;
@@ -207,42 +207,42 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
-  .tmbw-offer-meta {
+  #root .tmbw-offer-meta {
     margin-top: 0;
   }
 
-  .tmbw-offer-cta-primary,
-  .tmbw-offer-cta-secondary,
-  .tmbw-offer-cta-tertiary {
+  #root .tmbw-offer-cta-primary,
+  #root .tmbw-offer-cta-secondary,
+  #root .tmbw-offer-cta-tertiary {
     margin-right: 12px;
     padding: 10px;
     font-size: 12px;
   }
 
-  .tmbw-offer-cta-secondary {
+  #root .tmbw-offer-cta-secondary {
     margin-right: 0;
   }
 
-  .tmbw-offer-sponsor {
+  #root .tmbw-offer-sponsor {
     margin-top: 24px;
   }
 
-  .tmbw-offer-sponsor-logo {
+  #root .tmbw-offer-sponsor-logo {
     margin-right: 8px;
     height: 40px;
   }
 
-  .tmbw-offer-sponsor-note-title,
-  .tmbw-offer-sponsor-name {
+  #root .tmbw-offer-sponsor-note-title,
+  #root .tmbw-offer-sponsor-name {
     font-size: 14px;
     line-height: 20px;
   }
 
-  .tmbw-sharing-widget {
+  #root .tmbw-sharing-widget {
     left: -24px;
   }
 
-  .tmbw-sharing-widget-link .tmbw-sharing-widget-link-box {
+  #root .tmbw-sharing-widget-link .tmbw-sharing-widget-link-box {
     width: 100px;
   }
 }

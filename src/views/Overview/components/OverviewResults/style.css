@@ -1,4 +1,4 @@
-.tmbw-overview-results {
+#root .tmbw-overview-results {
   width: 95%;
   max-width: 1200px;
   margin-left: auto;
@@ -6,7 +6,7 @@
   margin-top: 36px;
 }
 
-.tmbw-overview-results-inner {
+#root .tmbw-overview-results-inner {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;

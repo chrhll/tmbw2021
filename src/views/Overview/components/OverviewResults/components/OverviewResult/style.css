@@ -1,4 +1,4 @@
-.tmbw-overview-result {
+#root .tmbw-overview-result {
   width: calc(33% - 12px);
   margin-bottom: 48px;
   cursor: pointer;
@@ -6,26 +6,26 @@
   text-decoration: none;
 }
 
-.tmbw-overview-result:hover {
+#root .tmbw-overview-result:hover {
   opacity: 0.9;
 }
 
-.tmbw-overview-result:nth-of-type(3n+1) {
+#root .tmbw-overview-result:nth-of-type(3n+1) {
   padding-left: 0;
   padding-right: 12px;
 }
 
-.tmbw-overview-result:nth-of-type(3n+2) {
+#root .tmbw-overview-result:nth-of-type(3n+2) {
   padding-left: 12px;
   padding-right: 12px;
 }
 
-.tmbw-overview-result:nth-of-type(3n+3) {
+#root .tmbw-overview-result:nth-of-type(3n+3) {
   padding-left: 12px;
   padding-right: 0;
 }
 
-.tmbw-overview-result-image {
+#root .tmbw-overview-result-image {
   height: 175px;
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -34,11 +34,11 @@
   background: #f7f7f7;
 }
 
-.tmbw-overview-result-info {
+#root .tmbw-overview-result-info {
   text-align: left;
 }
 
-.tmbw-overview-result-subline {
+#root .tmbw-overview-result-subline {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -50,11 +50,11 @@
   margin-bottom: 6px;
 }
 
-.tmbw-result-type {
+#root .tmbw-result-type {
   text-transform: uppercase;
 }
 
-.tmbw-overview-result-headline {
+#root .tmbw-overview-result-headline {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -65,7 +65,7 @@
   margin-bottom: 12px;
 }
 
-.tmbw-overview-result-body {
+#root .tmbw-overview-result-body {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -74,7 +74,7 @@
   color: #231F1D;
 }
 
-.tmbw-overview-result-body p {
+#root .tmbw-overview-result-body p {
   margin: 0;
 }
 
@@ -87,13 +87,13 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
-  .tmbw-overview-result {
+  #root .tmbw-overview-result {
     width: 100%;
     padding-right: 0 !important;
     padding-left: 0 !important;
   }
 
-  .tmbw-overview-result-image {
+  #root .tmbw-overview-result-image {
     height: 200px;
   }
 }

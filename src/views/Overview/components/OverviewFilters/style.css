@@ -1,9 +1,9 @@
-.tmbw-overview-filters {
+#root .tmbw-overview-filters {
   background: #F7F7F7;
   border: 1px solid #EEEEEE;
 }
 
-.tmbw-overview-filters-inner {
+#root .tmbw-overview-filters-inner {
   width: 95%;
   max-width: 1200px;
   margin-left: auto;
@@ -15,22 +15,22 @@
   flex-flow: row nowrap;
 }
 
-.tmbw-overview-filter {
+#root .tmbw-overview-filter {
   flex: 1;
   text-align: left;
   padding-left: 12px;
   padding-right: 12px;
 }
 
-.tmbw-overview-filter:first-of-type {
+#root .tmbw-overview-filter:first-of-type {
   padding-left: 0;
 }
 
-.tmbw-overview-filter:last-of-type {
+#root .tmbw-overview-filter:last-of-type {
   padding-right: 0;
 }
 
-.tmbw-overview-filter-label {
+#root .tmbw-overview-filter-label {
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -40,11 +40,7 @@
   margin-bottom: 6px;
 }
 
-.tmbw-overview-filter-drodown {
-
-}
-
-.tmbw-surprise-me {
+#root .tmbw-surprise-me {
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -124,29 +120,29 @@
 
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
-  .tmbw-overview-filters-inner {
+  #root .tmbw-overview-filters-inner {
     padding: 12px 0;
     max-width: 100%;
     flex-flow: row wrap;
   }
 
-  .tmbw-overview-filter {
+  #root .tmbw-overview-filter {
     width: 50%;
     min-width: 40vw;
     margin-bottom: 12px;
   }
 
   .tmbw-overview-filter:nth-of-type(2n),
-  .tmbw-overview-filter:nth-of-type(2n+3) {
+  #root .tmbw-overview-filter:nth-of-type(2n+3) {
     padding-left: 0;
   }
 
   .tmbw-overview-filter:nth-of-type(2n+2),
-  .tmbw-overview-filter:nth-of-type(2n+4) {
+  #root .tmbw-overview-filter:nth-of-type(2n+4) {
     padding-right: 0;
   }
 
-  .tmbw-overview-filter:last-of-type {
+  #root .tmbw-overview-filter:last-of-type {
     padding-left: 0;
     padding-right: 0;
   }
