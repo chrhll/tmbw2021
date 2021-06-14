@@ -11,7 +11,7 @@ const offers = [{
   "link": "https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/experimenta-mit-genuss.html?pk_campaign=themenkampagne_tmbw&pk_kwd=exp_mit_genuss",
   "price": ["Ab 239 Euro pro Person im Doppelzimmer", "Ab 339 Euro pro Person im Einzelzimmer"],
   "priceRange": ">100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514491/tmbw/HN/HN_01/HN_01_01_b1xelj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514491/tmbw/HN/HN_01/HN_01_02_j9mu5z.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514491/tmbw/HN/HN_01/HN_01_03_pugcwv.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514491/tmbw/HN/HN_01/HN_01_04_b73ncp.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514491/tmbw/HN/HN_01/HN_01_05_z0vhor.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514491/tmbw/HN/HN_01/HN_01_01_b1xelj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514491/tmbw/HN/HN_01/HN_01_02_j9mu5z.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623683722/tmbw/HN/HN_01/experimenta-innen_2019_rs_KBFeb20_nndwxm.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514491/tmbw/HN/HN_01/HN_01_04_b73ncp.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623683723/tmbw/HN/HN_01/experimenta-Science-Dome-Karpernfahrt_2019_ex_tuswmv.jpg"]
 }, {
   "id": "HN_02",
   "city": "Heilbronn",
@@ -25,7 +25,7 @@ const offers = [{
   "link": "https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/heilbronn-und-seine-weine.html?pk_campaign=themenkampagne_tmbw&pk_kwd=heilbronn_weine",
   "price": ["Ab 65 Euro pro Person im Doppelzimmer", "Ab 85 Euro pro Person im Einzelzimmer"],
   "priceRange": "50-100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514501/tmbw/HN/HN_02/HN_02_01_yqx0ns.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514502/tmbw/HN/HN_02/HN_02_02_p207so.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514502/tmbw/HN/HN_02/HN_02_03_lsiatf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514502/tmbw/HN/HN_02/HN_02_04_nhhmxk.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514501/tmbw/HN/HN_02/HN_02_05_gsor9g.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514501/tmbw/HN/HN_02/HN_02_06_d3view.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623685216/tmbw/HN/HN_02/Weinerlebnisfu%CC%88hrung-Wartberg_2017_gbk_110_w5rjnh.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514502/tmbw/HN/HN_02/HN_02_02_p207so.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514502/tmbw/HN/HN_02/HN_02_03_lsiatf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623685217/tmbw/HN/HN_02/Weinpavillon-Neckarbu%CC%88hne_2020_rs_KBAugust21_1975_a5uicj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514501/tmbw/HN/HN_02/HN_02_05_gsor9g.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623685217/tmbw/HN/HN_02/Weindorf-Auslese-im-Weingut_2020_jh_0799_unq9ba.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623685216/tmbw/HN/HN_02/Weinpavillon-Neckarbu%CC%88hne_2020_jh_022_naqslt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623685217/tmbw/HN/HN_02/Weindorf-Auslese-im-Weingut_2020_jh_070_mjor5l.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514501/tmbw/HN/HN_02/HN_02_06_d3view.jpg"]
 }, {
   "id": "HN_03",
   "city": "Heilbronn",
@@ -39,7 +39,7 @@ const offers = [{
   "link": "https://www.heilbronn.de/tourismus/stadtfuehrungen/wein-und-kulinarik/schlenderweinprobe-durch-die-heilbronner-innenstadt.html?pk_campaign=themenkampagne_tmbw&pk_kwd=schlenderweinprobe",
   "price": "25 Euro pro Person\n",
   "priceRange": "10-50€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514511/tmbw/HN/HN_03/HN_03_01_w1svzm.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514511/tmbw/HN/HN_03/HN_03_02_hrbpbp.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514512/tmbw/HN/HN_03/HN_03_03_pftyfn.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514512/tmbw/HN/HN_03/HN_03_04_vdwo1z.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514511/tmbw/HN/HN_03/HN_03_05_hom1vn.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514511/tmbw/HN/HN_03/HN_03_06_lawmvt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514512/tmbw/HN/HN_03/HN_03_07_oii0vb.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514511/tmbw/HN/HN_03/HN_03_01_w1svzm.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514511/tmbw/HN/HN_03/HN_03_02_hrbpbp.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514512/tmbw/HN/HN_03/HN_03_03_pftyfn.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623684191/tmbw/HN/HN_03/Hafenmarktpassage_-Shopping_2019_fm_2056_mmdp3e.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514511/tmbw/HN/HN_03/HN_03_05_hom1vn.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514511/tmbw/HN/HN_03/HN_03_06_lawmvt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623684192/tmbw/HN/HN_03/Neckarmeile-Gastronomie-Wein_2019_fm_3128_b0yufw.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514512/tmbw/HN/HN_03/HN_03_07_oii0vb.jpg"]
 }, {
   "id": "HN_04",
   "city": "Heilbronn",
@@ -47,8 +47,8 @@ const offers = [{
   "people": ["Einzeln", "Familie", "Zu zweit", "Gruppe"],
   "title": "Kanu-Stadtrundfahrten auf dem Neckar",
   "intro": "Erlebe und entdecke Heilbronn auf ganz besondere Weise. Auf dem Wasser vom Kanu aus.",
-  "description": "Erlebe und entdecke Heilbronn vom Wasser aus. Fahre im Kanu auf dem Neckar durch Heilbronn und lass dir von deinem Gästeführer Interessantes zur Stadt und ihrer Geschichte erzählen. \nNoch nie Kanu gefahren?\nKein Problem, alle drei Touren sind absolut für Anfänger geeignet.\n\n- Drei Touren stehen zur Auswahl:\n- Der Klassiker\n- Die Familientour\n- Die Tour am Abend",
-  "amenities": "Ab 28 Euro pro Person (Kinder ab 22 Euro pro Person)",
+  "description": "Erlebe und entdecke Heilbronn vom Wasser aus. Fahre im Kanu auf dem Neckar durch Heilbronn und lass dir von deinem Gästeführer Interessantes zur Stadt und ihrer Geschichte erzählen. \nNoch nie Kanu gefahren?\nKein Problem, alle drei Touren sind absolut für Anfänger geeignet.\n\nDrei Touren stehen zur Auswahl:\n\n- Der Klassiker\n- Die Familientour\n- Die Tour am Abend",
+  "amenities": ["Ausrüstung (Kanu, Paddel, Schwimmweste und Packsack)", "Stadtführer*in"],
   "more": "",
   "link": "https://www.heilbronn.de/tourismus/reise-und-erlebnisangebote/kanu-stadtrundfahrten.html?pk_campaign=themenkampagne_tmbw&pk_kwd=kanu-stadtrundfahrt",
   "price": "Ab 28 Euro pro Person (Kinder ab 22 Euro pro Person)",
@@ -67,7 +67,7 @@ const offers = [{
   "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/nahtour-buchen2?utm_source=tmbw&utm_medium=ad&utm_campaign=sommer2021",
   "price": "Preis pro Erwachsener mit Wellness-Korb: 37 Euro bei 2 Erwachsenen, 29 Euro bei 3 Erwachsenen ",
   "priceRange": "10-50€",
-  "pictures": ["", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_01_emxnmd.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_02_kymrz3.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_03_le2ya1.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_04_vuveig.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242072/tmbw/MA/MA_01/MA_01_05_bkfgze.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_06_xfhmmi.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242072/tmbw/MA/MA_01/MA_01_07_sxnupv.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_08_ylzvnk.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_01_emxnmd.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_02_kymrz3.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_03_le2ya1.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_04_vuveig.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242072/tmbw/MA/MA_01/MA_01_05_bkfgze.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_06_xfhmmi.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242072/tmbw/MA/MA_01/MA_01_07_sxnupv.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242074/tmbw/MA/MA_01/MA_01_08_ylzvnk.jpg"]
 }, {
   "id": "MA_02",
   "city": "Mannheim",
@@ -81,7 +81,7 @@ const offers = [{
   "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/kultour-buchen?utm_source=tmbw&utm_medium=ad&utm_campaign=sommer2021",
   "price": "Preis pro Erwachsener: 64 Euro\nPreis pro Kind (6-14 Jahre): 5 Euro",
   "priceRange": "50-100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514631/tmbw/MA/MA_02/MA_02_01_ogcqug.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_02_khtynj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_03_xhnd5b.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514632/tmbw/MA/MA_02/MA_02_04_vfycgu.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242101/tmbw/MA/MA_02/MA_02_04_qkzaqu.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_06_xsdusf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242103/tmbw/MA/MA_02/MA_02_07_bqysju.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242104/tmbw/MA/MA_02/MA_02_08_mliirz.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242105/tmbw/MA/MA_02/MA_02_09_o2zzrw.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242104/tmbw/MA/MA_02/MA_02_10_ezayjg.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242106/tmbw/MA/MA_02/MA_02_11_gblzzs.jpg"]
+  "pictures": ["", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242101/tmbw/MA/MA_02/MA_02_01_dcbndt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_02_khtynj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_03_xhnd5b.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242101/tmbw/MA/MA_02/MA_02_04_qkzaqu.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_06_xsdusf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242103/tmbw/MA/MA_02/MA_02_07_bqysju.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242104/tmbw/MA/MA_02/MA_02_08_mliirz.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242105/tmbw/MA/MA_02/MA_02_09_o2zzrw.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242104/tmbw/MA/MA_02/MA_02_10_ezayjg.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242106/tmbw/MA/MA_02/MA_02_11_gblzzs.jpg"]
 }, {
   "id": "MA_03",
   "city": "Mannheim",
@@ -121,7 +121,7 @@ const offers = [{
   "amenities": "Hop-on/Hop-off Ticket 24 Stunden gültig",
   "more": "",
   "link": "https://www.stuttgart-tourist.de/stuttgart-buchen/stuttgart-citytour",
-  "price": "BLAUE und GRÜNE TOUR:\nErwachsene 18,00 €\nErwachsene mit StuttCard 14,00 €\nKinder (4-14 Jahre) 5,00 €\nPersonen mit Schwerbehindertenausweis ab 80% 14,00 € \n\nWEINTOUR:\nErwachsene 12,00 €\nErwachsener mit StuttCard 10,00 €\nKind (4 - 14 Jahre) 5,00 €\nPersonen mit Schwerbehindertenausweis ab 80 % 10,00 € \n\nKOMBITICKET (2 Touren):\nErwachsene 28,00 €\nErwachsener mit StuttCard 22,00 €\nKind (4 - 14 Jahre) 10,00 €\nPersonen mit Schwerbehindertenausweis ab 80 % 22,00 €",
+  "price": ["BLAUE und GRÜNE TOUR:\nErwachsene 18,00 €\nErwachsene mit StuttCard 14,00 €\nKinder (4-14 Jahre) 5,00 €\nPersonen mit Schwerbehinderten-ausweis ab 80% 14,00 € ", "WEINTOUR: Erwachsene 12,00 € Erwachsener mit StuttCard 10,00 € Kind (4 - 14 Jahre) 5,00 € Personen mit Schwerbehinderten-ausweis ab 80 % 10,00 €", "KOMBITICKET (2 Touren): Erwachsene 28,00 € Erwachsener mit StuttCard 22,00 € Kind (4 - 14 Jahre) 10,00 € Personen mit Schwerbehinderten-ausweis ab 80 % 22,00 €"],
   "priceRange": "10-50€",
   "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_01_amgsvf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_02_oyenaf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_03_rychot.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_04_q5qsko.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_05_tjlmmx.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_06_wdjmqp.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514749/tmbw/S/S_01/S_01_07_mnucja.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514749/tmbw/S/S_01/S_01_08_zk7hyf.jpg"]
 }, {
@@ -137,7 +137,7 @@ const offers = [{
   "link": "https://www.stuttgart-tourist.de/e-freitagsweinprobe-werden-sie-zum-weinkenner#2021-05-07",
   "price": "19,50€",
   "priceRange": "10-50€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_01_hxvyqs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514757/tmbw/S/S_02/S_02_02_pr7bxi.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_03_ssivub.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_04_u8xrcs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623244441/tmbw/S/S_02/S_02_05_yo0mfl.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_06_vp0im9.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_07_awsat1.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514757/tmbw/S/S_02/S_02_08_giyezu.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_01_hxvyqs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623244441/tmbw/S/S_02/S_02_05_yo0mfl.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_03_ssivub.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_04_u8xrcs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514757/tmbw/S/S_02/S_02_02_pr7bxi.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_06_vp0im9.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514756/tmbw/S/S_02/S_02_07_awsat1.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514757/tmbw/S/S_02/S_02_08_giyezu.jpg"]
 }, {
   "id": "U_01",
   "city": "Ulm",
@@ -235,7 +235,7 @@ const offers = [{
   "link": "https://be.synxis.com/?&chain=22066&config=Dorint&level=chain&locale=de-DE&theme=Dorint&brand=Dorint&src=FRI-Package&promo=Package-TMBW&rate=PF&hotel=77509&adult=2&nights=2",
   "price": "252,00 € / p.P.",
   "priceRange": ">100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_01_zkpxps.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_02_mp740o.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623243467/tmbw/F/F_03/F_03_03_uwegk2.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623243467/tmbw/F/F_03/F_03_03_uwegk2.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_02_mp740o.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_01_zkpxps.jpg"]
 }, {
   "id": "F_04",
   "city": "Freiburg",
@@ -285,7 +285,7 @@ const offers = [{
   "people": ["Einzeln", "Zu zweit", "Gruppe", "Familie"],
   "title": "Heidelberg und UNESCO Creative Cities\n\n",
   "intro": "Heidelberg – literarische Vielfalt und Produktivität",
-  "description": "Heidelberg, Mannheim und Karlsruhe – ein „UNESCO-Dreieck“, das mit einem außergewöhnlichen Kulturerlebnis punkten kann! Denn alle drei Städte im Südwesten sind als Teil des UNESCO-Netzwerks gewählt worden. Erleben Sie also Heidelberg als Stadt der Literatur, Mannheim als Stadt der Musik und Karlsruhe als Stadt der Medienkunst – die UNESCO Creative Cities freuen sich schon auf Ihren Besuch!\n\nLiteratur ist in Heidelberg allgegenwärtig. Beim Spaziergang durch die Stadt findet man an jeder Ecke Buchhandlungen, Antiquariate, Verlage und Bibliotheken. Es vergeht kaum ein Tag ohne literarische Veranstaltung, kein Sommer ohne das Literaturfestival Heidelberger Literaturtage, kein Jahr ohne literarische Preisträger.",
+  "description": "3 Städte in 3 Tagen\n\nHeidelberg, Mannheim und Karlsruhe – ein „UNESCO-Dreieck“, das mit einem außergewöhnlichen Kulturerlebnis punkten kann! Denn alle drei Städte im Südwesten sind als Teil des UNESCO-Netzwerks gewählt worden. Erleben Sie also Heidelberg als Stadt der Literatur, Mannheim als Stadt der Musik und Karlsruhe als Stadt der Medienkunst – die UNESCO Creative Cities freuen sich schon auf Ihren Besuch!\n\nLiteratur ist in Heidelberg allgegenwärtig. Beim Spaziergang durch die Stadt findet man an jeder Ecke Buchhandlungen, Antiquariate, Verlage und Bibliotheken. Es vergeht kaum ein Tag ohne literarische Veranstaltung, kein Sommer ohne das Literaturfestival Heidelberger Literaturtage, kein Jahr ohne literarische Preisträger.",
   "amenities": ["3 Übernachtungen im Einzel- oder Doppelzimmer, inklusive Frühstück", "HDCard für 2 Tage", "2 Stadtführungen (jeweils eine in Mannheim und eine in Heidelberg)"],
   "more": "",
   "link": "https://www.karlsruhe-erleben.de/karlsruhe/offer/detail/FIT00020070733670846",
@@ -299,7 +299,7 @@ const offers = [{
   "people": ["Einzeln", "Zu zweit", "Gruppe", "Familie"],
   "title": "Heidelberg per Bike",
   "intro": "Geführte Radtour durch Heidelberg",
-  "description": "Bei einer geführten Radtour streifen wir die Heidelberger\nAltstadt und besuchen den Stadtteil Neuenheim, das\nNeuenheimer Feld mit Botanischem Garten und den international\nrenommierten Instituten und Kliniken sowie\nden Forschungs-Campus der Ruprecht-Karls-Universität.\nWir fahren durch das Handschuhsheimer Feld weiter nach\nHandschuhsheim, dem ältesten Stadtteil Heidelbergs mit\nder berühmten Tiefburg und zurück zur Altstadt, wo der\neinzigartige Blick von der Alten Brücke auf das Heidelberger\nSchloss und die Altstadt den krönenden Abschluss bildet. Streckenlänge: ca. 25km, Profil: eine steilere Steigung, Möglichkeit zum Picknick oder Einkehr, Dauer: ca. 3 Stunden ",
+  "description": "Bei einer geführten Radtour streifen wir die Heidelberger Altstadt und besuchen den Stadtteil Neuenheim, das Neuenheimer Feld mit Botanischem Garten und den international renommierten Instituten und Kliniken sowie den Forschungs-Campus der Ruprecht-Karls-Universität.\nWir fahren durch das Handschuhsheimer Feld weiter nach Handschuhsheim, dem ältesten Stadtteil Heidelbergs mit der berühmten Tiefburg und zurück zur Altstadt, wo der einzigartige Blick von der Alten Brücke auf das Heidelberger Schloss und die Altstadt den krönenden Abschluss bildet. Streckenlänge: ca. 25km, Profil: eine steilere Steigung, Möglichkeit zum Picknick oder Einkehr, Dauer: ca. 3 Stunden ",
   "amenities": "",
   "more": "",
   "link": "https://tportal.toubiz.de/heidelberg-fuehrungen/guide/detail/FIT00020070300786229",
@@ -389,7 +389,35 @@ const offers = [{
   "link": "https://www.pforzheim.de/tourismus/stadtfuehrungen/digitale-stadtfuehrungen-und-erlebnisse.html",
   "price": "ab 1,09€",
   "priceRange": "0-10€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_01_wq9tld.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_02_uxaqb4.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_03_nlvwuj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_04_wnc65v.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_05_tugamn.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_06_euimu6.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514713/tmbw/PF/PF_03/PF_03_02_wllyit.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514713/tmbw/PF/PF_03/PF_03_03_vllps4.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514713/tmbw/PF/PF_03/PF_03_04_buwvtv.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514712/tmbw/PF/PF_03/PF_03_05_duzvqc.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514713/tmbw/PF/PF_03/PF_03_06_knv4zf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_02_vvomvs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_03_nxyalt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_04_nkbzls.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_05_bs5irm.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_06_psez6i.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_07_tbqt4q.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_08_ytvnxa.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514723/tmbw/PF/PF_04/PF_04_09_qe0c0u.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_10_fvdgwf.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_01_wq9tld.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_02_uxaqb4.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_03_nlvwuj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_04_wnc65v.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_05_tugamn.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514704/tmbw/PF/PF_02/PF_02_06_euimu6.jpg"]
+}, {
+  "id": "P_03",
+  "city": "Pforzheim",
+  "type": "Stadtführung",
+  "people": ["Familie", "Einzeln"],
+  "title": "Mit Alpakas durch Pforzheim",
+  "intro": "Mit Alpakas gemütlich Pforzheimer Geschichten und den Enzkreis entdecken.",
+  "description": "Sie sind flauschig, gemütlich und man verliebt sich in ihr rundes Gesicht: Alpakas kann man bei Pforzheim nicht nur anschmachten, sondern mit ihnen zusammen auf Wanderung gehen. Es ist ein Erlebnis für die ganze Familie. Auch Gin-, Cocktail- oder Weinwanderungen locken mit regionalen Köstlichkeiten sowie ein flauschiges Alpakaglück.",
+  "amenities": "",
+  "more": "",
+  "link": "https://www.huehnerglueck.de/alpakagl%C3%BCck/",
+  "price": "ab 20 €",
+  "priceRange": "10-50€",
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514713/tmbw/PF/PF_03/PF_03_01_okeqc9.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514713/tmbw/PF/PF_03/PF_03_02_wllyit.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514713/tmbw/PF/PF_03/PF_03_03_vllps4.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514713/tmbw/PF/PF_03/PF_03_04_buwvtv.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514712/tmbw/PF/PF_03/PF_03_05_duzvqc.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514713/tmbw/PF/PF_03/PF_03_06_knv4zf.jpg"]
+}, {
+  "id": "P_04",
+  "city": "Pforzheim",
+  "type": ["Übernachtung", "Kultur"],
+  "people": ["Einzeln", "Zu zweit"],
+  "title": "Hohenwart Forum in Pforzheim",
+  "intro": "Übernachtungspakete mit vollem Kulturgenuss",
+  "description": "Naturnah nächtigen und trotzdem den vollen Kulturgenuss genießen? Das gibt es beim Hohenwart Forum in Pforzheim. Das Hotel im Grünen bietet verschiedene Pakete mit denen man die Museen & Klöster der Umgebung erkunden oder in die Geschichte der Schmuck- und Uhrenindustrie eintauchen kann. Für Westwegabenteurer bietet das Haus ebenfall ein reizvolles Angebot.",
+  "amenities": "",
+  "more": "",
+  "link": "https://www.hohenwart.de/hotel/urlaub/",
+  "price": "ab 90 €",
+  "priceRange": "50-100€",
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_01_cl6kg1.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_02_vvomvs.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_03_nxyalt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_04_nkbzls.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_05_bs5irm.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_06_psez6i.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_07_tbqt4q.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_08_ytvnxa.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514723/tmbw/PF/PF_04/PF_04_09_qe0c0u.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514722/tmbw/PF/PF_04/PF_04_10_fvdgwf.jpg"]
 }, {
   "id": "BB_01",
   "city": "Baden-Baden",
@@ -431,7 +459,7 @@ const offers = [{
   "link": "https://www.shop-carasana.de/vouchers/category/",
   "price": "15 - 27,- €",
   "priceRange": "",
-  "pictures": ""
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623688353/tmbw/BB/BB_03/BB_02_jk6foq.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623688353/tmbw/BB/BB_03/BB_03_cblqza.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623688353/tmbw/BB/BB_03/BB_01_xhsf4c.jpg"]
 }, {
   "id": "BB_04",
   "city": "Baden-Baden",
