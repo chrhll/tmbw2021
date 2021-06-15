@@ -96,4 +96,8 @@
     margin-bottom: 24px;
     width: 80vw;
   }
+
+  #root .tmbw-overview-hero-box {
+    margin-left: 0;
+  }
 }

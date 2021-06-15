@@ -143,10 +143,11 @@
     line-height: 130%;
     border-radius: 5px;
     margin: 5px;
+    width: calc(50% - 36px);
   }
 
   #root .tmbw-offer-info-gallery {
-    margin-top: 12px;
+    margin-top: 48px;
     flex-flow: column nowrap;
   }
 

@@ -81,7 +81,7 @@ const offers = [{
   "link": "https://www.visit-mannheim.de/2-staedte-1-erlebnis/kultour-buchen?utm_source=tmbw&utm_medium=ad&utm_campaign=sommer2021",
   "price": "Preis pro Erwachsener: 64 Euro\nPreis pro Kind (6-14 Jahre): 5 Euro",
   "priceRange": "50-100€",
-  "pictures": ["", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242101/tmbw/MA/MA_02/MA_02_01_dcbndt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_02_khtynj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_03_xhnd5b.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242101/tmbw/MA/MA_02/MA_02_04_qkzaqu.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_06_xsdusf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242103/tmbw/MA/MA_02/MA_02_07_bqysju.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242104/tmbw/MA/MA_02/MA_02_08_mliirz.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242105/tmbw/MA/MA_02/MA_02_09_o2zzrw.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242104/tmbw/MA/MA_02/MA_02_10_ezayjg.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242106/tmbw/MA/MA_02/MA_02_11_gblzzs.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623242101/tmbw/MA/MA_02/MA_02_01_dcbndt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_02_khtynj.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_03_xhnd5b.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242101/tmbw/MA/MA_02/MA_02_04_qkzaqu.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242100/tmbw/MA/MA_02/MA_02_06_xsdusf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242103/tmbw/MA/MA_02/MA_02_07_bqysju.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242104/tmbw/MA/MA_02/MA_02_08_mliirz.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242105/tmbw/MA/MA_02/MA_02_09_o2zzrw.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242104/tmbw/MA/MA_02/MA_02_10_ezayjg.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623242106/tmbw/MA/MA_02/MA_02_11_gblzzs.jpg"]
 }, {
   "id": "MA_03",
   "city": "Mannheim",
@@ -123,7 +123,7 @@ const offers = [{
   "link": "https://www.stuttgart-tourist.de/stuttgart-buchen/stuttgart-citytour",
   "price": ["BLAUE und GRÜNE TOUR:\nErwachsene 18,00 €\nErwachsene mit StuttCard 14,00 €\nKinder (4-14 Jahre) 5,00 €\nPersonen mit Schwerbehinderten-ausweis ab 80% 14,00 € ", "WEINTOUR: Erwachsene 12,00 € Erwachsener mit StuttCard 10,00 € Kind (4 - 14 Jahre) 5,00 € Personen mit Schwerbehinderten-ausweis ab 80 % 10,00 €", "KOMBITICKET (2 Touren): Erwachsene 28,00 € Erwachsener mit StuttCard 22,00 € Kind (4 - 14 Jahre) 10,00 € Personen mit Schwerbehinderten-ausweis ab 80 % 22,00 €"],
   "priceRange": "10-50€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_01_amgsvf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_02_oyenaf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_03_rychot.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_04_q5qsko.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_05_tjlmmx.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_06_wdjmqp.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514749/tmbw/S/S_01/S_01_07_mnucja.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514749/tmbw/S/S_01/S_01_08_zk7hyf.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_02_oyenaf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_02_oyenaf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_03_rychot.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_04_q5qsko.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_05_tjlmmx.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514748/tmbw/S/S_01/S_01_06_wdjmqp.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514749/tmbw/S/S_01/S_01_07_mnucja.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514749/tmbw/S/S_01/S_01_08_zk7hyf.jpg"]
 }, {
   "id": "S_02",
   "city": "Stuttgart",
@@ -207,7 +207,7 @@ const offers = [{
   "link": "https://schwarzwald-connection.de/angebot_gruppen_fwtm.pdf",
   "price": "15-30 Personen, 4,5- 7 Stunden, Kosten pro Person: 89,00 €",
   "priceRange": "50-100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514338/tmbw/F/F_01/F_01_01_ztmymu.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514339/tmbw/F/F_01/F_01_02_tccoi0.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514339/tmbw/F/F_01/F_01_03_cxnnlm.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514339/tmbw/F/F_01/F_01_04_ew1mvz.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623752358/tmbw/F/F_01/F_01_03_esgcie.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514339/tmbw/F/F_01/F_01_02_tccoi0.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514339/tmbw/F/F_01/F_01_03_cxnnlm.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514339/tmbw/F/F_01/F_01_04_ew1mvz.jpg"]
 }, {
   "id": "F_02",
   "city": "Freiburg",
@@ -221,7 +221,7 @@ const offers = [{
   "link": "https://schwarzwald-connection.de/angebot_individuell_fwtm.pdf",
   "price": "1-2 Personen, 4,5- 7 Stunden, Kosten pro Person: 89,00€",
   "priceRange": "50-100€",
-  "pictures": "https://res.cloudinary.com/viewyork-media/image/upload/v1621514350/tmbw/F/F_02/F_02_01_tlneyt.jpg"
+  "pictures": "https://res.cloudinary.com/viewyork-media/image/upload/v1623752419/tmbw/F/F_03/F_04_03_zzoen2.jpg"
 }, {
   "id": "F_03",
   "city": "Freiburg",
@@ -235,7 +235,7 @@ const offers = [{
   "link": "https://be.synxis.com/?&chain=22066&config=Dorint&level=chain&locale=de-DE&theme=Dorint&brand=Dorint&src=FRI-Package&promo=Package-TMBW&rate=PF&hotel=77509&adult=2&nights=2",
   "price": "252,00 € / p.P.",
   "priceRange": ">100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623243467/tmbw/F/F_03/F_03_03_uwegk2.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_02_mp740o.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_01_zkpxps.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514350/tmbw/F/F_02/F_02_01_tlneyt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_02_mp740o.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_01_zkpxps.jpg"]
 }, {
   "id": "F_04",
   "city": "Freiburg",
@@ -274,7 +274,7 @@ const offers = [{
   "description": "Ein Sonnenbad auf der Neckarwiese genießen oder bei lauen Abendtemperaturen die romantische Altstadt erkunden. In der warmen Jahreszeit blüht das Leben in Heidelbergs verwinkelten Gassen: Die vielen gemütlichen Cafés und Kneipen bieten Plätze an der Sommerluft und mitten im emsigen Treiben unserer Stadt. Eine Vielzahl kultureller Highlights machen den Sommer in Heidelberg zum unvergesslichen Erlebnis. Und weil die Sonne bei uns so viel schöner scheint, geht bei diesem Arrangement die dritte Übernachtung auf unsere Kosten.",
   "amenities": ["1, 2 oder 3 Übernachtungen mit Frühstück im Einzel- oder Doppelzimmer in einem Hotel der Kategorie Komfort oder First Class", "HeidelbergCARD für die Dauer des Aufenthaltes", "Teilnahme am öffentlichen Altstadtrundgang (1,5 Std.)", "Ticket für die Fahrt mit dem Solarschiff „Neckarsonne“"],
   "more": "",
-  "link": ["https://www.heidelberg-marketing.de/suchen-buchen/pauschalreisen/sommerspezial.html", " "],
+  "link": "https://www.heidelberg-marketing.de/suchen-buchen/pauschalreisen/sommerspezial.html",
   "price": "Kategorie Komfort: 180 € p.P. im Doppelzimmer/   240 € p.P. im Einzelzimmer, Kategorie First Class WoEnde:                 205 € p.P. im Doeppelzimmer/ 310 € p.P. im Einzelzimmer",
   "priceRange": ">100€",
   "pictures": "https://res.cloudinary.com/viewyork-media/image/upload/v1621514434/tmbw/HD/HD_02/HD_02_01_sgplud.jpg"
@@ -358,10 +358,10 @@ const offers = [{
   "description": "",
   "amenities": "",
   "more": "",
-  "link": "",
+  "link": "https://www.karlsruhe-erleben.de/karlsruhe/package/detail1/FIT00020070881520322",
   "price": "",
   "priceRange": "",
-  "pictures": ""
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623749845/tmbw/K/K_04/K_04_01_upq2l3.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623749846/tmbw/K/K_04/K_04_02_jdnzue.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623749846/tmbw/K/K_04/K_04_03_a1d9u2.jpg"]
 }, {
   "id": "P_01",
   "city": "Pforzheim",
@@ -431,7 +431,7 @@ const offers = [{
   "link": "https://www.city-seg.de/ba-touren-details?tid=2",
   "price": "Preise ab €69.- je Teilnehmer.",
   "priceRange": "50-100€",
-  "pictures": ""
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623744762/tmbw/BB/BB_01/BB_07_cvmuqe.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623744762/tmbw/BB/BB_01/BB_08_rnsbnf.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623744776/tmbw/BB/BB_01/BB_09_qldtt4.jpg"]
 }, {
   "id": "B_02",
   "city": "Baden-Baden",
@@ -445,7 +445,7 @@ const offers = [{
   "link": "https://www.baden-baden.com/fuehrungen/oeffentliche-fuehrungen",
   "price": "8,- €",
   "priceRange": "",
-  "pictures": ""
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623744698/tmbw/BB/BB_02/BB_13_kulcf7.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623744698/tmbw/BB/BB_02/BB_12_fq9dky.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623744697/tmbw/BB/BB_02/BB_11_bmiyt4.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623744697/tmbw/BB/BB_02/BB_10_iodpj6.jpg"]
 }, {
   "id": "BB_03",
   "city": "Baden-Baden",
@@ -473,7 +473,7 @@ const offers = [{
   "link": "https://museum-frieder-burda.ticketfritz.de/Home/Index",
   "price": "14 ,- €",
   "priceRange": "10-50€",
-  "pictures": ""
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623744294/tmbw/BB/BB_04/BB_15_ulbd04.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623744294/tmbw/BB/BB_04/BB_05_dxcwzn.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1623744293/tmbw/BB/BB_04/BB_14_lcq7sc.jpg"]
 }]
 
 export default offers;
