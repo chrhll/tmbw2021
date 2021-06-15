@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && cd build && cp -v $(find . -name 'main.*.css') ./static/css/main.css && cp -v $(find . -name 'main.*.js') ./static/js/main.js && cp -v $(find . -name '2.*.js') ./static/js/core.js && cp -v $(find . -name 'runtime-main.*.js') ./static/js/runtime.js && cat ./static/js/core.js >> ./static/js/tmbw2021.js && echo '\n\n' >> ./static/js/tmbw2021.js && cat ./static/js/main.js >> ./static/js/tmbw2021.js && echo '\n\n' >> ./static/js/tmbw2021.js && cat ./static/js/runtime.js >> ./static/js/tmbw2021.js",
+    "build": "react-scripts build && cd build && cp -v $(find . -name 'main.*.css') ./static/css/main.css && cp -v $(find . -name '2.*.css') ./static/css/core.css && echo '\n\n' >> ./static/css/main.css && cat ./static/css/core.css >> ./static/css/main.css && cp -v $(find . -name 'main.*.js') ./static/js/main.js && cp -v $(find . -name '2.*.js') ./static/js/core.js && cp -v $(find . -name 'runtime-main.*.js') ./static/js/runtime.js && cat ./static/js/core.js >> ./static/js/tmbw2021.js && echo '\n\n' >> ./static/js/tmbw2021.js && cat ./static/js/main.js >> ./static/js/tmbw2021.js && echo '\n\n' >> ./static/js/tmbw2021.js && cat ./static/js/runtime.js >> ./static/js/tmbw2021.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
