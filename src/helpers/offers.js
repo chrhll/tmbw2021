@@ -1,7 +1,7 @@
 const offers = [{
   "id": "HN_01",
   "city": "Heilbronn",
-  "type": ["Tageserlebnis", "Übernachtung"],
+  "type": ["Übernachtung", "Tageserlebnis"],
   "people": ["Einzeln", "Zu zweit"],
   "title": "Experimenta mit Genuss",
   "intro": "Erlebe ein Genuss-Wochenende in Heilbronn mit einem Besuch im Science-Center experimenta.",
@@ -221,7 +221,7 @@ const offers = [{
   "link": "https://schwarzwald-connection.de/angebot_individuell_fwtm.pdf",
   "price": "1-2 Personen, 4,5- 7 Stunden, Kosten pro Person: 89,00€",
   "priceRange": "50-100€",
-  "pictures": "https://res.cloudinary.com/viewyork-media/image/upload/v1623752419/tmbw/F/F_03/F_04_03_zzoen2.jpg"
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1623752419/tmbw/F/F_03/F_04_03_zzoen2.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1624010828/tmbw/F/F_02/Freiburg-Schauinsland-Copyright-FWTM-Krause-_8_zdwwsi.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1624010828/tmbw/F/F_02/Freiburg_Schauinsland_Copyright-FWTM-Antal-_16_dclyyo.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1624010828/tmbw/F/F_02/Freiburg-Schauinsland-Copyright-FWTM-Krause-_31_wfdwi8.jpg"]
 }, {
   "id": "F_03",
   "city": "Freiburg",
@@ -235,7 +235,7 @@ const offers = [{
   "link": "https://be.synxis.com/?&chain=22066&config=Dorint&level=chain&locale=de-DE&theme=Dorint&brand=Dorint&src=FRI-Package&promo=Package-TMBW&rate=PF&hotel=77509&adult=2&nights=2",
   "price": "252,00 € / p.P.",
   "priceRange": ">100€",
-  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514350/tmbw/F/F_02/F_02_01_tlneyt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_02_mp740o.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_01_zkpxps.jpg"]
+  "pictures": ["https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_02_mp740o.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514350/tmbw/F/F_02/F_02_01_tlneyt.jpg", "https://res.cloudinary.com/viewyork-media/image/upload/v1621514362/tmbw/F/F_03/F_03_01_zkpxps.jpg"]
 }, {
   "id": "F_04",
   "city": "Freiburg",
