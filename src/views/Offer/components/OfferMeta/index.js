@@ -129,7 +129,7 @@ export default function OfferMeta(props) {
 
         <Link to={`/?tmbw-city=${props.offer.city}`} className="tmbw-offer-sponsor-note">
           <div className="tmbw-offer-sponsor-note-title">Offizieller Inhalt von</div>
-          <div className="tmbw-offer-sponsor-name">Stadt {props.offer.city}</div>
+          <div className="tmbw-offer-sponsor-name">{props.offer.city}</div>
         </Link>
       </div>
     </div>
