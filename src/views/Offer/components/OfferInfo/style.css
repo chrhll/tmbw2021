@@ -120,6 +120,32 @@
   z-index: 2;
 }
 
+#root .tmbw-offer-info-corona-info {
+  margin-top: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.015em;
+  color: #f7f7f7;
+  display: block;
+  background: #FDC300;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 6px 12px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+#root .tmbw-offer-info-corona-info span {
+  color: white;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 /* Large devices (desktops, 1200px and up) */
 /* default */
 

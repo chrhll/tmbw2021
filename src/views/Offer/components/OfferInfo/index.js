@@ -213,10 +213,15 @@ export default function OfferInfo(props) {
       <div className="tmbw-offer-info-inner">
         <p className="tmbw-offer-info-description">{formattedDescription}</p>
 
+        <a className="tmbw-offer-info-corona-info" href="https://www.tourismus-bw.de/informationen-zum-coronavirus" target="_blank" rel="noreferrer">
+        Bitte beachten Sie die aktuellen Corona-Regelungen, diese finden Sie <span>hier</span>.
+        </a>
+
         {amenities}
         {prices}
 
         {imageGallery}
+
       </div>
     </div>
   )
