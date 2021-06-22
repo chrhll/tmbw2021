@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 import OfferHero from './components/OfferHero';
 import OfferMeta from './components/OfferMeta';
@@ -8,7 +8,7 @@ import OfferUpsell from './components/OfferUpsell';
 import offers from '../../helpers/offers.js'
 
 export default function Offer(props) {
-  const { offerId } = useParams()
+  const [offerId, setOfferId] = useState();
 
   let offer = {};
   const matchingOffers = offers.filter(o => o.id === offerId)
@@ -19,6 +19,13 @@ export default function Offer(props) {
     offers[Math.floor(Math.random() * offers.length)],
     offers[Math.floor(Math.random() * offers.length)]
   ]
+
+  useEffect(() => {
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+
+    if (urlParams.has('tmbw-oid')) setOfferId(urlParams.get('tmbw-oid'))
+  }, [setOfferId])
 
   return (
     <div className="tmbw-offer">

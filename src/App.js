@@ -1,19 +1,12 @@
 import { useEffect, useState } from 'react';
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-
 import Overview from './views/Overview';
 import Offer from './views/Offer';
-
-import ScrollToTop from './ScrollToTop';
 
 import './App.css';
 
 export default function App() {
+  const [activeScope, setActiveScope] = useState('index')
   const [city, setCity] = useState()
   const [price, setPrice] = useState()
   const [offer, setOffer] = useState()
@@ -25,6 +18,8 @@ export default function App() {
     // if there are relevant query params, make sure to pass them on
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
+
+    if (urlParams.has('tmbw-oid')) setActiveScope('show')
 
     if (urlParams.has('tmbw-city')) setCity(urlParams.get('tmbw-city'))
     if (urlParams.has('tmbw-price')) setPrice(urlParams.get('tmbw-price'))
@@ -44,26 +39,27 @@ export default function App() {
     }
   }, [])
 
+  let scopeContent;
+  switch (activeScope) {
+    case 'show':
+      scopeContent = <Offer />
+      break;
+    default:
+      scopeContent = (
+        <Overview
+          preSelectedCity={city}
+          preSelectedPrice={price}
+          preSelectedOffer={offer}
+          preSelectedPeople={people}
+          answers={answers}
+        />
+      )
+      break;
+  }
+
   return (
     <div className="App">
-      <Router>
-        <ScrollToTop />
-        <Switch>
-          <Route path="/angebot/:offerId">
-            <Offer />
-          </Route>
-
-          <Route path="/*">
-            <Overview
-              preSelectedCity={city}
-              preSelectedPrice={price}
-              preSelectedOffer={offer}
-              preSelectedPeople={people}
-              answers={answers}
-            />
-          </Route>
-        </Switch>
-      </Router>
+      {scopeContent}
     </div>
   );
 }

@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom';
-
 import './style.css';
 
 export default function OverviewResults(props) {
@@ -27,7 +25,7 @@ export default function OverviewResults(props) {
   }
 
   return (
-    <Link to={`/angebot/${props.offer.id}?returnTo=${returnTo}`}
+    <a href={`?tmbw-oid=${props.offer.id}&returnTo=${returnTo}`}
       className="tmbw-overview-result"
       >
       <div
@@ -49,6 +47,6 @@ export default function OverviewResults(props) {
           {formattedIntro}
         </div>
       </div>
-    </Link>
+    </a>
   )
 }

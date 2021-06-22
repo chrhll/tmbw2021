@@ -22,9 +22,6 @@ export default function Overview(props) {
       setCity(props.preSelectedCity)
       setCityInit(true)
     } else if (!cityInit) {
-      // NOTE: If coming from a <Link /> component, this code has to set all
-      // query parameters as the <App /> component won't re-render.
-
       // if there are relevant query params, make sure to pass them on
       const queryString = window.location.search;
       const urlParams = new URLSearchParams(queryString);
