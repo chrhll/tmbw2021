@@ -28,7 +28,7 @@ export default function OfferHero(props) {
           <ArrowLeft color='#231F1D' size={24} />
         </a>
 
-        <a href='/' className="tmbw-offer-home">
+        <a href='/erleben/staedte-des-suedens' className="tmbw-offer-home">
           <Grid color='#231F1D' size={20} />
         </a>
 
