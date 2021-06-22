@@ -512,8 +512,8 @@ const offers = [
     "price": "1-2 Personen, 4,5- 7 Stunden, Kosten pro Person: 89,00€",
     "priceRange": "50-100€",
     "pictures": [
-      "https://res.cloudinary.com/viewyork-media/image/upload/v1623752419/tmbw/F/F_03/F_04_03_zzoen2.jpg",
       "https://res.cloudinary.com/viewyork-media/image/upload/v1624010828/tmbw/F/F_02/Freiburg-Schauinsland-Copyright-FWTM-Krause-_8_zdwwsi.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1623752419/tmbw/F/F_03/F_04_03_zzoen2.jpg",
       "https://res.cloudinary.com/viewyork-media/image/upload/v1624010828/tmbw/F/F_02/Freiburg_Schauinsland_Copyright-FWTM-Antal-_16_dclyyo.jpg",
       "https://res.cloudinary.com/viewyork-media/image/upload/v1624010828/tmbw/F/F_02/Freiburg-Schauinsland-Copyright-FWTM-Krause-_31_wfdwi8.jpg"
     ]
@@ -730,7 +730,7 @@ const offers = [
     "amenities": "",
     "more": "",
     "link": "https://www.karlsruhe-erleben.de/Tatort-Recht?utm_source=TMBW%20Social%20Media&utm_medium=Ad&utm_campaign=TMBW%20Social%20Media",
-    "price": "18€ Erwachsene; Kinder 5€",
+    "price": "29,90€",
     "priceRange": "10-50€",
     "pictures": [
       "https://res.cloudinary.com/viewyork-media/image/upload/v1623936950/tmbw/K/K_02/K_02_05_bsuasq.jpg",
