@@ -599,7 +599,7 @@ const offers = [
     ],
     "title": "Entspannt Heidelberg erkunden",
     "intro": "Stadtrundfahrt mit Schlossführung",
-    "description": "Freier Blick auf die „Bühne Heidelberg” – erster Akt: der Blick auf das romantische Schloss, das majestätisch über dem Karlsplatz thront. Es folgt eine gemütliche Stadtrundfahrt in Begleitung eines Gästeführers entlang des Neckars vorbei an der Alten Brücke. Der zweite Akt führt hinauf zum Heidelberger Schloss – bei einer Außenführung bringt Ihnen Ihr Gästeführer die Geschichte des weltberühmten Bauwerks näher, Sie besichtigen den Innenhof und das größte Weinfass der Welt. Nach der Führung können Sie das Deutsche Apotheken-Museum besuchen und anschließend mit der Bergbahn zurück in die Altstadt (Talstation Kornmarkt) fahren (Ticket ist inklusive).",
+    "description": "Freier Blick auf die „Bühne Heidelberg” – erster Akt: der Blick auf das romantische Schloss, das majestätisch über dem Karlsplatz thront. Es folgt eine gemütliche Stadtrundfahrt in Begleitung eines Gästeführers entlang des Neckars vorbei an der Alten Brücke. Der zweite Akt führt hinauf zum Heidelberger Schloss – bei einer Außenführung bringt Ihnen Ihr Gästeführer die Geschichte des weltberühmten Bauwerks näher, Sie besichtigen den Innenhof und das größte Weinfass der Welt. Nach der Führung können Sie das Deutsche Apotheken-Museum besuchen und anschließend mit der Bergbahn zurück in die Altstadt (Talstation Kornmarkt) fahren (Ticket ist inklusive).\n\nAb 1. Juli 2021 buchbar.",
     "amenities": "Ticket für Bergbahn",
     "more": "",
     "link": "https://tportal.toubiz.de/heidelberg-fuehrungen/offer/detail/FIT00020070298566625",
