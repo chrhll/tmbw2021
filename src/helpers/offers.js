@@ -944,7 +944,7 @@ const offers = [
     ]
   },
   {
-    "id": "B_02",
+    "id": "BB_02",
     "city": "Baden-Baden",
     "type": "Stadtführung",
     "people": [
