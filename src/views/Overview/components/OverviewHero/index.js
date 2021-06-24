@@ -94,7 +94,13 @@ export default function OverviewHero(props) {
                 Geniesse die Vielfalt der Städte Baden-Württembergs.
               </p>
 
-              <a href="https://frib3v495xa.typeform.com/to/IrDSLxA4" className="tmbw-surprise-me">Was passt zu mir?</a>
+              <a href="https://frib3v495xa.typeform.com/to/IrDSLxA4"
+                target="_blank"
+                rel="noreferrer"
+                className="tmbw-surprise-me"
+                >
+                Was passt zu mir?
+              </a>
             </div>
           </div>
         </div>
