@@ -25,7 +25,7 @@
 #root .tmbw-overview-hero-box {
   background: white;
   width: 400px;
-  padding: 48px 36px 24px 36px;
+  padding: 48px 36px 36px 36px;
   text-align: left;
   border-radius: 10px;
   margin-left: -36px;
@@ -69,14 +69,23 @@
 }
 
 #root .tmbw-overview-hero .tmbw-surprise-me {
-  background: none;
-  color: #231F1D;
-  border: none;
-  font-weight: normal;
-  font-size: 12px;
-  opacity: 0.5;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #FDC300;
+  border: 1px solid #F1BA02;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
   margin-top: 36px;
   margin-bottom: 0;
+  cursor: pointer;
 }
 
 /* slick config */
@@ -229,10 +238,9 @@
   }
 
   #root .tmbw-overview-hero .tmbw-surprise-me {
-    text-align: left;
     padding-left: 24px;
     font-size: 12px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 12px;
   }
 }

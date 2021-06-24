@@ -1,7 +1,5 @@
 import { useRef, useState } from 'react';
 
-import Select from 'react-select'
-
 import './style.css';
 
 import { ChevronRight } from 'react-feather';
@@ -9,15 +7,6 @@ import { ChevronRight } from 'react-feather';
 import Slider from 'react-slick';
 
 import offers from '../../../../helpers/offers';
-
-const offerOptions = [
-  { value: 'Stadtführung', label: 'Stadtführung' },
-  { value: 'Kultur', label: 'Kultur' },
-  { value: 'Übernachtung', label: 'Übernachtung' },
-  { value: 'Wein', label: 'Wein' },
-  { value: 'Tageserlebnis', label: 'Tageserlebnis' },
-  { value: 'Kulinarik', label: 'Kulinarik' }
-]
 
 export default function OverviewHero(props) {
 
@@ -27,13 +16,6 @@ export default function OverviewHero(props) {
       cherryPickedCovers.push(offer.pictures[0])
     }
   })
-
-  const customStyles = {
-    option: (provided, state) => ({
-      ...provided,
-      background: state.isFocused ? '#FFEDB3' : 'white'
-    })
-  }
 
   const slidesToScroll = 0.974025974026;
 
@@ -111,17 +93,6 @@ export default function OverviewHero(props) {
               <p className="tmbw-overview-hero-body">
                 Geniesse die Vielfalt der Städte Baden-Württembergs.
               </p>
-
-              <Select
-                isSearchable
-                isClearable
-                value={props.offer ? { value: props.offer, label: props.offer } : ''}
-                styles={customStyles}
-                options={offerOptions}
-                onChange={e => props.selectOffer((e || {}).value)}
-                placeholder="Art des Angebotes"
-                classNamePrefix="tmbw-select"
-                />
 
               <a href="https://frib3v495xa.typeform.com/to/IrDSLxA4" className="tmbw-surprise-me">Was passt zu mir?</a>
             </div>

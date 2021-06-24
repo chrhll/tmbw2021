@@ -38,28 +38,11 @@ const peopleOptions = [
 ]
 
 export default function OverviewFilters(props) {
-  function resetFilters(evt) {
-    evt.preventDefault()
-
-    document.location.href = document.location.pathname
-  }
-
   const customStyles = {
     option: (provided, state) => ({
       ...provided,
       background: state.isFocused ? '#FFEDB3' : 'white'
     })
-  }
-
-  let surpriseMe;
-  if (props.answers.length) {
-    surpriseMe = (
-      <span onClick={e => resetFilters(e)} className="tmbw-surprise-me">Alle Angebote</span>
-    )
-  } else {
-    surpriseMe = (
-      <a href="https://frib3v495xa.typeform.com/to/IrDSLxA4" className="tmbw-surprise-me">Was passt zu mir?</a>
-    )
   }
 
   return (
@@ -135,10 +118,6 @@ export default function OverviewFilters(props) {
               classNamePrefix="tmbw-select"
               />
           </div>
-        </div>
-
-        <div className="tmbw-overview-filter">
-          {surpriseMe}
         </div>
       </div>
     </div>
