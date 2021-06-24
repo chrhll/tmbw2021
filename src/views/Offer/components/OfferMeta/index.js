@@ -105,12 +105,20 @@ export default function OfferMeta(props) {
     )
   }
 
+  function goToBooking() {
+    if (window.gtag_report_conversion) {
+      window.gtag_report_conversion(props.offer.link)
+    } else {
+      document.location.href = props.offer.link
+    }
+  }
+
   return (
     <div className="tmbw-offer-meta">
       <div className="tmbw-offer-actions">
-        <a href={props.offer.link} target="_blank" rel="noreferrer" className="tmbw-offer-cta-primary">
+        <span onClick={e => goToBooking()} className="tmbw-offer-cta-primary">
           Zur Buchung
-        </a>
+        </span>
 
         <div className="tmbw-offer-cta-container">
           <div className="tmbw-offer-cta-tertiary" onClick={e => setShowSharingWidget(!showSharingWidget)}>

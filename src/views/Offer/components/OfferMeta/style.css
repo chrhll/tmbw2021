@@ -30,6 +30,7 @@
   align-items: center;
   text-align: center;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 #root .tmbw-offer-cta-container {
