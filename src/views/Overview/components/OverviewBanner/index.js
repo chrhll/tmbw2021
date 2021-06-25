@@ -4,8 +4,13 @@ import { Play, X } from 'react-feather';
 
 import './style.css';
 
+import offers from '../../../../helpers/offers';
+
 export default function OverviewBanner(props) {
   const [showModal, setShowModal] = useState(false)
+
+  const randomOffer = offers[Math.floor(offers.length * Math.random())];
+  const randomCover = Array.isArray(randomOffer.pictures) ? randomOffer.pictures[0] : randomOffer.pictures
 
   let videoModal;
   if (showModal) {
@@ -27,7 +32,7 @@ export default function OverviewBanner(props) {
               className="OverviewBanner-modal-iframe"
               width="560"
               height="315"
-              src="https://www.youtube-nocookie.com/embed/z90kPNoqkjc?controls=0"
+              src="https://www.youtube-nocookie.com/embed/eENXWl4_-3A?controls=0"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -43,7 +48,7 @@ export default function OverviewBanner(props) {
   return (
     <div className="OverviewBanner">
       <div className="OverviewBanner-inner">
-        <div className="OverviewBanner-preview">
+        <div className="OverviewBanner-preview" style={{ backgroundImage: `url('${randomCover}')` }}>
           <div
             className="OverviewBanner-preview-icon"
             onClick={() => setShowModal(true)}

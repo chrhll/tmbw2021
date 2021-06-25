@@ -107,11 +107,6 @@ export default function Overview(props) {
     setPeople(p)
   }
 
-  let overviewBanner;
-  if (false) {
-    overviewBanner = <OverviewBanner selectedCity={city} />
-  }
-
   return (
     <div className="tmbw-overview">
       <OverviewHero
@@ -139,7 +134,7 @@ export default function Overview(props) {
         answers={props.answers}
         />
 
-      {overviewBanner}
+      <OverviewBanner selectedCity={city} />
 
       <div className="tmbw-overview-more-results">
       </div>
