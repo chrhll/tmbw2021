@@ -11,16 +11,28 @@ export default function OfferInfo(props) {
   const [showLightbox, setShowLightbox] = useState(false)
   const [photoIndex, setPhotoIndex] = useState(0);
 
+  const rawPath = 'https://res.cloudinary.com/viewyork-media/image/upload/';
+  const newPath = 'https://res.cloudinary.com/viewyork-media/image/upload/q_auto/';
+
+  let pictures = [];
+  if (props.offer && props.offer.pictures) {
+    if (Array.isArray(props.offer.pictures)) {
+      pictures = props.offer.pictures.map(p => p.replace(rawPath, newPath))
+    } else if (typeof props.offer.pictures) {
+      pictures = [props.offer.pictures.replace(rawPath, newPath)]
+    }
+  }
+
   let lightbox;
   if (showLightbox) {
     lightbox = (
       <Lightbox
-        mainSrc={props.offer.pictures[photoIndex]}
-        nextSrc={props.offer.pictures[(photoIndex + 1) % props.offer.pictures.length]}
-        prevSrc={props.offer.pictures[(photoIndex + props.offer.pictures.length - 1) % props.offer.pictures.length]}
+        mainSrc={pictures[photoIndex]}
+        nextSrc={pictures[(photoIndex + 1) % pictures.length]}
+        prevSrc={pictures[(photoIndex + pictures.length - 1) % pictures.length]}
         onCloseRequest={() => setShowLightbox(false)}
-        onMovePrevRequest={() => setPhotoIndex((photoIndex + props.offer.pictures.length - 1) % props.offer.pictures.length)}
-        onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % props.offer.pictures.length)}
+        onMovePrevRequest={() => setPhotoIndex((photoIndex + pictures.length - 1) % pictures.length)}
+        onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % pictures.length)}
       />
     )
   }
@@ -91,13 +103,6 @@ export default function OfferInfo(props) {
   }
 
   let imageGallery;
-  let pictures;
-  if (Array.isArray(props.offer.pictures)) {
-    pictures = props.offer.pictures
-  } else if (typeof props.offer.pictures) {
-    pictures = [props.offer.pictures]
-  }
-
   if (pictures.length > 4) {
     imageGallery = (
       <div className="tmbw-offer-info-gallery">

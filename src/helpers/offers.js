@@ -351,6 +351,70 @@ const offers = [
     ]
   },
   {
+    "id": "S_03",
+    "city": "Stuttgart",
+    "type": [
+      "Kulinarik",
+      "Kultur",
+      "Wein",
+      "Tageserlebnis"
+    ],
+    "people": [
+      "Einzeln",
+      "Zu zweit",
+      "Gruppe",
+      "Familie"
+    ],
+    "title": "Genuss und Kultur in Stuttgart",
+    "intro": "Übernachtung im Waldhotel mit 3-Gänge Menü inklusive Fernsehturm Besuch",
+    "description": "Genuss Hotel Kultur in Stuttgart\nEuer Kurztrip startet mit Genuss pur: Im eleganten Ambiente des Waldhotels genießt ihr ein 3-Gang-Überraschungsmenü. \nDas Waldhotel Stuttgart liegt direkt am Waldrand und bietet euch Erholung fernab von Stress und Hektik. Ihr wohnt inmitten der Natur des Waldes, wacht mit Vogelgezwitscher auf und seid dennoch innerhalb weniger Minuten in der Stuttgarter Innenstadt. \n\nWenige Minuten zu Fuß bringen euch zum kulturellen Highlight des Kurztrips: Der Stuttgarter Fernsehturm ist der älteste seiner Art und heute eines der Wahrzeichen der Stadt. Das ästhetische und architektonische Meisterwerk ermöglicht euch auf der zweigeschossigen Plattform in 150 Metern Höhe eine einmalige Aussicht. Lasst den Blick schweifen über die baden-württembergische Landeshauptstadt, über das Neckartal, die Schwäbische Alb, den Schwarzwald und den Odenwald und stoßt darauf im Panoramacafé auf 144 Metern Höhe mit einem Glas Sekt an.",
+    "amenities": "Genuss Hotel Kultur - Genuss mit grüner Skyline\n1x Übernachtung in der Superior Kategorie inkl. Frühstück\n1x 3-Gang-Gourmentüberraschungsmenü\n1x Auffahrt Fernsehturm inkl. Glas Sekt im Panoramarestaurant\nkostenfreies Parken beim Hotel\nkostenloses ÖPNV-Ticket\n",
+    "more": "",
+    "link": "book.stuttgart-tourist.de/Hotel",
+    "price": "ab 240€ pro p.P.",
+    "priceRange": ">100€",
+    "pictures": [
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889770/tmbw/S/S_03/S_03_06_ffjacr.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889775/tmbw/S/S_03/S_03_04_f2gkkv.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889769/tmbw/S/S_03/S_03_01_nlingx.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889768/tmbw/S/S_03/S_03_03_jlilok.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889766/tmbw/S/S_03/S_03_02_cuefw4.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889767/tmbw/S/S_03/S_03_05_ar3mkf.jpg"
+    ]
+  },
+  {
+    "id": "S_04",
+    "city": "Stuttgart",
+    "type": [
+      "Übernachtung",
+      "Kultur",
+      "Tageserlebnis"
+    ],
+    "people": [
+      "Einzeln",
+      "Zu zweit",
+      "Gruppe",
+      "Familie"
+    ],
+    "title": "Shopping und Wellness Wochenende in Stuttgart",
+    "intro": "Übernachtung im Wellness Hotel Le Méridien Stuttgart",
+    "description": "Euer Hotel für die Nacht, das erstklassige Le Méridien, liegt fußläufig in der Innenstadt und in unmittelbarer Nähe zum Schlossgarten, Stuttgarts grünem Herzen.\n\nNach einem gemütlichen Frühstück, lasst ihr euren Stuttgart-Trip entspannt im „Le Spa“, der hoteleigenen Wellness-Oase ausklingen. Ob ihr erst ein paar Bahnen im Pool zieht oder direkt im Whirlpool, in der Sauna, im Dampfbad oder in der Infrarotkabine entspannt, bleibt euch überlassen. Und bei schönem Wetter locken die Sonnenliegen im Garten. Eine Besonderheit ist die Tee Zeremonie, bei der ihr aus verschiedenen Tees wählen und mit allen Sinnen genießen dürft.\n\nFür Shopping-Fans: Im Breuninger Stuttgart erwarten euch über 40.000 Quadratmeter an Fashion, Beauty und Lifestyle. Direkt am Stuttgarter Marktplatz gelegen, ist Breuninger mit den Cafés und der Champagner-Bar in der Karlspassage der Treffpunkt, um nach den neuesten Trends Ausschau zu halten. ",
+    "amenities": "Shopping Hotel Wellness im Le Meridien\n1 x Übernachtung inkl. Frühstück und Welcome Drink\n1 x Überraschung vom Breuninger\n1 x Tee Zeremonie \nBenutzung des größten Wellnessbereich in der Stuttgarter Innenstadt mit 850m²\nkostenloses ÖPNV-Ticket\nfreier Eintritt in die Staatsgalerie",
+    "more": "",
+    "link": "Book.Stuttgart-tourist.de/hotel",
+    "price": "ab 240€ pro p.P.",
+    "priceRange": ">100€",
+    "pictures": [
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889909/tmbw/S/S_04/S_04_02_zta9gt.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889912/tmbw/S/S_04/S_04_05_eshlch.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889908/tmbw/S/S_04/S_04_04_ohohab.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889906/tmbw/S/S_04/S_04_03_mpmgdq.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889909/tmbw/S/S_04/S_04_01_hijyzk.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889909/tmbw/S/S_04/S_04_06_gqshki.jpg",
+      "https://res.cloudinary.com/viewyork-media/image/upload/v1624889910/tmbw/S/S_04/S_04_07_msokai.jpg"
+    ]
+  },
+  {
     "id": "U_01",
     "city": "Ulm",
     "type": [

@@ -3,12 +3,15 @@ import { ArrowLeft, Grid } from 'react-feather';
 import './style.css';
 
 export default function OfferHero(props) {
+  const rawPath = 'https://res.cloudinary.com/viewyork-media/image/upload/'
+  const newPath = 'https://res.cloudinary.com/viewyork-media/image/upload/q_auto/'
+
   let backgroundUrl;
   if (props.offer.pictures) {
     if (Array.isArray(props.offer.pictures) && props.offer.pictures.length) {
-      backgroundUrl = props.offer.pictures[0]
+      backgroundUrl = props.offer.pictures[0].replace(rawPath, newPath)
     } else if (typeof props.offer.pictures === 'string' && props.offer.pictures.length) {
-      backgroundUrl = props.offer.pictures
+      backgroundUrl = props.offer.pictures.replace(rawPath, newPath)
     }
   }
 

@@ -9,8 +9,17 @@ import offers from '../../../../helpers/offers';
 export default function OverviewBanner(props) {
   const [showModal, setShowModal] = useState(false)
 
+  const rawPath = 'https://res.cloudinary.com/viewyork-media/image/upload/'
+  const newPath = 'https://res.cloudinary.com/viewyork-media/image/upload/q_auto/'
+
   const randomOffer = offers[Math.floor(offers.length * Math.random())];
-  const randomCover = Array.isArray(randomOffer.pictures) ? randomOffer.pictures[0] : randomOffer.pictures
+  
+  let randomCover;
+  if (Array.isArray(randomOffer.pictures)) {
+    randomCover = randomOffer.pictures[0].replace(rawPath, newPath)
+  } else {
+    randomCover = randomOffer.pictures.replace(rawPath, newPath)
+  }
 
   let videoModal;
   if (showModal) {

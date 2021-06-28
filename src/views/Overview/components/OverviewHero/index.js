@@ -70,14 +70,16 @@ export default function OverviewHero(props) {
     prevArrow: <CustomArrow />
   };
 
+  const rawPath = 'https://res.cloudinary.com/viewyork-media/image/upload/'
+  const newPath = 'https://res.cloudinary.com/viewyork-media/image/upload/q_auto/'
   return (
     <div className="tmbw-overview-hero">
       <div className="tmbw-overview-hero-inner">
         <div className="tmbw-overview-hero-slider">
           <Slider {...slickSettings} ref={slider}>
-            <img className="tmbw-overview-hero-slide" src={cherryPickedCovers[0]} alt="hero #1" />
-            <img className="tmbw-overview-hero-slide" src={cherryPickedCovers[1]} alt="hero #2" />
-            <img className="tmbw-overview-hero-slide" src={cherryPickedCovers[2]} alt="hero #3" />
+            <img className="tmbw-overview-hero-slide" src={cherryPickedCovers[0].replace(rawPath, newPath)} alt="hero #1" />
+            <img className="tmbw-overview-hero-slide" src={cherryPickedCovers[1].replace(rawPath, newPath)} alt="hero #2" />
+            <img className="tmbw-overview-hero-slide" src={cherryPickedCovers[2].replace(rawPath, newPath)} alt="hero #3" />
           </Slider>
         </div>
 
