@@ -370,7 +370,7 @@ const offers = [
     "description": "Genuss Hotel Kultur in Stuttgart\nEuer Kurztrip startet mit Genuss pur: Im eleganten Ambiente des Waldhotels genießt ihr ein 3-Gang-Überraschungsmenü. \nDas Waldhotel Stuttgart liegt direkt am Waldrand und bietet euch Erholung fernab von Stress und Hektik. Ihr wohnt inmitten der Natur des Waldes, wacht mit Vogelgezwitscher auf und seid dennoch innerhalb weniger Minuten in der Stuttgarter Innenstadt. \n\nWenige Minuten zu Fuß bringen euch zum kulturellen Highlight des Kurztrips: Der Stuttgarter Fernsehturm ist der älteste seiner Art und heute eines der Wahrzeichen der Stadt. Das ästhetische und architektonische Meisterwerk ermöglicht euch auf der zweigeschossigen Plattform in 150 Metern Höhe eine einmalige Aussicht. Lasst den Blick schweifen über die baden-württembergische Landeshauptstadt, über das Neckartal, die Schwäbische Alb, den Schwarzwald und den Odenwald und stoßt darauf im Panoramacafé auf 144 Metern Höhe mit einem Glas Sekt an.",
     "amenities": "Genuss Hotel Kultur - Genuss mit grüner Skyline\n1x Übernachtung in der Superior Kategorie inkl. Frühstück\n1x 3-Gang-Gourmentüberraschungsmenü\n1x Auffahrt Fernsehturm inkl. Glas Sekt im Panoramarestaurant\nkostenfreies Parken beim Hotel\nkostenloses ÖPNV-Ticket\n",
     "more": "",
-    "link": "book.stuttgart-tourist.de/Hotel",
+    "link": "http://book.stuttgart-tourist.de/Hotel",
     "price": "ab 240€ pro p.P.",
     "priceRange": ">100€",
     "pictures": [
@@ -401,7 +401,7 @@ const offers = [
     "description": "Euer Hotel für die Nacht, das erstklassige Le Méridien, liegt fußläufig in der Innenstadt und in unmittelbarer Nähe zum Schlossgarten, Stuttgarts grünem Herzen.\n\nNach einem gemütlichen Frühstück, lasst ihr euren Stuttgart-Trip entspannt im „Le Spa“, der hoteleigenen Wellness-Oase ausklingen. Ob ihr erst ein paar Bahnen im Pool zieht oder direkt im Whirlpool, in der Sauna, im Dampfbad oder in der Infrarotkabine entspannt, bleibt euch überlassen. Und bei schönem Wetter locken die Sonnenliegen im Garten. Eine Besonderheit ist die Tee Zeremonie, bei der ihr aus verschiedenen Tees wählen und mit allen Sinnen genießen dürft.\n\nFür Shopping-Fans: Im Breuninger Stuttgart erwarten euch über 40.000 Quadratmeter an Fashion, Beauty und Lifestyle. Direkt am Stuttgarter Marktplatz gelegen, ist Breuninger mit den Cafés und der Champagner-Bar in der Karlspassage der Treffpunkt, um nach den neuesten Trends Ausschau zu halten. ",
     "amenities": "Shopping Hotel Wellness im Le Meridien\n1 x Übernachtung inkl. Frühstück und Welcome Drink\n1 x Überraschung vom Breuninger\n1 x Tee Zeremonie \nBenutzung des größten Wellnessbereich in der Stuttgarter Innenstadt mit 850m²\nkostenloses ÖPNV-Ticket\nfreier Eintritt in die Staatsgalerie",
     "more": "",
-    "link": "Book.Stuttgart-tourist.de/hotel",
+    "link": "http://book.stuttgart-tourist.de/Hotel",
     "price": "ab 240€ pro p.P.",
     "priceRange": ">100€",
     "pictures": [
