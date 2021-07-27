@@ -231,7 +231,7 @@ const offers = [
       "1 x Kulinarisches 3-Gang-Menü am Abend"
     ],
     "more": "",
-    "link": "https://hotel-mannheim.dorint.com/de/arrangements/happy-weekend/",
+    "link": "https://hotel-mannheim.dorint.com/de/",
     "price": "ab 145 € p.P.",
     "priceRange": ">100€",
     "pictures": [
